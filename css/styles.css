@@ -1,0 +1,29 @@
+* {
+	font-family: 'Khula', sans-serif;
+}
+
+/* Home Page */
+
+.preqinBLue {
+	color: #199CDB;
+}
+
+h1 a:visited {
+	color: #199CDB;
+}
+
+.neoThumbnail {
+	background-size: 300px;
+}
+
+/* Preqin Pro Homepage */
+.max-84 {
+	max-width: 84rem;
+}
+
+.m-auto {
+	margin: 0 auto;
+}
+
+
+
