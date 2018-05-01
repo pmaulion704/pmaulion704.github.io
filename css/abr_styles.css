@@ -1,0 +1,191 @@
+/*-----universal-----*/
+
+* {
+	font-family: 'Quantico', sans-serif;
+}
+
+/*INTRO BANNER*/
+.intro {
+	background-color: rgba(0, 0, 0, .95);
+	position: fixed;
+	top:0%;
+	left: 0%;
+}
+
+#intro {
+	opacity: 100%;
+}
+
+.zeroOpac {
+	opacity: 0;
+}
+
+.centerist {
+	margin: 0 auto;
+}
+
+
+/*-----header-----*/
+header {
+	height: 70px;
+	background-color: #1E1E24;
+	color: #FFFFFF;
+	box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.35);
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	top: 0px;
+	left: 0px;
+}
+
+.faster-one {
+	font-family: 'Faster One', cursive;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li a { 
+	display: inline;
+	text-decoration: none;
+	color: #FFFFFF;
+ }
+
+ /*------Body------*/
+.main-wrapper {
+	background-color: #14080E;
+ }
+
+ .map {
+ 	height: 95%;
+ 	display: none;
+ }
+
+ .h-30rem {
+ 	height: 30rem;
+ }
+
+ /* Icons */
+ .themeColor {
+ 	color: rgba(5, 74, 145);
+ 	font-size: 1.5rem;
+ }
+
+ .marker {
+ 	background-image: url('http://res.cloudinary.com/pra1se/image/upload/v1525185749/race-finish_gsgsyf.png');
+ 	background-size: cover;
+ 	height: 50px;
+ 	width: 50px;
+ }
+
+.supa-lineheight {
+	line-height: 2;
+}
+
+ .main-overlay {
+ 	z-index: 2;
+ 	position: fixed;
+ 	top: 0;
+ 	left: 0;
+ 	height: 100%;
+ 	width: 100%;
+ }
+
+ .main-section {
+ 	z-index: 20;
+ 	position: fixed;
+ 	left: 0%;
+ 	top: 0%;
+ 	margin-top: 70px;
+ 	border-right: 1px solid rgba(5, 74, 145, .25);
+ 	box-shadow: 3px 0px 5px rgba(5, 74, 145, .25);
+ }
+
+ .sub-section {
+ 	position: fixed;
+ 	left: 30%;
+ 	top: 0%;
+ 	margin-top: 70px;
+ 	box-shadow: 3px 0px 5px rgba(5, 74, 145, .25);
+ 	z-index: 30;
+ }
+
+ .raceLabel {
+ 	color: rgba(5, 74, 145);
+ }
+
+ /*----Footer-----*/
+ .footer {
+ 	background-color: #1E1E24;
+ 	height: 40px;
+ 	position: fixed;
+ 	bottom: 0%;
+ 	left: 0%;
+ 	z-index: 50;
+ }
+
+ .navlink {
+ 	width: 20px;
+ 	height: 20px;
+ }
+
+ .navlink2 {
+ 	width: 26px;
+ 	height: 26px;
+ }
+
+ /*----- Scrollbar------*/
+/*width*/
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/*Background*/
+::-webkit-scrollbar-track {
+    background: #fff; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(5, 74, 145, .55); 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(5, 74, 145); 
+}
+
+
+/* HOVER INTERACTIONS*/
+tr:hover { 
+	text-decoration: underline;
+	text-decoration-style: solid;
+	text-decoration-color: rgba(5, 74, 145, .55);
+}
+
+#letsGo {
+	border: 2px white solid;
+}
+
+#letsGo:hover {
+	background-color: white;
+	color: black;
+}
+
+
+/*MEDIUM BREAKPOINT*/
+@media screen and (max-width: 30em) {
+.sub-section {left: 50%;}	
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+.sub-section {left: 40%;}
+
+
+
+/*END OF MEDIUM MEDIA QUERY*/
+}
+
+

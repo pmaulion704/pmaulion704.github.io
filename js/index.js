@@ -34,6 +34,14 @@ $(function() {
 		window.location.href = "PreqinPro.html";
 	});
 
+	$("#abrProject").click(function(){
+		window.location.href = "ABR.html";
+	});	
+
+	$("#abrProjectTitle").click(function(){
+		window.location.href = "ABR.html";
+	});
+
 
 	// Preqin Pro Click Events
 	// Open Modal
