@@ -12,6 +12,10 @@ h1 a:visited {
 	color: #199CDB;
 }
 
+.my_logo {
+	width: 60px;
+}
+
 .neoThumbnail {
 	background-size: 300px;
 }
