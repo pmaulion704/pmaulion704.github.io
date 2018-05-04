@@ -240,9 +240,10 @@ $(function(){
 	//Onload  
 	$(".zeroOpac").addClass("magictime vanishIn");	
 	// exit
-	$("#letsGo").click(function(){
+	$("#letsGo").on('click', function(){
 		$("#intro").fadeOut(500);
-		flyLocation(locations[0]["longitude"], locations[0]["latitude"], locations[0]["zoom"], locations[0]["bearing"]);
+		myIndex = 3;
+		$("#right-arrow").click();
 	});
 	// return
 	$("#about").click(function(){
