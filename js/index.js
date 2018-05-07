@@ -3,10 +3,12 @@ $(function() {
 	var images = {
 		quickSearch: ["http://res.cloudinary.com/pra1se/image/upload/v1523584090/Old_Design_aqlwgt.jpg",
 					  "http://res.cloudinary.com/pra1se/image/upload/v1523988498/ITERATION_1_pfd16q.jpg",	
-					  "http://res.cloudinary.com/pra1se/image/upload/v1523980697/ITERATION_2_m2ocbc.jpg"]
+					  "http://res.cloudinary.com/pra1se/image/upload/v1523980697/ITERATION_2_m2ocbc.jpg"],
+		profile: ["http://res.cloudinary.com/pra1se/image/upload/v1525691752/PREVIOUS_LAYOUT_gfu45h.jpg"]
 		};
 	var labels = {
-		quickSearch: ["OLD SEARCH", "ITERATION #1", "ITERATION #2"]
+		quickSearch: ["OLD SEARCH", "ITERATION #1", "ITERATION #2"],
+		profile: ["PREVIOUS PROFILE UI"]
 	}
 
 
@@ -35,11 +37,11 @@ $(function() {
 	});
 
 	$("#abrProject").click(function(){
-		window.location.href = "ABR.html";
+		window.open('ABR.html', '_blank');
 	});	
 
 	$("#abrProjectTitle").click(function(){
-		window.location.href = "ABR.html";
+		window.open('ABR.html', '_blank');
 	});
 
 
@@ -64,6 +66,12 @@ $(function() {
 	$("#qs-img-3").click(function(){
 		openModal(images.quickSearch[2], labels.quickSearch[2]);
 	});
+
+	// Profile Pice
+	$("#pro-img-1").click(function(){
+		openModal(images.profile[0], labels.profile[0]);
+	});
+
 
 	// Close Modal
 	$("#modal").on('click', function(event) {

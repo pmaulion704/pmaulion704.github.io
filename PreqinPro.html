@@ -33,7 +33,7 @@
 				<div class="f5 black">UX Designer</div>
 				<div class="f5 black-50 tracked mv4">OVERVIEW</div>
 				<div class="f5 black mt0 mb4 lh-double">
-					Preqin Pro was the main project I worked on as a UX Designer at Preqin. Preqin Pro is a web-based / platform that is geared to institutional investors, fund managers, and service providers by providing them key insights and updates on the alternative assets space. Whether you are an asset manager seeking investors to jump-start your next fund or a public pension fund looking to allocate more capital to real estate, Preqin Pro informs users about new and developing market opportunities. Aside from modernizing the look of the platform, we needed to reassess various user flows of the platform and fully incorporate a responsive layout (Desktop &#8594; Tablet) to create a more unified digital experience.
+					Preqin Pro was the main project I worked on as a UX Designer at Preqin. Preqin Pro is a SaaS web-based / platform that is geared to institutional investors, fund managers, and service providers by providing them key insights and updates on the alternative assets space. Whether you are an asset manager seeking investors to jump-start your next fund or a public pension fund looking to allocate more capital to real estate, Preqin Pro informs users about new and developing market opportunities. Aside from modernizing the look of the platform, we needed to reassess various user flows of the platform and fully incorporate a responsive layout (Desktop &#8594; Tablet) to create a more unified digital experience.
 				</div>
 			</div>
 			
@@ -42,15 +42,19 @@
 			<img class="mv4" src="http://res.cloudinary.com/pra1se/image/upload/v1523462389/preqin_pro_intro_rbm3za.jpg">
 			
 			<!-- QS Process -->
+
+
 			<div class="m-auto mw7">
-				<div class="f5 black-50 tracked mv4">REDESIGN - SEARCH</div>
+				<div class="f5 black-50 tracked mv4">PART 1 • SEARCH</div>
 				<div class="f5 black mt0 mb4 lh-double">
-					<p>According to user heat maps &amp; data analytics, the quick search input field was the No. 1 (41.2%) most-clicked element on the site. The main reason for a redesign of our Search was because our original user flow contained an intermediate step which made the user select what type of profile they wanted to view according to asset class. Through user research and interviews have consistently told us that they simply want to quickly search for a specific profile in mind and immediately enter a profile view to analyze and gather data.</p>
+					<p class="b">RESEARCH &amp; STRATEGY</p>
+					<p>According to user heat maps &amp; data analytics, after the user has signed into Preqin Data, the quick search input field was the No. 1 (41.2%) most-clicked element on the site. The main reason for a redesign of our Search was because our original user flow contained an intermediate step which made the user select what type of profile they wanted to view according to asset class. User interviews have consistently told us that they simply want to quickly search for a specific profile in mind and immediately enter a profile view to analyze, gather, or export data.</p>
 
-					<p>The first iteration of quick search focused on implementing text-string matching and incorporating a grouping system to clearly guide what the user is searching for. However, user feedback mentioned that since our grouping structure displayed vertically, search values often risked of being hidden beneath the fold.</p>
+					<!-- Heatmap -->
+					<img class="mv4" src="http://res.cloudinary.com/pra1se/image/upload/v1525465730/heatmap_yyduob.jpg">
 
-
-					<p>The second iteration of quick search addressed this ‘below the fold’ issue by conglomerating all of the search results in an ‘All’ tab and can transition to a specific category with the horizontal tab structure.</p>
+					<p class="b">ITERATIONS</p>
+					<p>The first iteration of quick search focused on implementing text-string matching and incorporated a grouping system to clearly guide what the user is searching for. However, user feedback mentioned that since our grouping structure was displayed vertically, search values of interest often risked being hidden beneath the fold, unless they typed out their query to completion. Another common feedback was that the View All button, which expanded the container group to show more than 4 results, really served any purpose. The second iteration of quick search addressed this ‘below the fold’ issue by conglomerating all of the search results in an ‘All’ tab and allowing the user to transition to a specific category via the horizontal tab structure. Furthermore, with the tabs shown horizontally, we were able to gain more real estate since we no longer need to account for container padding, and saved 1 more click by removing the 'View All' mechanism.</p>
 					
 				</div>
 			</div>
@@ -74,8 +78,39 @@
 
 
 			<div class="m-auto mw7 clear-left">
-				<div class="f5 black-50 tracked mv4">REDESIGN - PROFILE</div>
-				<div class="f5 black-50 tracked mv4">REDESIGN - ADVANCED SEARCH</div>
+				<div class="f5 black-50 tracked mv4">PART 2 • PROFILE</div>
+				<div class="f5 black mt0 mb4 lh-double">
+					<p class="b">RESEARCH &amp; STRATEGY</p>
+					<p>The profile view of an investor or fund manager is the main end-point for our users to analyze and export data. As seen on our original quick search user flow, each profile (ie. New York City's Employement Retirement System) is dissected into sub-profiles according to asset class which customers have provided feedback of opening several tabs at once just to view a single profile. The main goals behind the profile redesign were to:
+						<ul>
+							<li class="mv2">Consolidate all the asset classes into one page</li>
+							<li class="mv2">Increase navigability and findability of datasets according to asset class</li>
+							<li class="mv2">Simplify 'action' journeys within a profile</li>
+							<li CLASS="mv2">Redesign data sections to account for responsive framework</li>
+						</ul>
+					</p>
+					<p class="b">REDEFINE SIDE NAVIGATION AND PROFILE FRAMEWORK</p>
+					<p>On the original profile view, the left hand navigation has no connection to the profile at all. All of the elements within the accordion-style dropdown actually lead to different advance searches (also another component that has been duplicated repeatedly). In order to jump to a particular dataset within the profile, the user has to click on the grey-colored accordion dropdowns to open and close datasets. The side navigation has been a pain point for users since it does not add any value while you are viewing a profile, and we noticed from initial user testing sessions that they want to see the data available all at once without having to hide and expand sections.</p>
+
+					<!-- NAVIGATION AND GREY TABS -->
+					<div class="mt4 mb3 tracked f5">PREVIOUS PROFILE UI</div>
+					<img id="pro-img-1" class="mv4 pointer" src="http://res.cloudinary.com/pra1se/image/upload/v1525691752/PREVIOUS_LAYOUT_gfu45h.jpg">
+
+					<p>Our approach was to redesign the side navigation by having asset classes associated with the profile on the left with child sub-sections featuring a particular dataset. In regard to the body section of the profile, we went with a tile format in which each dataset (Investment Overview, Background, Fund Portfolio, etc.) has its own dedicated tile. The side navigation is responsive whenever the user scrolls vertically through the page, and serves as a quick access point if the user wants to jump between asset classes.</p>
+					
+					<!-- Wireframe -->
+					<div class="mt4 mb3 tracked f5">WIREFRAME</div>
+					<img src="http://res.cloudinary.com/pra1se/image/upload/v1525692132/wireframe_d73oyr.jpg">
+
+					<!-- Video -->
+					<div class="mb3 tracked f5">REDESIGN</div>
+					<video autoplay controls class="w-100 mb3" src="http://res.cloudinary.com/pra1se/video/upload/v1525636383/SideNavigationClip_gwqyxy.mov" name="sideNavClip"></video>
+			
+					<p class="b">SIMPLIFYING PROFILE TASKS</p>
+					<p>When it came to profile tasks such as downloading a profile to a PDF or adding a profile to a target list we noticed that all of the available options were placed on the top right corner, and according to user analytics we observed that rarely any of the options were clicked. Furthermore, we noticed the previous 'Add to Target List' userflow was limited in scope in which you could only add to a profile one at a time, and that adding profiles would take the user out of the profile view. By communicating with product owners and business analysts, we simplified the amount of actions from 9 to 2 (add a profile to a list and print).</p>
+					
+				</div>
+				<div class="f5 black-50 tracked mv4">PART 3 • ADVANCED SEARCH</div>
 			</div>
 		
 		</main>
@@ -86,7 +121,7 @@
 			<span id="modal-close" class="white-90 hover-white f2 modal-exit pointer">&times;</span>
 			<div id="modal" class="m-auto-img w-90 w-70-m w-60-l">
 				<h2 id="modal-header" class="f5 white tracked fw2"></h2>
-				<img id="select-img" class="br2" src="#">
+				<img id="select-img" src="#">
 			</div>
 		</div>
 		
