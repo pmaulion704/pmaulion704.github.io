@@ -1,14 +1,17 @@
  <!DOCTYPE html>
-<header class=">
+<header>
 <html>
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Patrick Maulion - Preqin</title>
+		<title>Patrick Maulion - Preqin Pro</title>
 		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 		<link href="https://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Khula" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 		<link rel="stylesheet" href="css/styles.css">
+
 	</head>
 	<body>
 		<!-- Header -->
@@ -33,7 +36,7 @@
 				<div class="f5 black">UX Designer</div>
 				<div class="f5 black-50 tracked mv4">OVERVIEW</div>
 				<div class="f5 black mt0 mb4 lh-double">
-					Preqin Pro was the main project I worked on as a UX Designer at Preqin. Preqin Pro is a SaaS web-based / platform that is geared to institutional investors, fund managers, and service providers by providing them key insights and updates on the alternative assets space. Whether you are an asset manager seeking investors to jump-start your next fund or a public pension fund looking to allocate more capital to real estate, Preqin Pro informs users about new and developing market opportunities. Aside from modernizing the look of the platform, we needed to reassess various user flows of the platform and fully incorporate a responsive layout (Desktop &#8594; Tablet) to create a more unified digital experience.
+					Preqin Pro was the main project I worked on as a UX Designer at Preqin. Preqin Pro is a SaaS web-based / platform that is geared toward institutional investors, fund managers, and service providers by providing them key insights and updates on the alternative assets space. Whether you are an asset manager seeking investors to jump-start your next fund or a public pension fund looking to allocate more capital to real estate, Preqin Pro informs users about new and developing market opportunities. Aside from modernizing the look of the platform, we needed to reassess various user flows of the platform and fully incorporate a responsive layout (Desktop &#8594; Tablet) to create a more unified digital experience.
 				</div>
 			</div>
 			
@@ -100,17 +103,104 @@
 					
 					<!-- Wireframe -->
 					<div class="mt4 mb3 tracked f5">WIREFRAME</div>
-					<img src="http://res.cloudinary.com/pra1se/image/upload/v1525692132/wireframe_d73oyr.jpg">
-
-					<!-- Video -->
-					<div class="mb3 tracked f5">REDESIGN</div>
-					<video autoplay controls class="w-100 mb3" src="http://res.cloudinary.com/pra1se/video/upload/v1525636383/SideNavigationClip_gwqyxy.mov" name="sideNavClip"></video>
-			
-					<p class="b">SIMPLIFYING PROFILE TASKS</p>
-					<p>When it came to profile tasks such as downloading a profile to a PDF or adding a profile to a target list we noticed that all of the available options were placed on the top right corner, and according to user analytics we observed that rarely any of the options were clicked. Furthermore, we noticed the previous 'Add to Target List' userflow was limited in scope in which you could only add to a profile one at a time, and that adding profiles would take the user out of the profile view. By communicating with product owners and business analysts, we simplified the amount of actions from 9 to 2 (add a profile to a list and print).</p>
-					
+					<img src="http://res.cloudinary.com/pra1se/image/upload/v1525692132/wireframe_d73oyr.jpg">				
 				</div>
-				<div class="f5 black-50 tracked mv4">PART 3 • ADVANCED SEARCH</div>
+			</div>
+				
+			<div class="m-auto f5 tracked">	
+				<!-- Video -->
+				<div class="mb3 tracked f5">REDESIGN</div>
+				<img class="mb4" src="http://res.cloudinary.com/pra1se/video/upload/e_loop/v1525636383/SideNavigationClip_gwqyxy.gif" alt="side-navigation">
+			</div>
+			
+			<div class="m-auto mw7 clear-left">
+				<div class="f5 black mt0 mb4 lh-double">
+					<p class="b">SIMPLIFYING PROFILE TASKS</p>
+					<p>When it came to profile tasks such as downloading a profile to a PDF or adding a profile to a target list we noticed that all of the available options were placed on the top right corner, and according to user analytics we observed that rarely any of the options were actually clicked. Furthermore, we noticed the previous 'Add to Target List' userflow was limited in scope in which you could only add to a profile one at a time, and that adding profiles would take the user out of the profile view. By communicating with product owners and business analysts, we simplified the amount of actions from 9 to 3 (add a profile to a list, print, or send feedback). We also decided to incorporate the 'Add to List' journey within a modal view in which the user can quickly add the profile to other lists or create one from scratch. Having the 'Add to List' profile action within a modal allows our users to quickly transition between performing a task and viewing the profile.</p>
+				</div>
+			</div>
+
+			<!-- Simplyfying Profile Task Wireframes -->
+			
+			<div class="m-auto f5 tracked">
+				<div class="fl-ns w-third-ns pa2 mt4">
+					<div>ADD TO A WATCHLIST USERFLOW</div>
+					<img id="pro-img-2" class="mv4 pointer" src="http://res.cloudinary.com/pra1se/image/upload/v1526383018/Add_to_Watchlist_ealt2g.jpg">
+				</div>
+				<div class="fl-ns w-third-ns pa2 mt4">
+					<div>CREATE NEW WATCHLIST USERFLOW</div>
+					<img id="pro-img-3" class="mv4 pointer" src="http://res.cloudinary.com/pra1se/image/upload/v1526383018/Create_Watchlist_zjgmgg.jpg">
+				</div>
+				<div class="fr-ns w-third-ns pa2 mt4">
+					<div>NEW WATCHLIST USERFLOW (ERROR)</div>
+					<img id="pro-img-4" class="mv4 pointer" src="http://res.cloudinary.com/pra1se/image/upload/v1526383018/Create_Error_guhmla.jpg">
+				</div>
+				<div class="cb w-third-ns mv3">REDESIGN</div> 
+				<img class="mb4" src="http://res.cloudinary.com/pra1se/video/upload/e_loop/v1526611731/add-to-watchlist-demo_qgiuxz.gif" alt="add-to-watchlist">
+			</div>	
+			
+			<div class="m-auto mw7 clear-left">
+								
+			<!-- Responsive Design -->
+				<div class="f5 black mt0 mb5 lh-double">
+					<p class="b">RESPONSIVE DESIGN</p>
+					<p>Before Preqin Pro, the our website did not contain any responsive breakpoints when the user resized the browser width or viewing our platform via differnet digital devices. For Pro, we decided to establish 3 breakpoints for all future design work: 1920px, 1440px and 768px. These breakpoints would account across multiple devices from desktop displays to tablet view. In regards to the profile, I was involved in designing multiple profiel datasets ('tiles') across the three main breakpoints in order to provide a consistent experience to the user.</p>
+				</div>
+			</div>
+				
+			<!-- Carousel -->	
+			<div class="m-auto f5 tracked">
+				<div class="mb3 tracked f5">PROFILE TILE WIREFRAMES</div>
+				<div class="main-carousel">
+					<div class="carousel-cell">
+						<img class="pointer" src="http://res.cloudinary.com/pra1se/image/upload/v1526699314/carousel-1_omcdjt.jpg">
+					</div>
+					<div class="carousel-cell">
+						<img class="pointer" src="http://res.cloudinary.com/pra1se/image/upload/v1526699314/carousel-2_c0ty2d.jpg">
+					</div>
+					<div class="carousel-cell">
+						<img class="pointer" src="http://res.cloudinary.com/pra1se/image/upload/v1526699315/carousel-3_m1amds.jpg">
+					</div>
+					<div class="carousel-cell">
+						<img class="pointer" src="http://res.cloudinary.com/pra1se/image/upload/v1526699314/carousel-4_jacuzn.jpg">
+					</div>
+					<div class="carousel-cell">
+						<img class="pointer" src="http://res.cloudinary.com/pra1se/image/upload/v1526699314/carousel-5_bcica5.jpg">
+					</div>
+					<div class="carousel-cell">
+						<img class="pointer" src="http://res.cloudinary.com/pra1se/image/upload/v1526699314/carousel-6_fht6fn.jpg">
+					</div>
+					<div class="carousel-cell">
+						<img class="pointer" src="http://res.cloudinary.com/pra1se/image/upload/v1526699314/carousel-7_cz6c0x.jpg">
+					</div>
+				</div>
+			</div>
+
+			<div class="m-auto mw7 clear-left">
+				<div class="f5 black-50 tracked mt5">PART 3 • ADVANCED SEARCH</div>
+				<div class="f5 black mt0 mb5 lh-double">
+					<p class="b">RESEARCH &amp; STRATEGY</p>
+					<p> Recalling back to the redesign of the side navigation for Profile View, we needed to redesign the whole concept of Advanced Search since every component on our current platform leads to a mini-advanced search. Each 'mini-advanced search' contains a closed-accordion structure of tabs where the user has to expand each tab and select filters, followed by clicking the 'Search' button. Once the user has clicked 'Search', the user is taken to the results page based on the criteria that they have selected. A common pain-point was that widening / narrowing the scope of their advanced search would require the user to click 'Edit Search' in the results page, which takes the user back to the criteria-selection page so the user can select / deselect new filters, and has to re-click the 'Search' button to reload the new set of results. Our key objectives for a redesign of the advanced search were to: 
+						<ul>
+							<li class="mv2">Consolidate the mini-advanced searches into one area</li>
+							<li class="mv2">Createa a dynamic environment to easily filter and view results</li>
+						</ul>
+					</p>
+				</div>
+			</div>
+
+			<div class="m-auto f5 tracked">
+				<div class="mb3 tracked f5">REPEATED ADVANCED SEARCH UI</div>
+				<img src="http://res.cloudinary.com/pra1se/video/upload/e_loop/v1527015025/mini-advanced_searches_ia1w55.gif" alt="moving-gif">			
+			</div>
+			<div class="m-auto mw7 clear-left">
+				<div class="f5 black-50 tracked mt5">NEW USER-FLOW</div>
+				<div class="f5 black mt0 mb4 lh-double">
+					<p>For Preqin Pro, we consolidated all the functionalities from the mini-advance searches into one area. The landing page of our new consolidated Advance Search area directs the user to select a particular category or load an existing saved search. After selecting a category, a table grid will appear showing all avaialable results for that particular category, and have filters along the side navigation and above the results table where the user can narrow down their results either by asset class or specific criteria such as location, strategies, or assets under management. As the user applies / removes filters, the result grid will dynamically change on selection which definitely streamlines the previous user flow of transitioning back and forth between criteria selection and results view.</p>
+					<!-- incorporate wires of advanced search -->
+					<!-- incorporate video of adding filters -->
+
+				</div>
 			</div>
 		
 		</main>
@@ -136,7 +226,7 @@
 		    <div class="max-84 center">
 		        <p class="dib ph0-m ph3-ns white tl fl f6 f5-ns fw2 ma0 lh-copy">
 		          Hosting: Github Pages <br> 
-		          Design System: tachyons <br> 
+		          Design System: tachyons.io <br> 
 		          Text Editor: Sublime <br>
 		        </p>
 		        <div class="dib">
@@ -157,7 +247,10 @@
 		    </div>
     	</footer>
 
-    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>    
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/preqinpro.js"></script>
   	<script type="text/javascript" src="js/index.js"></script>
 	</body>
 </html>

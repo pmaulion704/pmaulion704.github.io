@@ -16,8 +16,30 @@ h1 a:visited {
 	width: 60px;
 }
 
+.main-banner {
+	background-image: url("http://res.cloudinary.com/pra1se/image/upload/v1526387162/rsz_math-83287_sst2fu.jpg");
+}
+
 .neoThumbnail {
+	background-size: 350px;
+	background-image: url("http://res.cloudinary.com/pra1se/image/upload/v1526354959/preqinThumbnail_dvqhpa.png");
+}
+
+.abrThumbnail {
 	background-size: 300px;
+	background-color: rgba(0,0,0,.95);
+	background-image: url("http://res.cloudinary.com/pra1se/image/upload/v1525185740/running_logo_m0spzu.png");
+}
+
+.abrLogo {
+	background-size: 300px;
+	background-color: rgba(0,0,0,.95);
+}
+
+.boostMySchoolThumbnail {
+	background-color: #00bc70;
+	background-size: 350px;
+	background-image: url("http://res.cloudinary.com/pra1se/image/upload/v1527096453/Screen_Shot_2018-05-23_at_10.15.29_AM_vy52pr.png");
 }
 
 /* Preqin Pro Case Study */
@@ -67,3 +89,10 @@ h1 a:visited {
 	pointer-events: none;
 }
 
+
+/*Profile Carousel*/
+.carousel-cell {
+ 	display: inline-block;
+	width: 40%; /* half-width */
+	margin-right: 20px;
+}
