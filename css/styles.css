@@ -37,9 +37,9 @@ h1 a:visited {
 }
 
 .boostMySchoolThumbnail {
-	background-color: #00bc70;
+	background-color: #FBFCFC;
 	background-size: 350px;
-	background-image: url("http://res.cloudinary.com/pra1se/image/upload/v1527096453/Screen_Shot_2018-05-23_at_10.15.29_AM_vy52pr.png");
+	background-image: url("http://res.cloudinary.com/pra1se/image/upload/v1528153501/Screen_Shot_2018-06-04_at_7.01.56_PM_km4jbc.png");
 }
 
 /* Preqin Pro Case Study */
@@ -89,6 +89,16 @@ h1 a:visited {
 	pointer-events: none;
 }
 
+/*Hackathon*/
+.striped-purple {
+	background-color: rgba(117,113,171, .1);
+}
+
+
+/*Next Project*/
+.modify-bb:hover {
+	border-color: black;
+}
 
 /*Profile Carousel*/
 .carousel-cell {

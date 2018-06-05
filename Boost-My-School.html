@@ -3,8 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Mini Hackathon - Boost My School</title>
-		<title>Patrick Maulion - Always. Be. Running.</title>
+		<title>Patrick Maulion - BoostMySchool</title>
 		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 		<link href="https://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Khula" rel="stylesheet">
@@ -12,30 +11,158 @@
 		<link rel="stylesheet" href="css/styles.css">
 	</head>
 	<body>
-		<header class="bg-black-80">
-			<nav class="w-100 h3 bg-white center flex justify-between items-center">
+		<header class="bg-black">
+			<nav class="w-100 h3 center flex justify-between items-center">
 	            <div class="my_logo ml3">
 	              <a href="index.html">
-	                <img src="http://res.cloudinary.com/pra1se/image/upload/v1525225920/my_logo_white_zggtbn.png">
+	                <img src="http://res.cloudinary.com/pra1se/image/upload/v1525224786/my_logo_wmcjci.png">
 	              </a>   
 	            </div>
 	            <div class="mr3">
-	                <a class="hover-black no-underline black-90" target="_blank" href="resume.html">Resume</a>
+	                <a class="hover-white no-underline white-90" target="_blank" href="resume.html">Resume</a>
 	            </div>
         	</nav>
 		</header>
 		<main class="tl mt1 mt2-m mt4-l ph3 max-84 center">
 			<div class="m-auto mw6 mw7-ns">
 				<h2 class="f1-ns f2 fw4 mb2">Mini Hackathon - BoostMySchool</h2>
+				<div class="f5 black-50 tracked mv4">RESULT</div>
+				<div class="f5 black">Best Overall Project <i class="em em-sports_medal"></i></div>
 				<div class="f5 black-50 tracked mv4">ROLE</div>
 				<div class="f5 black">Rapid Prototyper / Designer</div>
-				<div class="f5 black-50 tracked mv4">TOOLS</div>
-				<div class="f5 black">Axure</div>
+				<div class="f5 black-50 tracked mv4">Skills</div>
+				<div class="f5 black">
+					<ul class="ma0 pl3 pl4-ns">
+						<li class="mv2">Wire-framing</li>
+						<li class="mv2">Rapid-Prototyping</li>
+						<li class="mv2">User-Centered Design</li>
+					</ul>
+				</div>
+				<div class="f5 black-50 tracked mv4">Tools</div>
+				<div class="f5 black">Axurem, Pencil &amp; Paper</div>
 				<div class="f5 black-50 tracked mv4">OVERVIEW</div>
 				<div class="f5 black mt0 mb4 lh-double">
-					
+					BoostMySchool was the client for the UX Mini Hackathon Series sponsored by Beginex (User Experience HQ - NYC) and NYU EdTech Accelerator. BoostMySchool is an online fundraising platform for public and private high schools. Schools are able to create customized pages on BoostMySchool to raise money and launch donation campaigns ranging from charity school projects to scholarships. 7 teams participated in the hackathon in groups of 5 to 6, and given 2 hours to create a clickable prototype.<br>
+					<p class="b tracked">CHALLENGE
+						<ul>
+							<li>Improve Existing Design of the Donation Campaign Landing Page</li>
+						</ul>
+					</p>
+				</div>
+				<hr>
+			</div>
+			<div class="m-auto mw6 mw7-ns">
+				<div class="f5 f3-ns tc black tracked mv4">PREVIOUS LANDING PAGE</div>
+				<img id="prev-image-1" class="pointer" src="http://res.cloudinary.com/pra1se/image/upload/v1528155459/modified-prev-ui-initial_ra9mre.jpg">
+				<table cellspacing="0" class="mv4">
+					<thead class="">
+						<th class="f5 f4-ns tc pa3 w-50 b tracked">PAIN POINTS</th>
+						<th class="f5 f4-ns tc pa3 w-50 b tracked">SOLUTIONS</th>
+					</thead>
+					<tbody class="lh-copy f6 f5-ns">
+						<tr class="striped-purple">
+							<td class="pa3"><span class="b">Ambiguous Top Navigation:</span><br>
+								The current campaign landing page has two top navigations with similar labeling, which potentially mislead users navigating through the site and become ambiguous. 
+								<ul class="pl3 pl4-ns">
+									<li>Top Navigation relates to school (1A)</li>
+									<li>Second Navigation relates to campaign (1B)</li>
+								</ul>
+							</td>
+							<td class="pa3 v-top">
+								<span class="b">Solution:</span><br>
+								Simplified the top navigation to one bar that relates solely to the campaign.
+							</td>
+						</tr>
+						<tr>
+							<td class="pa3">
+								<span class="b">Logo Overload:</span><br>
+								The campaign landing page contained multiple instances of the logo placed across the page: 
+								<ul class="pl3 pl4-ns">
+									<li>Within the top navigation (2A)</li>
+									<li>As a profile campaign image (2B)</li>
+									<li>Adjacent to the creator of the campaign (2C)</li>
+								</ul> 
+							</td>
+							<td class="pa3 v-top">
+								<span class="b">Solution:</span><br>
+								Toned down the branding of the school from 3 logos to 1, and increased the visibility / status of the actual campaign by incorporating a campaign banner across the top of the page.
+							</td>
+						</tr>
+						<tr class="striped-purple">
+							<td class="pa3">
+								<span class="b">Hidden Beneath the Fold:</span><br>
+								We noticed that a typical campaign page was fairly lengthy and considerable amount of content was hidden beneath the fold (3). <br>Clicking 'Comments' or 'Supporters' would vertically scroll to the respective section.
+							</td>
+							<td class="pa3 v-top">
+								<span class="b">Solution:</span><br>
+								Incorporate a dynamic panel approach that would reduce the vertical height of the landing page where the main body section of the page reflects only what is selected by the navigation
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="f5 f3-ns tc black tracked mv4">SKETCHES</div>
+				<div class="tc flex items-center justify-center">
+					<img class="w-80 " src="http://res.cloudinary.com/pra1se/image/upload/v1528123106/sketch_dzffvb.png">	
 				</div>
 			</div>
+
+			<div class="f5 f3-ns tc black tracked mv4">WIREFRAMES</div>
+			<img src="http://res.cloudinary.com/pra1se/image/upload/v1527973074/wireframes_aorkpc.png">
+
+			<div class="f5 f3-ns tc black tracked mv4">PROTOTYPE</div>
+			<div class="tc">
+				<img class="mb4" src="http://res.cloudinary.com/pra1se/video/upload/e_loop/v1528136412/prototype_btnx4g.gif">
+			</div>
+			
+
+			<!-- Next Project -->
+			<div class="flex justify-between mv4">
+				<a class="no-underline bb modify-bb b--black-50 hover-black black-50" href="index.html">
+					<div class="pb1">Home</div>
+				</a>
+				<a class="no-underline bb modify-bb b--black-50 hover-black black-50" href="Always-Be-Running.html">
+					<div class="pb1">Next - Always. Be. Running.</div>	
+				</a>
+			</div>
+		</main>
+
+		<!-- Modal Component -->
+		<div id="modal-bg" class="modal-bg">
+			<span id="modal-close" class="white-90 hover-white f2 modal-exit pointer">&times;</span>
+			<div id="modal" class="m-auto-img w-90 w-70-m w-60-l">
+				<h2 id="modal-header" class="f5 white tracked fw2"></h2>
+				<img id="select-img" src="#">
+			</div>
 		</div>
+	
+	<!-- Footer -->
+	<footer class="bg-black pv4 ph3 ph3-m ph4-l tr">
+      <div class="max-84 center">
+        <p class="dib ph0-m ph3-ns white tl fl f6 f5-ns fw2 ma0 lh-copy">
+          Hosting: Github Pages <br> 
+          Design System: tachyons <br> 
+          Text Editor: Sublime <br>
+        </p>
+        <div class="dib">
+        <div class="white mr3 pb3 f6 f5-ns fw3">Get in touch via</div>  
+          <a class="link white-90 hover-white dib h2 w2 v-mid br-100 mr3" target="_blank" href="https://www.linkedin.com/in/patrickmaulion/" title="Linkedin Profile">
+            <svg data-icon="linkedin" viewBox="0 0 32 32" style="fill:currentcolor">
+              <title>linkedin icon</title>
+              <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"></path>
+            </svg>
+          </a>
+          <a class="link white-90 hover-white dib h2 w2 br-100 v-mid mr3" href="mailto:patrick.dionisio.maulion@gmail.com" title="email">
+            <svg data-icon="email" viewBox="0 0 28 28" style="fill:currentcolor">
+              < title>email</title>
+              <path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>    
+    <script type="text/javascript" src="js/boostmyschool.js"></script>
+  	<script type="text/javascript" src="js/index.js"></script>
 	</body>
 </html>

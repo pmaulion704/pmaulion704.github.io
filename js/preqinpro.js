@@ -41,7 +41,7 @@ $(function() {
   	openModal(images.profileCarousel[cellIndex], labels.profileCarousel[cellIndex]);	
 	});
 
-		// Preqin Pro Click Events
+	// Preqin Pro Click Events
 	// Open Modal
 	function openModal(param1, param2){
 		$("#select-img").attr("src", param1);
