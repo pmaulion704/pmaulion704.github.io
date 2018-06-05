@@ -3,10 +3,14 @@ $(function() {
 
 	// Browser Tab Functionality
 	$(window).focus(function() {
-		if (location.href === 'file:///Users/patrickmaulion/Portfolio/index.html') {
-			window.document.title = "Patrick Maulion"
-		} else if (location.href === 'file:///Users/patrickmaulion/Portfolio/PreqinPro.html') {
-			window.document.title = "Patrick Maulion - Preqin Pro"
+		if (location.href === 'file:///Users/patrickmaulion/Documents/GitHub/pmaulion704.github.io/index.html') {
+			window.document.title = "Patrick Maulion";
+		} else if (location.href === 'file:///Users/patrickmaulion/Documents/GitHub/pmaulion704.github.io/Preqin-Pro.html') {
+			window.document.title = "Patrick Maulion - Preqin Pro";
+		} else if (location.href === 'file:///Users/patrickmaulion/Documents/GitHub/pmaulion704.github.io/Boost-My-School.html') {
+			window.document.title = "Patrick Maulion - BoostMySchool";
+		} else if (location.href === 'file:///Users/patrickmaulion/Documents/GitHub/pmaulion704.github.io/Always-Be-Running.html') {
+			window.document.title = "Patrick Maulion - Always. Be. Running.";
 		}
 	});
 
