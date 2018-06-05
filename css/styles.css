@@ -94,6 +94,10 @@ h1 a:visited {
 	background-color: rgba(117,113,171, .1);
 }
 
+.highlight-orange {
+	color: #F5A623;
+}
+
 
 /*Next Project*/
 .modify-bb:hover {
