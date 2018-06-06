@@ -3,13 +3,13 @@ $(function() {
 
 	// Browser Tab Functionality
 	$(window).focus(function() {
-		if (location.href === 'www.patrickmaulion.com/index.html') {
+		if (location.href === 'patrickmaulion.com/index.html') {
 			window.document.title = "Patrick Maulion";
-		} else if (location.href === 'www.patrickmaulion.com/Preqin-Pro.html') {
+		} else if (location.href === 'patrickmaulion.com/Preqin-Pro.html') {
 			window.document.title = "Patrick Maulion - Preqin Pro";
-		} else if (location.href === 'www.patrickmaulion.com/Boost-My-School.html') {
+		} else if (location.href === 'patrickmaulion.com/Boost-My-School.html') {
 			window.document.title = "Patrick Maulion - BoostMySchool";
-		} else if (location.href === 'www.patrickmaulion.com/Always-Be-Running') {
+		} else if (location.href === 'patrickmaulion.com/Always-Be-Running') {
 			window.document.title = "Patrick Maulion - Always. Be. Running.";
 		}
 	});
