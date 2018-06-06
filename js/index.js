@@ -3,7 +3,7 @@ $(function() {
 
 	// Browser Tab Functionality
 	$(window).focus(function() {
-		if (location.href === 'file:///Users/patrickmaulion/Documents/GitHub/pmaulion704.github.io/index.html') {
+		if (location.href === 'www.patrickmaulion.com/index.html') {
 			window.document.title = "Patrick Maulion";
 		} else if (location.href === 'www.patrickmaulion.com/Preqin-Pro.html') {
 			window.document.title = "Patrick Maulion - Preqin Pro";
