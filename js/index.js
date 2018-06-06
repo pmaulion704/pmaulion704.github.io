@@ -5,11 +5,11 @@ $(function() {
 	$(window).focus(function() {
 		if (location.href === 'file:///Users/patrickmaulion/Documents/GitHub/pmaulion704.github.io/index.html') {
 			window.document.title = "Patrick Maulion";
-		} else if (location.href === 'file:///Users/patrickmaulion/Documents/GitHub/pmaulion704.github.io/Preqin-Pro.html') {
+		} else if (location.href === 'http://www.patrickmaulion.com/Preqin-Pro.html') {
 			window.document.title = "Patrick Maulion - Preqin Pro";
-		} else if (location.href === 'file:///Users/patrickmaulion/Documents/GitHub/pmaulion704.github.io/Boost-My-School.html') {
+		} else if (location.href === 'http://www.patrickmaulion.com/Boost-My-School.html') {
 			window.document.title = "Patrick Maulion - BoostMySchool";
-		} else if (location.href === 'file:///Users/patrickmaulion/Documents/GitHub/pmaulion704.github.io/Always-Be-Running.html') {
+		} else if (location.href === 'http://www.patrickmaulion.com/Always-Be-Running') {
 			window.document.title = "Patrick Maulion - Always. Be. Running.";
 		}
 	});
