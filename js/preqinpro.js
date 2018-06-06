@@ -2,7 +2,7 @@ $(function() {
 	
 	// DATA
 	var images = {
-		quickSearch: ["http://res.cloudinary.com/pra1se/image/upload/v1523584090/Old_Design_aqlwgt.jpg",
+		quickSearch: ["http://res.cloudinary.com/pra1se/image/upload/v1528247173/Old_Design_qkvswj.jpg",
 					  "http://res.cloudinary.com/pra1se/image/upload/v1523988498/ITERATION_1_pfd16q.jpg",	
 					  "http://res.cloudinary.com/pra1se/image/upload/v1523980697/ITERATION_2_m2ocbc.jpg"],
 		profile: ["http://res.cloudinary.com/pra1se/image/upload/v1525691752/PREVIOUS_LAYOUT_gfu45h.jpg",
