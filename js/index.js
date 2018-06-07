@@ -9,7 +9,7 @@ $(function() {
 			window.document.title = "Patrick Maulion - Preqin Pro";
 		} else if (location.href === "http://www.patrickmaulion.com/Boost-My-School.html") {
 			window.document.title = "Patrick Maulion - BoostMySchool";
-		} else if (location.href === "http://www.patrickmaulion.com/Always-Be-Running") {
+		} else if (location.href === "http://www.patrickmaulion.com/Always-Be-Running.html") {
 			window.document.title = "Patrick Maulion - Always. Be. Running.";
 		}
 	});
