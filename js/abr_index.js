@@ -47,7 +47,7 @@ $(function(){
 					"id"    : "016",
 					"race" : "Italy Run by Ferror (5M)",
 					"time" : "0:39:26",
-					"pace" : "07:55",
+					"pace" : "07:54",
 					"overall" : 1581,
 					"age-place" : 1896,
 					"age-percentile": "54.06%"			
@@ -342,7 +342,7 @@ $(function(){
 				$(".sub-section").fadeIn(250);
 				$("#raceVal").html(data[myIndex][i]["race"]);	
 				$("#finishVal").html(data[myIndex][i]["time"]);	
-				$("#paceVal").html(data[myIndex][i]["pace"]);	
+				$("#paceVal").html(data[myIndex][i]["pace"] + " per mile");	
 				$("#overallVal").html(data[myIndex][i]["overall"]);	
 				$("#gplaceVal").html(data[myIndex][i]["age-place"]);	
 				$("#gpercentVal").html(data[myIndex][i]["age-percentile"]);	
