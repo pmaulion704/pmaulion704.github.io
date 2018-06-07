@@ -30,12 +30,28 @@ $(function(){
 			"latitude"  : 40.644335,
 			"zoom"		: 14.50,
 			"bearing"	: 25.00
+		},
+		{
+			"city" 		: "BROOKLYN, NY",
+			"longitude" : -73.985225,
+			"latitude"  : 40.574791,
+			"zoom"		: 13.93,
+			"bearing"	: 25.00
 		}
 	]
 	
 	var data = [
 		// MANHATTAN
 			[
+				{
+					"id"    : "016",
+					"race" : "Italy Run by Ferror (5M)",
+					"time" : "0:39:26",
+					"pace" : "07:55",
+					"overall" : 1581,
+					"age-place" : 1896,
+					"age-percentile": "54.06%"			
+				},
 				{
 					"id"    : "015",
 					"race" : "2017 NYRR Midnight Run",
@@ -225,7 +241,20 @@ $(function(){
 					"age-place" : 2599,
 					"age-percentile": "51.53%"
 				}
-			]
+			],
+			// BROOKLYN
+			[
+				{
+					"id"   : "001",
+					"race" : "2018 Brooklyn Half Marathon",
+					"time" : "1:55:20",
+					"pace" : "08:48",
+					"overall" : 9367,
+					"age-place" : 7747,
+					"age-percentile": "51.53%"
+				}
+			],
+			// 
 		// End of INDEX
 		];	
 	
@@ -242,7 +271,7 @@ $(function(){
 	// exit
 	$("#letsGo").on('click', function(){
 		$("#intro").fadeOut(500);
-		myIndex = 3;
+		myIndex = 4;
 		$("#right-arrow").click();
 	});
 	// return
@@ -267,7 +296,7 @@ $(function(){
 	var myIndex = 0;
 	// RIGHT
 	$("#right-arrow").click(function(){
-		if (myIndex != 3) {
+		if (myIndex != 4) {
 			myIndex++;
 			$("#city").html(locations[myIndex]["city"]);
 			flyLocation(locations[myIndex]["longitude"], locations[myIndex]["latitude"], locations[myIndex]["zoom"], locations[myIndex]["bearing"]);
@@ -296,11 +325,11 @@ $(function(){
 			$(".sub-section").hide();
 
 		} else {
-			myIndex = 3;
-			$("#city").html(locations[3]["city"]);
-			flyLocation(locations[3]["longitude"], locations[3]["latitude"], locations[3]["zoom"], locations[3]["bearing"]);
+			myIndex = 4;
+			$("#city").html(locations[4]["city"]);
+			flyLocation(locations[4]["longitude"], locations[4]["latitude"], locations[4]["zoom"], locations[4]["bearing"]);
 			$("tr").remove();
-			loadData(data[3], "id", "race", "time");
+			loadData(data[4], "id", "race", "time");
 			$(".sub-section").hide();
 
 		};
@@ -427,6 +456,21 @@ $(function(){
 	  	      properties: {
 	  	      	title: 'Mapbox',
 	  	      	description: 'Staten Island'
+	  	      }
+	  	    },
+	  	    {
+	  	      type: 'Feature',
+	  	      geometry: {
+	  	      	type: 'Point',
+	  	      	coordinates: [
+	  	      		-73.974390,
+	  	      		40.573073
+	  	      		]
+	  	      	
+	  	      	},
+	  	      properties: {
+	  	      	title: 'Mapbox',
+	  	      	description: 'Brooklyn'
 	  	      }
 	  	    }
 	  	//Features Index end 
