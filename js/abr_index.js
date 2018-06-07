@@ -342,7 +342,7 @@ $(function(){
 				$(".sub-section").fadeIn(250);
 				$("#raceVal").html(data[myIndex][i]["race"]);	
 				$("#finishVal").html(data[myIndex][i]["time"]);	
-				$("#paceVal").html(data[myIndex][i]["pace"] + " per mile");	
+				$("#paceVal").html(data[myIndex][i]["pace"]);	
 				$("#overallVal").html(data[myIndex][i]["overall"]);	
 				$("#gplaceVal").html(data[myIndex][i]["age-place"]);	
 				$("#gpercentVal").html(data[myIndex][i]["age-percentile"]);	
