@@ -2,7 +2,7 @@
 	font-family: 'Khula', sans-serif;
 }
 
-/* Home Page */
+/* Index.HTML Page */
 
 .preqinBLue {
 	color: #199CDB;
@@ -41,6 +41,23 @@ h1 a:visited {
 	background-size: 350px;
 	background-image: url("http://res.cloudinary.com/pra1se/image/upload/v1528153501/Screen_Shot_2018-06-04_at_7.01.56_PM_km4jbc.png");
 }
+
+/*Index.html CSS Animations*/
+#overall-banner {
+	-webkit-animation-duration: 2s;
+	-moz-animation-duration: 2s;
+}
+
+#banner-intro {
+	-webkit-animation-duration: 1250ms;
+	-webkit-animation-delay: 250ms;
+}
+
+#banner-support {
+	-webkit-animation-delay: 500ms;
+	-webkit-animation-duration: 1250ms;
+}
+
 
 /* Preqin Pro Case Study */
 .max-84 {
