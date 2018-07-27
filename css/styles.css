@@ -46,16 +46,25 @@ h1 a:visited {
 #overall-banner {
 	-webkit-animation-duration: 2s;
 	-moz-animation-duration: 2s;
+	-o-animation-duration: 2s;
 }
 
 #banner-intro {
-	-webkit-animation-duration: 1250ms;
 	-webkit-animation-delay: 250ms;
+	-moz-animation-delay: 250ms;
+	-o-animation-delay: 250ms;
+	-webkit-animation-duration: 1250ms;
+	-moz-animation-duration: 1250ms;
+	-o-animation-duration: 1250ms;
 }
 
 #banner-support {
 	-webkit-animation-delay: 500ms;
+	-moz-animation-delay: 500ms;
+	-o-animation-delay: 500ms;
 	-webkit-animation-duration: 1250ms;
+	-moz-animation-duration: 1250ms;
+	-o-animation-duration: 1250ms;
 }
 
 
