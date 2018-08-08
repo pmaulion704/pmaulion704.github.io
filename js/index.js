@@ -47,7 +47,7 @@ $(function() {
 	
     $("#projectScroll").click(function (){
         $('html, body').animate({
-            scrollTop: $("#workID").offset().top -32 }, 1500);
+            scrollTop: $("#workID").offset().top -32 }, 1250);
     });
         
 
