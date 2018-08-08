@@ -44,5 +44,12 @@ $(function() {
 		window.location.href = "Boost-MySchool.html";
 	});
 
+	
+    $("#projectScroll").click(function (){
+        $('html, body').animate({
+            scrollTop: $("#workID").offset().top -32 }, 1500);
+    });
+        
+
 	// End of index.js
 });
