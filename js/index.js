@@ -30,6 +30,7 @@ $(function() {
 		window.location.href = "Preqin-Pro.html";
 	});
 
+	// ABR Project
 	$("#abrProject").click(function(){
 		window.location.href = "Always-Be-Running.html";
 	});	
@@ -38,6 +39,8 @@ $(function() {
 		window.location.href = "Always-Be-Running.html";
 	});
 
+
+	// Boost My School
 	$("#boostMySchoolProject").click(function(){
 		window.location.href = "Boost-My-School.html";
 	});	
@@ -46,13 +49,14 @@ $(function() {
 		window.location.href = "Boost-MySchool.html";
 	});
 	
-	// $("#hundredDailyChallengeProject").click(function(){
-	// 	window.location.href = "Daily-UI-100.html";
-	// });	
+	// 100 Day Challenge
+	$("#hundredDailyChallengeProject").click(function(){
+		window.location.href = "Daily-UI-100.html";
+	});	
 
-	// $("#hundredDailyChallengeProjectTitle").click(function(){
-	// 	window.location.href = "Daily-UI-100.html";
-	// });
+	$("#hundredDailyChallengeProjectTitle").click(function(){
+		window.location.href = "Daily-UI-100.html";
+	});
 
 	
     $("#projectScroll").click(function (){
