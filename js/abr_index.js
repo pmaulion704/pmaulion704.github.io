@@ -44,6 +44,24 @@ $(function(){
 		// MANHATTAN
 			[
 				{
+					"id"    : "018",
+					"race" : "2018 New Balance 5th Avenue Mile",
+					"time" : "0:06:32",
+					"pace" : "06:32",
+					"overall" : 2785,
+					"age-place" : 2893,
+					"age-percentile": "56.86%"			
+				},
+				{
+					"id"    : "017",
+					"race" : "Manhattan 7 Mile",
+					"time" : "1:01:35",
+					"pace" : "08:48",
+					"overall" : 1088,
+					"age-place" : 159,
+					"age-percentile": "- -"			
+				},
+				{
 					"id"    : "016",
 					"race" : "Italy Run by Ferror (5M)",
 					"time" : "0:39:26",
