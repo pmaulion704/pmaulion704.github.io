@@ -20,22 +20,34 @@
 	</head>
 
 	<body>
-		<header class="bg-black">
-			<nav class="w-100 h3 center flex justify-between items-center">
+		<header>
+	      <nav class="w-100 h3 bg-black center flex justify-between items-center z-999 fixed top-0">
 	            <div class="my_logo ml3 ml4-l">
 	              <a href="index.html">
 	                <img src="http://res.cloudinary.com/pra1se/image/upload/v1525224786/my_logo_wmcjci.png">
-	              </a>   
+	              </a> 
 	            </div>
-	            <div class="mr3 mr4-l">
-	                <a class="hover-white no-underline white-90" target="_blank" href="http://pmaulion.dribbble.com/">Dribbble</a>
-                	<a class="hover-white no-underline mh2 mh3-m mh4-l white-90" target="_blank" href="files/Patrick_Maulion_Resume_2019.pdf">Resume</a>
-                	<a class="hover-white no-underline white-90" href="mailto:patrick.dionisio.maulion@gmail.com">Contact</a>
+	            <div class="dn di-ns mr4">
+	                <a class="hover-white no-underline white-90" target="_blank" href="http://pmaulion.dribbble.com">Dribbble</a>
+	                <a class="hover-white no-underline mh2 mh3-m mh4-l white-90" target="_blank" href="files/Patrick_Maulion_Resume_2019.pdf">Resume</a>
+	                <a class="hover-white no-underline white-90" href="mailto:patrick.dionisio.maulion@gmail.com">Contact</a>
 	            </div>
-        	</nav>
-		</header>
+	            <!-- Hamburger Menu -->
+	            <div id="hamburger-menu-button" class="dn-ns di mr3 pointer">
+	                <img id="menu-button" src="../pmaulion704.github.io/images/icons/icons8-menu-32.png">
+	            </div>
+	      </nav>
+	      <!-- Dropdown Menu -->
+	      <div id="hamburger-content" class="dn-ns dn pa2 bg-white fixed w-100 top-4 z-5">
+	          <div class="tc flex flex-column">
+	            <a class="cancel_hamburger no-underline pa3 black hover-moon-gray" target="_blank" href="http://pmaulion.dribbble.com">Dribbble</a>
+	            <a class="cancel_hamburger no-underline pa3 black hover-moon-gray" target="_blank" href="files/Patrick_Maulion_Resume_2019.pdf">Resume</a>
+	            <a class="cancel_hamburger no-underline pa3 black hover-moon-gray" href="mailto:patrick.dionisio.maulion@gmail.com">Contact</a>  
+	          </div>
+	      </div>
+    	</header>
 
-		<main class="tl mt1 mt2-m mt4-l ph3 max-84 center">
+		<main class="tl mt6 ph3 max-84 center">
 			<div class="m-auto mw6 mw7-ns">
 				<h2 class="f1-ns f2 fw4 mb2">Always. Be. Running.</h2>
 				<div class="f5 black-50 tracked mv4">PROJECT</div>

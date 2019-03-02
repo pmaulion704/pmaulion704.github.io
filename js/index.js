@@ -20,6 +20,37 @@ $(function() {
 		window.document.title = "Hey, I'm over here!"
 	}); 
 
+	 
+	// Hamburger Menu Navigation 
+	var menu = true;
+
+	function open_hamburger() {
+		$("#menu-button").attr("src", "../pmaulion704.github.io/images/icons/icons8-close-32.png");
+			$("#hamburger-content").removeClass("dn");
+			menu = false;
+	};
+
+	function close_hamburger() {
+		$("#menu-button").attr("src", "../pmaulion704.github.io/images/icons/icons8-menu-32.png");
+			$("#hamburger-content").addClass("dn");
+			menu = true;
+	};
+	
+	// Toggling hamburger menu button
+	$("#hamburger-menu-button").click(function(){
+		if (menu === true) {
+			open_hamburger();		
+		} else if (menu === false) {
+			close_hamburger();
+		}
+	});
+
+	// Action after users select a menu-item in expanded hamburger mode
+	$(".cancel_hamburger").click(function(){
+		close_hamburger();
+	});
+
+
 
 	// Project Navigation
 	$("#neoProject").click(function(){

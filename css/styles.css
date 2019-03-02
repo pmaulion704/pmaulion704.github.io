@@ -4,12 +4,8 @@
 
 /* index.HTML Page */
 
-.preqinBLue {
-	color: #199CDB;
-}
-
-h1 a:visited {
-	color: #199CDB;
+.top-4 { 
+	top: 4rem;
 }
 
 .my_logo {
