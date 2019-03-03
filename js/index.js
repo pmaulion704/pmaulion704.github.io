@@ -27,6 +27,7 @@ $(function() {
 	function open_hamburger() {
 		$("#menu-button").attr("src", "../pmaulion704.github.io/images/icons/icons8-close-32.png");
 			$("#hamburger-content").removeClass("dn");
+			$("#hamburger-content").addClass("fadeInDown fast");
 			menu = false;
 	};
 
