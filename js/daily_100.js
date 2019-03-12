@@ -81,22 +81,22 @@ $(function(){
 			},
 			{
 				"shot_number": "016",
-				"src" : "../pmaulion704.github.io/images/daily100/016.jpg",
+				"src" : "../pmaulion704.github.io/images/daily100/016.gif",
 				"description" : "Popup / Overlay"
 			},
 			{
 				"shot_number": "017",
-				"src" : "../pmaulion704.github.io/images/daily100/017.gif",
+				"src" : "../pmaulion704.github.io/images/daily100/017.jpg",
 				"description" : "Email Receipt"
 			},
 			{
 				"shot_number": "018",
-				"src" : "../pmaulion704.github.io/images/daily100/018.jpg",
+				"src" : "../pmaulion704.github.io/images/daily100/018.gif",
 				"description" : "Analytics Chart"
 			},
 			{
 				"shot_number": "019",
-				"src" : "../pmaulion704.github.io/images/daily100/019.jpg",
+				"src" : "../pmaulion704.github.io/images/daily100/019.gif",
 				"description" : "Leaderboard"
 			},
 			{
@@ -519,7 +519,6 @@ $(function(){
 		]
 	]
 
-	console.og
 	// FUNCTIONS
 	// POPULATE 20 Box Framework
 	function test(array, item1, item2, item3) {	
@@ -531,7 +530,6 @@ $(function(){
 			$("#s-shotID" + string_ID).html(array[i][item1]);
 			$("#imgID" + string_ID).attr("src", array[i][item2]);
 			$("#descriptID" + string_ID).html(array[i][item3]);
-			
 		};
 	};
 
