@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54 (76480) - https://sketchapp.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons8-chrome" fill-rule="nonzero">
+            <path d="M24,12 C24,18.6264 18.6264,24 12,24 C5.3736,24 0,18.6264 0,12 C0,5.3736 5.3736,0 12,0 C18.6264,0 24,5.3736 24,12 Z" id="Path" fill="#4CAF50"></path>
+            <path d="M12,0 L12,12 L16.8,14.4 L11.4942,24 C11.6844,24 11.8098,24 12,24 C18.6318,24 24,18.6318 24,12 C24,5.3682 18.6318,0 12,0 Z" id="Path" fill="#FFC107"></path>
+            <path d="M24,12 C24,18.6264 18.6264,24 12,24 C5.3736,24 0,18.6264 0,12 C0,5.3736 5.3736,0 12,0 C18.6264,0 24,5.3736 24,12 Z" id="Path" fill="#4CAF50"></path>
+            <path d="M12,0 L12,12 L16.8,14.4 L11.4942,24 C11.6844,24 11.8098,24 12,24 C18.6318,24 24,18.6318 24,12 C24,5.3682 18.6318,0 12,0 Z" id="Path" fill="#FFC107"></path>
+            <path d="M22.704,6.6 L12,6.6 L12,14.4 L10.2,13.8 L1.896,5.556 L1.884,5.556 C4.008,2.214 7.746,0 12,0 C16.68,0 20.73,2.688 22.704,6.6 Z" id="Path" fill="#F44336"></path>
+            <polygon id="Path" fill="#DD2C00" points="1.8948 5.5584 7.2006 14.4756 10.2 13.8"></polygon>
+            <polygon id="Path" fill="#558B2F" points="11.4942 24 16.8546 14.3646 14.4 12.6"></polygon>
+            <polygon id="Path" fill="#F9A825" points="22.719 6.6 12 6.6 11.0526 9.348"></polygon>
+            <path d="M17.4,12 C17.4,14.9814 14.9814,17.4 12,17.4 C9.0186,17.4 6.6,14.9814 6.6,12 C6.6,9.0186 9.0186,6.6 12,6.6 C14.9814,6.6 17.4,9.0186 17.4,12 Z" id="Path" fill="#FFFFFF"></path>
+            <path d="M16.2,12 C16.2,14.3202 14.3202,16.2 12,16.2 C9.6798,16.2 7.8,14.3202 7.8,12 C7.8,9.6798 9.6798,7.8 12,7.8 C14.3202,7.8 16.2,9.6798 16.2,12 Z" id="Path" fill="#2196F3"></path>
+        </g>
+    </g>
+</svg>

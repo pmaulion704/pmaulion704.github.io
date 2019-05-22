@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="600px" viewBox="0 0 1200 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54 (76480) - https://sketchapp.com -->
+    <title>Daily UI</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 1230 0 1230 600 0 600"></polygon>
+        <rect id="path-3" x="41" y="0" width="1" height="600"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="82" y="0" width="1" height="600"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="123" y="0" width="1" height="600"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <rect id="path-9" x="164" y="0" width="1" height="600"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <rect id="path-11" x="205" y="0" width="1" height="600"></rect>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <rect id="path-13" x="246" y="0" width="1" height="600"></rect>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+        <rect id="path-15" x="287" y="0" width="1" height="600"></rect>
+        <mask id="mask-16" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-15"></use>
+        </mask>
+        <rect id="path-17" x="328" y="0" width="1" height="600"></rect>
+        <mask id="mask-18" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-17"></use>
+        </mask>
+        <rect id="path-19" x="369" y="0" width="1" height="600"></rect>
+        <mask id="mask-20" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-19"></use>
+        </mask>
+        <rect id="path-21" x="410" y="0" width="1" height="600"></rect>
+        <mask id="mask-22" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-21"></use>
+        </mask>
+        <rect id="path-23" x="451" y="0" width="1" height="600"></rect>
+        <mask id="mask-24" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-23"></use>
+        </mask>
+        <rect id="path-25" x="492" y="0" width="1" height="600"></rect>
+        <mask id="mask-26" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-25"></use>
+        </mask>
+        <rect id="path-27" x="533" y="0" width="1" height="600"></rect>
+        <mask id="mask-28" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-27"></use>
+        </mask>
+        <rect id="path-29" x="574" y="0" width="1" height="600"></rect>
+        <mask id="mask-30" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-29"></use>
+        </mask>
+        <rect id="path-31" x="615" y="0" width="1" height="600"></rect>
+        <mask id="mask-32" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-31"></use>
+        </mask>
+        <rect id="path-33" x="656" y="0" width="1" height="600"></rect>
+        <mask id="mask-34" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-33"></use>
+        </mask>
+        <rect id="path-35" x="697" y="0" width="1" height="600"></rect>
+        <mask id="mask-36" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-35"></use>
+        </mask>
+        <rect id="path-37" x="738" y="0" width="1" height="600"></rect>
+        <mask id="mask-38" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-37"></use>
+        </mask>
+        <rect id="path-39" x="779" y="0" width="1" height="600"></rect>
+        <mask id="mask-40" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-39"></use>
+        </mask>
+        <rect id="path-41" x="820" y="0" width="1" height="600"></rect>
+        <mask id="mask-42" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-41"></use>
+        </mask>
+        <rect id="path-43" x="861" y="0" width="1" height="600"></rect>
+        <mask id="mask-44" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-43"></use>
+        </mask>
+        <rect id="path-45" x="902" y="0" width="1" height="600"></rect>
+        <mask id="mask-46" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-45"></use>
+        </mask>
+        <rect id="path-47" x="943" y="0" width="1" height="600"></rect>
+        <mask id="mask-48" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-47"></use>
+        </mask>
+        <rect id="path-49" x="984" y="0" width="1" height="600"></rect>
+        <mask id="mask-50" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-49"></use>
+        </mask>
+        <rect id="path-51" x="1025" y="0" width="1" height="600"></rect>
+        <mask id="mask-52" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-51"></use>
+        </mask>
+        <rect id="path-53" x="1066" y="0" width="1" height="600"></rect>
+        <mask id="mask-54" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-53"></use>
+        </mask>
+        <rect id="path-55" x="1107" y="0" width="1" height="600"></rect>
+        <mask id="mask-56" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-55"></use>
+        </mask>
+        <rect id="path-57" x="1148" y="0" width="1" height="600"></rect>
+        <mask id="mask-58" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-57"></use>
+        </mask>
+        <rect id="path-59" x="1189" y="0" width="1" height="600"></rect>
+        <mask id="mask-60" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="600" fill="white">
+            <use xlink:href="#path-59"></use>
+        </mask>
+        <polygon id="path-61" points="0 0 1230 0 1230 1200 0 1200"></polygon>
+        <rect id="path-63" x="327.5" y="1.5" width="1" height="1200"></rect>
+        <mask id="mask-64" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="1200" fill="white">
+            <use xlink:href="#path-63"></use>
+        </mask>
+        <rect id="path-65" x="368.5" y="1.5" width="1" height="1200"></rect>
+        <mask id="mask-66" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="1200" fill="white">
+            <use xlink:href="#path-65"></use>
+        </mask>
+        <rect id="path-67" x="409.5" y="1.5" width="1" height="1200"></rect>
+        <mask id="mask-68" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="1200" fill="white">
+            <use xlink:href="#path-67"></use>
+        </mask>
+        <rect id="path-69" x="450.5" y="1.5" width="1" height="1200"></rect>
+        <mask id="mask-70" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="1200" fill="white">
+            <use xlink:href="#path-69"></use>
+        </mask>
+        <rect id="path-71" x="491.5" y="1.5" width="1" height="1200"></rect>
+        <mask id="mask-72" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="1200" fill="white">
+            <use xlink:href="#path-71"></use>
+        </mask>
+        <rect id="path-73" x="532.5" y="1.5" width="1" height="1200"></rect>
+        <mask id="mask-74" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="1200" fill="white">
+            <use xlink:href="#path-73"></use>
+        </mask>
+        <rect id="path-75" x="573.5" y="1.5" width="1" height="1200"></rect>
+        <mask id="mask-76" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="1200" fill="white">
+            <use xlink:href="#path-75"></use>
+        </mask>
+        <rect id="path-77" x="614.5" y="1.5" width="1" height="1200"></rect>
+        <mask id="mask-78" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="1200" fill="white">
+            <use xlink:href="#path-77"></use>
+        </mask>
+        <rect id="path-79" x="655.5" y="1.5" width="1" height="1200"></rect>
+        <mask id="mask-80" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="1200" fill="white">
+            <use xlink:href="#path-79"></use>
+        </mask>
+        <rect id="path-81" x="696.5" y="1.5" width="1" height="1200"></rect>
+        <mask id="mask-82" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="1200" fill="white">
+            <use xlink:href="#path-81"></use>
+        </mask>
+        <rect id="path-83" x="737.5" y="1.5" width="1" height="1200"></rect>
+        <mask id="mask-84" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="1200" fill="white">
+            <use xlink:href="#path-83"></use>
+        </mask>
+        <rect id="path-85" x="778.5" y="1.5" width="1" height="1200"></rect>
+        <mask id="mask-86" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="1200" fill="white">
+            <use xlink:href="#path-85"></use>
+        </mask>
+        <rect id="path-87" x="819.5" y="1.5" width="1" height="1200"></rect>
+        <mask id="mask-88" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="1200" fill="white">
+            <use xlink:href="#path-87"></use>
+        </mask>
+        <rect id="path-89" x="860.5" y="1.5" width="1" height="1200"></rect>
+        <mask id="mask-90" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="1200" fill="white">
+            <use xlink:href="#path-89"></use>
+        </mask>
+        <rect id="path-91" x="901.5" y="1.5" width="1" height="1200"></rect>
+        <mask id="mask-92" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1" height="1200" fill="white">
+            <use xlink:href="#path-91"></use>
+        </mask>
+        <rect id="path-93" x="0" y="0" width="800" height="500"></rect>
+        <filter x="-2.8%" y="-4.0%" width="105.5%" height="108.8%" filterUnits="objectBoundingBox" id="filter-95">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="48.4394499%" y1="23.3970593%" x2="50%" y2="51.1112018%" id="linearGradient-96">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-97" x="14.6666667" y="13.3333333" width="173.333333" height="194.666667" rx="10"></rect>
+        <filter x="-14.4%" y="-10.3%" width="128.8%" height="125.7%" filterUnits="objectBoundingBox" id="filter-98">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.0748853303   0 0 0 0 0.501620961  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Daily-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F9F9F9" x="0" y="0" width="1200" height="600"></rect>
+        <g id="Rectangle-2" opacity="0.6" transform="translate(-15.000000, 0.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Duplicate-control"></g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-4)" xlink:href="#path-3"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-6)" xlink:href="#path-5"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-8)" xlink:href="#path-7"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-10)" xlink:href="#path-9"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-12)" xlink:href="#path-11"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-14)" xlink:href="#path-13"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-16)" xlink:href="#path-15"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-18)" xlink:href="#path-17"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-20)" xlink:href="#path-19"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-22)" xlink:href="#path-21"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-24)" xlink:href="#path-23"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-26)" xlink:href="#path-25"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-28)" xlink:href="#path-27"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-30)" xlink:href="#path-29"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-32)" xlink:href="#path-31"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-34)" xlink:href="#path-33"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-36)" xlink:href="#path-35"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-38)" xlink:href="#path-37"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-40)" xlink:href="#path-39"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-42)" xlink:href="#path-41"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-44)" xlink:href="#path-43"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-46)" xlink:href="#path-45"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-48)" xlink:href="#path-47"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-50)" xlink:href="#path-49"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-52)" xlink:href="#path-51"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-54)" xlink:href="#path-53"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-56)" xlink:href="#path-55"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-58)" xlink:href="#path-57"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-2)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-60)" xlink:href="#path-59"></use>
+            </g>
+        </g>
+        <g id="Rectangle-2" opacity="0.6" transform="translate(601.000000, 301.000000) rotate(90.000000) translate(-601.000000, -301.000000) translate(-14.000000, -299.000000)">
+            <mask id="mask-62" fill="white">
+                <use xlink:href="#path-61"></use>
+            </mask>
+            <g id="Duplicate-control"></g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-62)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-64)" xlink:href="#path-63"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-62)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-66)" xlink:href="#path-65"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-62)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-68)" xlink:href="#path-67"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-62)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-70)" xlink:href="#path-69"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-62)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-72)" xlink:href="#path-71"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-62)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-74)" xlink:href="#path-73"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-62)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-76)" xlink:href="#path-75"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-62)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-78)" xlink:href="#path-77"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-62)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-80)" xlink:href="#path-79"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-62)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-82)" xlink:href="#path-81"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-62)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-84)" xlink:href="#path-83"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-62)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-86)" xlink:href="#path-85"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-62)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-88)" xlink:href="#path-87"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-62)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-90)" xlink:href="#path-89"></use>
+            </g>
+            <g id="Rectangle" stroke-dasharray="2,6" mask="url(#mask-62)" stroke="#4984FF" stroke-width="2">
+                <use mask="url(#mask-92)" xlink:href="#path-91"></use>
+            </g>
+        </g>
+        <rect id="Rectangle" stroke="#4984FF" stroke-width="3" fill-opacity="0.3" fill="#4984FF" transform="translate(1092.842712, 501.842712) rotate(45.000000) translate(-1092.842712, -501.842712) " x="894.342712" y="303.342712" width="397" height="397"></rect>
+        <circle id="Oval" stroke="#4984FF" stroke-width="3" fill-opacity="0.3" fill="#4984FF" cx="600" cy="22" r="246"></circle>
+        <path d="M107.53604,219.5 L-61,219.5 C-63.4852814,219.5 -65.5,221.514719 -65.5,224 L-65.5,609 C-65.5,611.485281 -63.4852814,613.5 -61,613.5 L527.545205,613.5 C528.809836,613.5 530.016099,612.967868 530.868704,612.033869 C532.544263,610.198351 532.414591,607.352061 530.579074,605.676502 L107.53604,219.5 Z" id="Rectangle" stroke="#4984FF" stroke-width="3" fill-opacity="0.3" fill="#4984FF"></path>
+        <g id="Group-6" transform="translate(200.000000, 50.000000)">
+            <mask id="mask-94" fill="white">
+                <use xlink:href="#path-93"></use>
+            </mask>
+            <g id="Frame" fill-rule="nonzero">
+                <use fill="black" fill-opacity="1" filter="url(#filter-95)" xlink:href="#path-93"></use>
+                <use fill="#FFFFFF" xlink:href="#path-93"></use>
+            </g>
+            <g id="Group-3" mask="url(#mask-94)">
+                <g transform="translate(-20.000000, 13.333333)" id="Group-2">
+                    <g>
+                        <rect id="Rectangle" stroke="#4984FF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="91.3333333" height="91.3333333" rx="5"></rect>
+                        <text id="70" opacity="0.6" font-family="Futura-Bold, Futura" font-size="28" font-weight="bold" fill="#4984FF">
+                            <tspan x="28.2933333" y="57.6666667">70</tspan>
+                        </text>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="14.6666667" cy="12" r="4"></circle>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="78.6666667" cy="12" r="4"></circle>
+                    </g>
+                    <g transform="translate(106.666667, 0.000000)">
+                        <rect id="Rectangle" stroke="#4984FF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="91.3333333" height="91.3333333" rx="5"></rect>
+                        <text id="71" opacity="0.6" font-family="Futura-Bold, Futura" font-size="28" font-weight="bold" fill="#4984FF">
+                            <tspan x="28.6293333" y="57.6666667">71</tspan>
+                        </text>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="14.6666667" cy="12" r="4"></circle>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="78.6666667" cy="12" r="4"></circle>
+                    </g>
+                    <g transform="translate(213.333333, 0.000000)">
+                        <rect id="Rectangle" stroke="#4984FF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="91.3333333" height="91.3333333" rx="5"></rect>
+                        <text id="72" opacity="0.6" font-family="Futura-Bold, Futura" font-size="28" font-weight="bold" fill="#4984FF">
+                            <tspan x="28.2933333" y="57.6666667">72</tspan>
+                        </text>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="14.6666667" cy="12" r="4"></circle>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="78.6666667" cy="12" r="4"></circle>
+                    </g>
+                    <g transform="translate(320.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#4984FF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="91.3333333" height="91.3333333" rx="5"></rect>
+                        <text id="73" opacity="0.6" font-family="Futura-Bold, Futura" font-size="28" font-weight="bold" fill="#4984FF">
+                            <tspan x="28.2933333" y="57.6666667">73 </tspan>
+                        </text>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="14.6666667" cy="12" r="4"></circle>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="78.6666667" cy="12" r="4"></circle>
+                    </g>
+                    <g transform="translate(426.666667, 0.000000)">
+                        <rect id="Rectangle" stroke="#4984FF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="91.3333333" height="91.3333333" rx="5"></rect>
+                        <text id="74" opacity="0.6" font-family="Futura-Bold, Futura" font-size="28" font-weight="bold" fill="#4984FF">
+                            <tspan x="24.3733333" y="57.6666667"> 74</tspan>
+                        </text>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="14.6666667" cy="12" r="4"></circle>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="78.6666667" cy="12" r="4"></circle>
+                    </g>
+                    <g transform="translate(533.333333, 0.000000)">
+                        <rect id="Rectangle" stroke="#4984FF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="91.3333333" height="91.3333333" rx="5"></rect>
+                        <text id="75" opacity="0.6" font-family="Futura-Bold, Futura" font-size="28" font-weight="bold" fill="#4984FF">
+                            <tspan x="28.2933333" y="57.6666667">75</tspan>
+                        </text>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="14.6666667" cy="12" r="4"></circle>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="78.6666667" cy="12" r="4"></circle>
+                    </g>
+                    <g transform="translate(640.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#4984FF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="91.3333333" height="91.3333333" rx="5"></rect>
+                        <text id="76" opacity="0.6" font-family="Futura-Bold, Futura" font-size="28" font-weight="bold" fill="#4984FF">
+                            <tspan x="29.0493333" y="57.6666667">76</tspan>
+                        </text>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="14.6666667" cy="12" r="4"></circle>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="78.6666667" cy="12" r="4"></circle>
+                    </g>
+                    <g transform="translate(746.666667, 0.000000)">
+                        <rect id="Rectangle" stroke="#4984FF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="91.3333333" height="91.3333333" rx="5"></rect>
+                        <text id="77" opacity="0.6" font-family="Futura-Bold, Futura" font-size="28" font-weight="bold" fill="#4984FF">
+                            <tspan x="28.0833333" y="57.6666667">77</tspan>
+                        </text>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="14.6666667" cy="12" r="4"></circle>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="78.6666667" cy="12" r="4"></circle>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-3" mask="url(#mask-94)">
+                <g transform="translate(-20.000000, 226.666667)" id="Group-2">
+                    <g>
+                        <rect id="Rectangle" stroke="#4984FF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="91.3333333" height="91.3333333" rx="5"></rect>
+                        <text id="91" opacity="0.6" font-family="Futura-Bold, Futura" font-size="28" font-weight="bold" fill="#4984FF">
+                            <tspan x="28.9513333" y="57.6666667">91</tspan>
+                        </text>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="14.6666667" cy="12" r="4"></circle>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="78.6666667" cy="12" r="4"></circle>
+                    </g>
+                    <g transform="translate(106.666667, 0.000000)">
+                        <rect id="Rectangle" stroke="#4984FF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="91.3333333" height="91.3333333" rx="5"></rect>
+                        <text id="92" opacity="0.6" font-family="Futura-Bold, Futura" font-size="28" font-weight="bold" fill="#4984FF">
+                            <tspan x="28.2933333" y="57.6666667">92</tspan>
+                        </text>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="14.6666667" cy="12" r="4"></circle>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="78.6666667" cy="12" r="4"></circle>
+                    </g>
+                    <g transform="translate(213.333333, 0.000000)">
+                        <rect id="Rectangle" stroke="#4984FF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="91.3333333" height="91.3333333" rx="5"></rect>
+                        <text id="93" opacity="0.6" font-family="Futura-Bold, Futura" font-size="28" font-weight="bold" fill="#4984FF">
+                            <tspan x="28.2933333" y="57.6666667">93</tspan>
+                        </text>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="14.6666667" cy="12" r="4"></circle>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="78.6666667" cy="12" r="4"></circle>
+                    </g>
+                    <g transform="translate(320.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#4984FF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="91.3333333" height="91.3333333" rx="5"></rect>
+                        <text id="94" opacity="0.6" font-family="Futura-Bold, Futura" font-size="28" font-weight="bold" fill="#4984FF">
+                            <tspan x="28.3353333" y="57.6666667">94</tspan>
+                        </text>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="14.6666667" cy="12" r="4"></circle>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="78.6666667" cy="12" r="4"></circle>
+                    </g>
+                    <g transform="translate(426.666667, 0.000000)">
+                        <rect id="Rectangle" stroke="#4984FF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="91.3333333" height="91.3333333" rx="5"></rect>
+                        <text id="95" opacity="0.6" font-family="Futura-Bold, Futura" font-size="28" font-weight="bold" fill="#4984FF">
+                            <tspan x="28.2933333" y="57.6666667">95</tspan>
+                        </text>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="14.6666667" cy="12" r="4"></circle>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="78.6666667" cy="12" r="4"></circle>
+                    </g>
+                    <g transform="translate(533.333333, 0.000000)">
+                        <rect id="Rectangle" stroke="#4984FF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="91.3333333" height="91.3333333" rx="5"></rect>
+                        <text id="96" opacity="0.6" font-family="Futura-Bold, Futura" font-size="28" font-weight="bold" fill="#4984FF">
+                            <tspan x="28.2933333" y="57.6666667">96</tspan>
+                        </text>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="14.6666667" cy="12" r="4"></circle>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="78.6666667" cy="12" r="4"></circle>
+                    </g>
+                    <g transform="translate(640.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#4984FF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="91.3333333" height="91.3333333" rx="5"></rect>
+                        <text id="97" opacity="0.6" font-family="Futura-Bold, Futura" font-size="28" font-weight="bold" fill="#4984FF">
+                            <tspan x="28.4053333" y="57.6666667">97</tspan>
+                        </text>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="14.6666667" cy="12" r="4"></circle>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="78.6666667" cy="12" r="4"></circle>
+                    </g>
+                    <g transform="translate(746.666667, 0.000000)">
+                        <rect id="Rectangle" stroke="#4984FF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="91.3333333" height="91.3333333" rx="5"></rect>
+                        <text id="98" opacity="0.6" font-family="Futura-Bold, Futura" font-size="28" font-weight="bold" fill="#4984FF">
+                            <tspan x="28.2933333" y="57.6666667">98</tspan>
+                        </text>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="14.6666667" cy="12" r="4"></circle>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="78.6666667" cy="12" r="4"></circle>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-3" mask="url(#mask-94)">
+                <g transform="translate(-72.000000, 120.000000)" id="Group-2">
+                    <g>
+                        <rect id="Rectangle" stroke="#4984FF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="91.3333333" height="91.3333333" rx="5"></rect>
+                        <text id="80" opacity="0.6" font-family="Futura-Bold, Futura" font-size="28" font-weight="bold" fill="#4984FF">
+                            <tspan x="28.2933333" y="57.6666667">80</tspan>
+                        </text>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="14.6666667" cy="12" r="4"></circle>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="78.6666667" cy="12" r="4"></circle>
+                    </g>
+                    <g transform="translate(106.666667, 0.000000)">
+                        <rect id="Rectangle" stroke="#4984FF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="91.3333333" height="91.3333333" rx="5"></rect>
+                        <text id="82" opacity="0.6" font-family="Futura-Bold, Futura" font-size="28" font-weight="bold" fill="#4984FF">
+                            <tspan x="28.2933333" y="57.6666667">82</tspan>
+                        </text>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="14.6666667" cy="12" r="4"></circle>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="78.6666667" cy="12" r="4"></circle>
+                    </g>
+                    <g transform="translate(213.333333, 0.000000)">
+                        <rect id="Rectangle" stroke="#4984FF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="91.3333333" height="91.3333333" rx="5"></rect>
+                        <text id="83" opacity="0.6" font-family="Futura-Bold, Futura" font-size="28" font-weight="bold" fill="#4984FF">
+                            <tspan x="28.2933333" y="57.6666667">83</tspan>
+                        </text>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="14.6666667" cy="12" r="4"></circle>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="78.6666667" cy="12" r="4"></circle>
+                    </g>
+                    <g transform="translate(320.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#4984FF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="91.3333333" height="91.3333333" rx="5"></rect>
+                        <text id="84" opacity="0.6" font-family="Futura-Bold, Futura" font-size="28" font-weight="bold" fill="#4984FF">
+                            <tspan x="28.0973333" y="57.6666667">84</tspan>
+                        </text>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="14.6666667" cy="12" r="4"></circle>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="78.6666667" cy="12" r="4"></circle>
+                    </g>
+                    <g transform="translate(426.666667, 0.000000)">
+                        <rect id="Rectangle" stroke="#4984FF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="91.3333333" height="91.3333333" rx="5"></rect>
+                        <text id="80" opacity="0.6" font-family="Futura-Bold, Futura" font-size="28" font-weight="bold" fill="#4984FF">
+                            <tspan x="28.2933333" y="57.6666667">80</tspan>
+                        </text>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="14.6666667" cy="12" r="4"></circle>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="78.6666667" cy="12" r="4"></circle>
+                    </g>
+                    <g transform="translate(533.333333, 0.000000)">
+                        <rect id="Rectangle" stroke="#4984FF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="91.3333333" height="91.3333333" rx="5"></rect>
+                        <text id="86" opacity="0.6" font-family="Futura-Bold, Futura" font-size="28" font-weight="bold" fill="#4984FF">
+                            <tspan x="28.2933333" y="57.6666667">86</tspan>
+                        </text>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="14.6666667" cy="12" r="4"></circle>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="78.6666667" cy="12" r="4"></circle>
+                    </g>
+                    <g transform="translate(640.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#4984FF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="91.3333333" height="91.3333333" rx="5"></rect>
+                        <text id="87" opacity="0.6" font-family="Futura-Bold, Futura" font-size="28" font-weight="bold" fill="#4984FF">
+                            <tspan x="28.5873333" y="57.6666667">87</tspan>
+                        </text>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="14.6666667" cy="12" r="4"></circle>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="78.6666667" cy="12" r="4"></circle>
+                    </g>
+                    <g transform="translate(746.666667, 0.000000)">
+                        <rect id="Rectangle" stroke="#4984FF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="91.3333333" height="91.3333333" rx="5"></rect>
+                        <text id="88" opacity="0.6" font-family="Futura-Bold, Futura" font-size="28" font-weight="bold" fill="#4984FF">
+                            <tspan x="28.2933333" y="57.6666667">88</tspan>
+                        </text>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="14.6666667" cy="12" r="4"></circle>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="78.6666667" cy="12" r="4"></circle>
+                    </g>
+                    <g transform="translate(853.333333, 0.000000)">
+                        <rect id="Rectangle" stroke="#4984FF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="91.3333333" height="91.3333333" rx="5"></rect>
+                        <text id="80" opacity="0.6" font-family="Futura-Bold, Futura" font-size="28" font-weight="bold" fill="#4984FF">
+                            <tspan x="28.2933333" y="57.6666667">80</tspan>
+                        </text>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="14.6666667" cy="12" r="4"></circle>
+                        <circle id="Oval" stroke="#4984FF" fill-opacity="0.6" fill="#4984FF" fill-rule="nonzero" cx="78.6666667" cy="12" r="4"></circle>
+                    </g>
+                </g>
+            </g>
+            <rect id="Rectangle" fill="url(#linearGradient-96)" fill-rule="nonzero" mask="url(#mask-94)" x="-1.33333333" y="0" width="801.333333" height="500"></rect>
+            <g id="Group-4" mask="url(#mask-94)">
+                <g transform="translate(233.333333, 382.666667)">
+                    <rect id="Rectangle" stroke="#D3D3D3" stroke-width="1" fill="#FFFFFF" fill-rule="nonzero" x="0.5" y="0.5" width="199" height="45.6666667" rx="2"></rect>
+                    <rect id="Rectangle" stroke="none" fill="#4984FF" fill-rule="nonzero" x="213.333333" y="0" width="121.333333" height="46.6666667" rx="2"></rect>
+                    <text id="Email-address…" stroke="none" fill="none" font-family="Futura-Medium, Futura" font-size="12" font-weight="400">
+                        <tspan x="10.6666667" y="29.1666667" fill="#A3A3A3">Email address…</tspan>
+                    </text>
+                    <text id="Get-Started" stroke="none" fill="none" font-family="Futura-Bold, Futura" font-size="12" font-weight="bold">
+                        <tspan x="236.782" y="28.6666667" fill="#FFFFFF">Get Started</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group" mask="url(#mask-94)">
+                <g transform="translate(300.000000, 62.666667)">
+                    <g id="Rectangle" fill="none" fill-rule="nonzero" fill-opacity="1">
+                        <use fill="black" filter="url(#filter-98)" xlink:href="#path-97"></use>
+                    </g>
+                    <rect id="Rectangle" fill="#4984FF" fill-rule="nonzero" x="0" y="0" width="200" height="200" rx="10"></rect>
+                    <text id="Daily-UI" fill="none" font-family="Futura-Bold, Futura" font-size="28" font-weight="bold">
+                        <tspan x="40.4106667" y="119" fill="#FFFFFF">Daily UI</tspan>
+                    </text>
+                    <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="29.3333333" cy="24" r="8"></circle>
+                    <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="170.666667" cy="24" r="8"></circle>
+                </g>
+            </g>
+            <text id="Become-a-better-desi" mask="url(#mask-94)" font-family="Futura-Medium, Futura" font-size="24" font-weight="400" fill="#4984FF">
+                <tspan x="247.977214" y="319.333333">Become a better designer in </tspan>
+                <tspan x="345.875651" y="350.333333">100 days.</tspan>
+            </text>
+            <text id="No-spam.-No-Gimmicks" mask="url(#mask-94)" font-family="Futura-Medium, Futura" font-size="8" font-weight="400" fill="#434343">
+                <tspan x="233.333333" y="447">No spam. No Gimmicks. Only Awesomeness :)</tspan>
+            </text>
+            <text id="@Daily_UI" mask="url(#mask-94)" font-family="Futura-Medium, Futura" font-size="10" font-weight="400" fill="#434343">
+                <tspan x="738.666667" y="483.833333">@Daily_UI</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

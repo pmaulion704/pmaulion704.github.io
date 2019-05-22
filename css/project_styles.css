@@ -1,0 +1,381 @@
+/*Lato: 300,400,700,900*/
+* {
+	font-family: 'Lato', sans-serif;
+	color: #333333;
+}
+
+html, body {
+	background-color: #FFFFFF;
+}
+
+/*TOP NAVIGATION*/
+.logo {
+	opacity: 1.0;
+	transition: .5s ease;
+}
+
+.logo:hover {
+	opacity: 0.5;
+}
+
+.topNavigation {
+	height: 70px;
+	padding: 15px;
+	background-color: rgba(255,255,255,0.95);
+	box-shadow: 0px 5px 20px rgba(0,0,0, .05);
+}
+
+.topNavSmallCopy {
+	font-size: 12px;
+}
+
+.topNavProjectCopy {
+	font-size: 18px;
+}
+
+.topNavHover {
+	color: #333333;
+	opacity: 1.0;
+	transition: .5s ease;
+}
+
+.topNavHover:hover {
+	color: #333333;
+	opacity: 0.5;
+}
+
+.topNavCenter {
+	display: inline;
+	position: absolute;
+	margin-left: -24px;
+	top: 10px;
+	left: 50%;
+}
+
+.leftArrowMargin {
+	margin-right: 8px;
+}
+
+.rightArrowMargin {
+	margin-left: 8px;
+}
+
+/*MAIN CONTENT*/
+h3 {
+	margin: 16px 0px;
+}
+
+.banner {
+	position: absolute;
+	top: 58px;
+	left: 0px;
+}
+
+.main {
+	position: absolute;
+	top: 70%;
+	left: 0px;
+	background-color: rgba(255, 255, 255, 0.95);
+}
+
+.row {
+	padding: 80px 0px;
+	margin: 0 auto;
+}
+
+.alternateRow {
+	background-color: #F4F5F7;
+}
+
+.projectTitle {
+	font-weight: 700;
+	font-size: 48px;
+}
+
+.supportTitle {
+	font-weight: 700;
+	font-size: 24px;
+	color: #bdc3c7;
+}
+
+.statsRow {
+	padding: 0px;
+}
+
+.eyebrow {
+	margin-top: 20px;
+	font-weight: 700;
+	color: #bdc3c7;
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+
+.btn-Github {
+	opacity: 1;
+	transition: .25s ease;
+	background-color: #6e5494;
+	color: #FFFFFF;
+}
+
+.btn-Github:hover {
+	opacity: .8;
+}
+
+.btn-Dribbble {
+	opacity: 1;
+	transition: .25s ease;
+	background-color: #EA4C89;
+	color: #FFFFFF;
+}
+
+.btn-Dribbble:hover {
+	color: #FFFFFF;
+	opacity: .8;
+}
+
+.btn-Unalink {
+	opacity: 1;
+	transition: .25s ease;
+	background-color: #DDDEDF;
+	color: #333333;	
+}
+
+.btn-Unalink:hover {
+	color: #333333;
+	opacity: .8;
+}
+
+.githubRepo {
+	color: #FFFFFF;
+}
+
+a.githubRepo:hover {
+	color: #FFFFFF;
+}
+
+ul.boostmyschoolList {
+	list-style-type: none;
+}
+
+/*CONTENT*/
+.paragraphHeader {
+	font-size: 24px;
+	font-weight: 700;
+	padding-left: 12px;
+	border-left: 4px solid #bdc3c7;
+}
+
+.verticalSpacer {
+	margin: 80px auto;
+}
+
+/*Case Study Headers*/
+.objectiveHeader {
+	border-left-color: #d91e18;
+}
+
+.userInterviewHeader {
+	border-left-color: #ffcb05;
+}
+
+.researchAndIterationHeader {
+	border-left-color: #65c6bb;
+}
+
+.conclusionHeader {
+	border-left-color: #1f87e5;	
+}
+
+.dribbbleHeader {
+	border-left-color: #EA4C89;
+}
+
+.userNote {
+	background-color: #ffff7e;
+	padding: 32px;
+	margin: 30px 0px;
+	font-style: italic;
+}
+
+.userFeedback {
+	background-color: #7befb2;
+	padding: 32px;
+	margin: 30px 0px;
+	font-style: italic;	
+}
+
+.userStartQuote {
+	position: absolute;
+	font-size: 60px;
+	font-weight: 900;
+	color: #f7ca18;
+	top: -30px;
+	left: 10px;	
+}
+
+.userEndQuote {
+	position: absolute;
+	font-size: 60px;
+	font-weight: 900;
+	color: #f7ca18;
+	right: 30px;	
+	transform: translateY(22px);
+}
+
+.userFeedbackColor {
+	color: #1e824c;	
+}
+
+.iterationBottomMargin { 
+	margin-bottom: 20px;
+}
+
+.objectiveText {
+	font-size: 24px;
+	font-style: italic;
+}
+
+p {
+	margin: 16px 0px;
+	line-height: 40px;
+}
+
+table {
+	margin: 16px 0px;
+}
+
+.caption {
+	margin: 0px 0px 24px 0px;
+	color: #6c7a89;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.captionTabs {
+	margin: 0px;
+}
+
+/*SCROLL TO TOP*/
+.scrollTop {
+	z-index: 999;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	opacity: 1.0;
+	cursor: pointer;
+	transition: .5s ease;
+
+}
+
+.scrollTop:hover {
+	opacity: .5;
+}
+
+
+/*FOOTER*/
+.socialMedia {
+	padding: 8px 16px;
+}
+
+.socialMediaLogo {
+	opacity: 1.0;
+	width: 28px;
+	height: 28px;
+	transition: .25s ease;
+}
+
+.socialMediaLogo:hover {
+	opacity: 0.5;
+}
+
+.socialMediaMargin {
+	margin-left: 4px;
+}
+
+.socialMediaArea {
+	padding-top: 40px;
+}
+
+.creditsRow {
+	padding: 40px 0px;
+	border-top: 1px solid #EEE;
+}
+
+.credits {
+	color: #2e3131;
+	opacity: 1;
+	transition: .5s ease;
+}
+
+.credits:hover {
+	color: #2e3131;
+	opacity: 0.5;
+}
+
+/*MISCELLANEOUS*/
+.brbspaceship {
+	width: 55%;
+}
+
+/*RESPONSIVE CASES*/
+/*Responsive Classes*/
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	...
+ }
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+	.topNavProjectCopy {
+		font-size: 16px;
+	}
+
+	.banner {
+		top: 78px;
+	}
+
+	.main {
+		top: 25%;
+	}
+
+	.projectTitle {
+		font-size: 36px;
+	}
+
+	.supportTitle {
+		font-size: 20px;
+	}
+
+	.titleRow {
+		padding: 40px 0px;
+	}
+
+	.row {
+		padding: 40px 0px;
+	}
+
+	.statsRow {
+		padding: 0px;
+	}
+
+	.stats-column-spacer {
+		margin-top: 40px;
+	}
+
+	.smallMargin {
+		margin-bottom: 40px;
+	}
+ }
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+	.main {
+		top: 35%;
+	}
+}
+
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { 
+	... 
+}
+
+/*// Extra large devices (large desktops)*/
+/*// No media query since the extra-large breakpoint has no upper bound on its width

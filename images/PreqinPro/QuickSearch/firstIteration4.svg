@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1556px" height="1019px" viewBox="0 0 1556 1019" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54 (76480) - https://sketchapp.com -->
+    <title>1.1 (Higher Fidelity</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 697 0 697 410 0 410"></polygon>
+    </defs>
+    <g id="1.1-(Higher-Fidelity" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="1556" height="1019"></rect>
+        <rect id="Rectangle" fill="#F3F3F3" x="0" y="140" width="1556" height="879"></rect>
+        <rect id="Rectangle" fill="#333333" x="0" y="0" width="348" height="50"></rect>
+        <text id="Quick-Search-(Hi--Fi" font-family="Lato-Bold, Lato" font-size="20" font-weight="bold" fill="#FFFFFF">
+            <tspan x="82.865" y="33">Quick Search (Hi- Fi)</tspan>
+        </text>
+        <g id="HDTV-/-Navigation" transform="translate(0.000000, 80.000000)">
+            <polygon id="Nav_Bar_BG" fill="#2B2E34" points="0 0 1556 0 1556 60 0 60"></polygon>
+            <g id="01_Logo" transform="translate(65.000000, 18.000000)">
+                <path d="M11.7420343,18.5144229 C8.15766857,18.4875429 5.25970286,15.5648914 5.25970286,11.9605029 C5.25970286,8.33924571 8.18413714,5.40411429 11.7912686,5.40411429 C15.3914057,5.40411429 18.18528,8.17275429 18.3257143,11.8746514 L18.3329829,18.5168914 L23.32512,18.5349943 L23.32512,11.7888 C23.32512,5.34788571 18.1035429,0.126308571 11.6624914,0.126308571 C5.22157714,0.126308571 0,5.34788571 0,11.7888 C0,18.2298514 5.22157714,23.4514286 11.6624914,23.4514286 C11.6807314,23.4514286 18.3329829,23.4514286 18.3329829,23.4514286 L18.3329829,18.5168914 L11.7420343,18.5144229 Z" id="Stroke-1" stroke="#069EDB" stroke-width="1.5"></path>
+                <path d="M60.5253943,6.01892571 C63.17664,6.01892571 65.3751771,7.94756571 65.7984,10.4782629 L55.2522514,10.4782629 C55.6760229,7.94756571 57.87456,6.01892571 60.5253943,6.01892571 Z M65.0981486,14.1307886 C64.1622857,15.6778971 62.46624,16.7134629 60.5253943,16.7134629 C57.8922514,16.7134629 55.7055086,14.8106057 55.26144,12.3041829 L65.78976,12.3041829 C65.78976,12.3041829 65.7892114,12.3047314 65.7892114,12.30528 L67.6369371,12.30528 C67.6765714,11.9978057 67.6996114,11.6844343 67.6996114,11.3657143 C67.6996114,7.40406857 64.4874514,4.19245714 60.5253943,4.19245714 C56.5637486,4.19245714 53.3515886,7.40406857 53.3515886,11.3657143 C53.3515886,15.3285943 56.5637486,18.5402057 60.5253943,18.5402057 C63.5077029,18.5402057 66.0640457,16.7208686 67.1473371,14.1307886 L65.0981486,14.1307886 L65.0981486,14.1307886 Z" id="Fill-3" fill="#FFFFFF"></path>
+                <path d="M76.4784,16.7134629 C73.5250286,16.7134629 71.1309257,14.3199086 71.1309257,11.3657143 C71.1309257,8.41275429 73.5250286,6.01892571 76.4784,6.01892571 C79.4317714,6.01892571 81.8258743,8.41275429 81.8258743,11.3657143 C81.8258743,14.3199086 79.4317714,16.7134629 76.4784,16.7134629 Z M83.6520686,11.33856 C83.6376686,7.38953143 80.4319543,4.19245714 76.4784,4.19245714 C72.5162057,4.19245714 69.3040457,7.40406857 69.3040457,11.3657143 C69.3040457,15.3285943 72.5162057,18.5402057 76.4784,18.5402057 C78.6052114,18.5402057 80.5143771,17.6144914 81.8280686,16.1450057 L81.8280686,23.9455543 L83.6542629,23.9455543 L83.6542629,11.33856 L83.6520686,11.33856 L83.6520686,11.33856 Z" id="Fill-4" fill="#FFFFFF"></path>
+                <path d="M104.15712,11.3373257 C104.141623,7.38884571 100.936457,4.19245714 96.9838629,4.19245714 C93.0212571,4.19245714 89.8090971,7.40406857 89.8090971,11.3657143 C89.8090971,11.3809371 89.8101943,11.39616 89.8101943,11.4112457 L89.8101943,18.5568 L91.6363886,18.5568 L91.6363886,11.3618743 C91.6385829,8.41014857 94.0315886,6.01892571 96.9838629,6.01892571 C99.9372343,6.01892571 102.331474,8.41275429 102.331474,11.3657143 C102.331474,11.3707886 102.330926,11.3753143 102.330926,11.3801143 L102.330926,16.1492571 C102.330926,16.1487086 102.330926,16.1487086 102.331474,16.1487086 L102.331474,18.5482971 L104.157669,18.5482971 L104.157669,11.3373257 L104.15712,11.3373257" id="Fill-5" fill="#FFFFFF"></path>
+                <path d="M37.2052114,16.7134629 C34.2522514,16.7134629 31.8584229,14.3199086 31.8584229,11.3657143 C31.8584229,8.41275429 34.2522514,6.01892571 37.2052114,6.01892571 C40.1588571,6.01892571 42.5532343,8.41275429 42.5532343,11.3657143 C42.5532343,14.3199086 40.1588571,16.7134629 37.2052114,16.7134629 Z M37.2052114,4.19245714 C33.2432914,4.19245714 30.0311314,7.40406857 30.0311314,11.3657143 C30.0311314,11.4685714 30.03456,11.57088 30.0389486,11.67264 L30.0389486,23.9455543 L31.86432,23.9455543 L31.86432,16.1546057 C33.1777371,17.6187429 35.0836114,18.5402057 37.2052114,18.5402057 C41.1675429,18.5402057 44.3797029,15.3285943 44.3797029,11.3657143 C44.3797029,7.40406857 41.1675429,4.19245714 37.2052114,4.19245714 L37.2052114,4.19245714 Z" id="Fill-6" fill="#FFFFFF"></path>
+                <path d="M53.3386971,4.19245714 C49.37664,4.19245714 46.16448,7.40406857 46.16448,11.3657143 C46.16448,11.3666743 46.1646171,11.3677714 46.1646171,11.3685943 L46.16448,11.3685943 L46.16448,18.5568 L47.9904,18.5568 L47.9904,11.3618743 L47.9914971,11.3618743 C47.9939657,8.41014857 50.3872457,6.01892571 53.3386971,6.01892571 C53.3473371,6.01892571 53.3552914,6.01947429 53.3639314,6.01947429 L53.3639314,4.19300571 C53.3552914,4.19300571 53.3473371,4.19245714 53.3386971,4.19245714" id="Fill-7" fill="#FFFFFF"></path>
+                <polygon id="Fill-8" fill="#FFFFFF" points="85.8384 18.5568 87.6645943 18.5568 87.6645943 4.22112 85.8384 4.22112"></polygon>
+                <polygon id="Fill-9" fill="#FFFFFF" points="85.8400457 2.22212571 87.66624 2.22212571 87.66624 0.395794286 85.8400457 0.395794286"></polygon>
+            </g>
+        </g>
+        <g id="Investor_Results" transform="translate(398.000000, 278.000000)">
+            <rect id="BG" fill="#FFFFFF" x="0" y="0" width="760" height="435" rx="2"></rect>
+            <g id="Cards_Results-2" transform="translate(31.000000, 76.000000)">
+                <g id="Cards_Results">
+                    <g id="Card-/-HDTV-/-Result_02" transform="translate(0.500000, 0.455078)">
+                        <g id="Group-2" transform="translate(0.000000, 0.500000)">
+                            <text id="Sub-text" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" line-spacing="20" fill="#A7A9AA">
+                                <tspan x="0" y="54.5">Sacramento, CA, US, Public Pension Fund </tspan>
+                            </text>
+                            <text id="Text" font-family="OpenSans, Open Sans" font-size="16" font-weight="normal" line-spacing="24">
+                                <tspan x="0" y="30.5" fill="#069EDB">Cal</tspan>
+                                <tspan x="23.0390625" y="30.5" fill="#333333">ifornia</tspan>
+                                <tspan x="71.46875" y="30.5" fill="#FFFFFF"> </tspan>
+                                <tspan x="75.625" y="30.5" fill="#333333">Public Employees' Retirement System (</tspan>
+                                <tspan x="363.820312" y="30.5" fill="#069EDB">Cal</tspan>
+                                <tspan x="386.859375" y="30.5" fill="#000000">PERS)</tspan>
+                            </text>
+                            <path d="M0,1 L696,1" id="Line" stroke="#3D4144" stroke-linecap="square"></path>
+                        </g>
+                    </g>
+                </g>
+                <g id="Cards_Results" transform="translate(0.000000, 82.000000)">
+                    <g id="Card-/-HDTV-/-Result_02" transform="translate(0.500000, 0.455078)">
+                        <g id="Group-2" transform="translate(0.000000, 0.500000)">
+                            <text id="Sub-text" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" line-spacing="20" fill="#A7A9AA">
+                                <tspan x="0" y="54.5">Pasadena, CA, US - Endowment Plan</tspan>
+                            </text>
+                            <text id="Text" font-family="OpenSans, Open Sans" font-size="16" font-weight="normal" line-spacing="24">
+                                <tspan x="0" y="30.5" fill="#069EDB">Cal</tspan>
+                                <tspan x="23.0390625" y="30.5" fill="#333333">ifornia</tspan>
+                                <tspan x="71.46875" y="30.5" fill="#FFFFFF"> </tspan>
+                                <tspan x="75.625" y="30.5" fill="#333333">Institute of Techology Endowment</tspan>
+                            </text>
+                            <path d="M0,1 L696,1" id="Line" stroke="#3D4144" stroke-linecap="square"></path>
+                        </g>
+                    </g>
+                </g>
+                <g id="Cards_Results" transform="translate(0.000000, 164.000000)">
+                    <g id="Card-/-HDTV-/-Result_02" transform="translate(0.500000, 0.455078)">
+                        <g id="Group-2" transform="translate(0.000000, 0.500000)">
+                            <text id="Sub-text" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" line-spacing="20" fill="#A7A9AA">
+                                <tspan x="0" y="54.5">Los Angeles, CA, US - Foundation</tspan>
+                            </text>
+                            <text id="Text" font-family="OpenSans, Open Sans" font-size="16" font-weight="normal" line-spacing="24">
+                                <tspan x="0" y="30.5" fill="#069EDB">Cal</tspan>
+                                <tspan x="23.0390625" y="30.5" fill="#333333">ifornia Endowment</tspan>
+                            </text>
+                            <path d="M0,1 L696,1" id="Line" stroke="#3D4144" stroke-linecap="square"></path>
+                        </g>
+                    </g>
+                </g>
+                <g id="Cards_Results" transform="translate(0.000000, 246.000000)">
+                    <g id="Card-/-HDTV-/-Result_02" transform="translate(0.500000, 0.455078)">
+                        <g id="Group-2" transform="translate(0.000000, 0.500000)">
+                            <text id="Sub-text" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" line-spacing="20" fill="#A7A9AA">
+                                <tspan x="0" y="54.5">Sacramento, CA, US, Public Pension Fund </tspan>
+                            </text>
+                            <text id="Text" font-family="OpenSans, Open Sans" font-size="16" font-weight="normal" line-spacing="24">
+                                <tspan x="0" y="30.5" fill="#069EDB">Cal</tspan>
+                                <tspan x="23.0390625" y="30.5" fill="#333333">ifornia State Teachers’ Retirement System</tspan>
+                            </text>
+                            <path d="M0,1 L696,1" id="Line" stroke="#3D4144" stroke-linecap="square"></path>
+                        </g>
+                    </g>
+                </g>
+                <g id="Cards_Results" transform="translate(0.000000, 328.000000)" stroke="#3D4144" stroke-linecap="square">
+                    <g id="Card-/-HDTV-/-Result_02" transform="translate(0.500000, 0.455078)">
+                        <g id="Group-2" transform="translate(0.000000, 0.500000)">
+                            <path d="M0,1 L696,1" id="Line"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <text id="Link" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" line-spacing="30">
+                <tspan x="684" y="35" fill="#333333">View</tspan>
+                <tspan x="710.244141" y="35" fill="#05AEEF"> </tspan>
+                <tspan x="713.361328" y="35" fill="#333333">All</tspan>
+            </text>
+            <text id="Title" font-family="OpenSans, Open Sans" font-size="20" font-weight="normal" line-spacing="32" fill="#333333">
+                <tspan x="31.5" y="40.40625">99+ Investors</tspan>
+            </text>
+        </g>
+        <g id="Investor_Results" transform="translate(398.000000, 741.000000)">
+            <rect id="BG" fill="#FFFFFF" x="0" y="0" width="760" height="510" rx="2"></rect>
+            <g id="Cards_Results-2" transform="translate(31.000000, 76.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Duplicate-control"></g>
+                <g id="Cards_Results" mask="url(#mask-2)">
+                    <g id="Card-/-HDTV-/-Result_02" transform="translate(0.500000, 0.455078)">
+                        <g id="Group-2" transform="translate(0.000000, 0.500000)">
+                            <text id="Sub-text" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" line-spacing="20" fill="#A7A9AA">
+                                <tspan x="0" y="54.5">Los Angeles, CA, US</tspan>
+                            </text>
+                            <text id="Text" font-family="OpenSans, Open Sans" font-size="16" font-weight="normal" line-spacing="24">
+                                <tspan x="0" y="30.5" fill="#069EDB">Cal</tspan>
+                                <tspan x="23.0390625" y="30.5" fill="#333333">tius Capital Management</tspan>
+                            </text>
+                            <path d="M0,1 L696,1" id="Line" stroke="#3D4144" stroke-linecap="square"></path>
+                        </g>
+                    </g>
+                </g>
+                <g id="Cards_Results" mask="url(#mask-2)">
+                    <g transform="translate(0.000000, 82.000000)" id="Card-/-HDTV-/-Result_02">
+                        <g transform="translate(0.500000, 0.455078)">
+                            <g id="Group-2" transform="translate(0.000000, 0.500000)">
+                                <text id="Sub-text" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" line-spacing="20" fill="#A7A9AA">
+                                    <tspan x="0" y="54.5">San Francisco, CA, US</tspan>
+                                </text>
+                                <text id="Text" font-family="OpenSans, Open Sans" font-size="16" font-weight="normal" line-spacing="24">
+                                    <tspan x="0" y="30.5" fill="#069EDB">Cal</tspan>
+                                    <tspan x="23.0390625" y="30.5" fill="#333333">era Capital</tspan>
+                                </text>
+                                <path d="M0,1 L696,1" id="Line" stroke="#3D4144" stroke-linecap="square"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Cards_Results" mask="url(#mask-2)">
+                    <g transform="translate(0.000000, 164.000000)" id="Card-/-HDTV-/-Result_02">
+                        <g transform="translate(0.500000, 0.455078)">
+                            <g id="Group-2" transform="translate(0.000000, 0.500000)">
+                                <text id="Text" font-family="OpenSans, Open Sans" font-size="16" font-weight="normal" line-spacing="24">
+                                    <tspan x="0" y="30.5" fill="#069EDB">Cal</tspan>
+                                    <tspan x="23.0390625" y="30.5" fill="#333333">vert Impact Capital</tspan>
+                                </text>
+                                <path d="M0,1 L696,1" id="Line" stroke="#3D4144" stroke-linecap="square"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <text id="Link" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" line-spacing="30">
+                <tspan x="684" y="35" fill="#333333">View</tspan>
+                <tspan x="710.244141" y="35" fill="#05AEEF"> </tspan>
+                <tspan x="713.361328" y="35" fill="#333333">All</tspan>
+            </text>
+            <text id="Title" font-family="OpenSans, Open Sans" font-size="20" font-weight="normal" line-spacing="32" fill="#333333">
+                <tspan x="31.5" y="40.40625">99+ Fund Managers</tspan>
+            </text>
+        </g>
+        <g id="HD-/-Input-Field-/-Active_Search" transform="translate(395.500000, 184.363281)">
+            <text id="Link" font-family="OpenSans-Light, Open Sans" font-size="12" font-weight="300" line-spacing="24" fill="#333333">
+                <tspan x="733" y="42.6484375">Clear</tspan>
+            </text>
+            <path d="M4.5,60.6367188 L764.5,60.6367188" id="Keyline" stroke="#000000" stroke-linecap="round"></path>
+            <g id="Input">
+                <path d="M64.6914062,0.84375 L64.6914062,64.84375" id="Cursor" stroke="#333333" stroke-linecap="square"></path>
+                <text id="Text" font-family="OpenSans-Light, Open Sans" font-size="40" font-weight="300" fill="#333333">
+                    <tspan x="0.93359375" y="47.0299458">Cal</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

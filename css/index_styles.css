@@ -1,0 +1,300 @@
+/*Lato: 300,400,700,900*/
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	background-color: #FFFFFF;
+}
+
+	
+/*COL-2 CSS*/
+.leftNavigation {
+	background-color: #FFF;
+	z-index: 999;
+	width: 300px;
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	box-shadow: 4px 0px 14px rgba(0,0,0, .13);
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.topHeader {
+	padding: 16px;
+}
+
+.logoImage {
+	margin-bottom: 16px;
+}
+
+.logoName {
+	letter-spacing:1px;
+	font-weight: 700;
+	font-size: 18px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.roleInfo {
+	margin-bottom: 8px;
+}
+
+.headerLeftNavigation {
+	padding: 8px 16px 0px 16px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+.dashWork {
+	margin: 0px 0px 0px 16px;
+	width: 20px;
+	border: 2px solid rgba(25, 181, 254, 1);
+}
+
+.dashSideProject {
+	margin: 0px 0px 0px 16px;	
+	width: 20px;
+	border: 2px solid rgba(123, 239, 178, 1);
+}
+
+.projectLeftNavigation {
+	font-weight: 400;
+	font-size: 14px;
+	color: #000000;
+}
+
+.workBottom {
+	margin-bottom: 1rem;
+}
+
+.socialMedia {
+	padding: 8px 16px;
+
+}
+
+.socialMediaLogo {
+	opacity: 1.0;
+	width: 28px;
+	height: 28px;
+	transition: .25s ease;
+}
+
+.socialMediaLogo:hover {
+	opacity: 0.5;
+}
+
+.socialMediaMargin {
+	margin-left: 4px;
+}
+
+.socialMediaArea {
+	padding: 40px 16px 0px 16px;
+}
+
+.credits {
+	margin: 12px 0px;
+	color: grey;
+	font-size: 12px;
+	font-weight: 300;
+}
+
+.smallEmoji {
+	width: 14px;
+	margin: 0px 0px 4px 2px;
+}
+
+/*MAIN BODY COL-10 CSS*/
+
+.main {
+	margin-top: 16px;
+}
+
+section {
+	width: 100%;
+	margin-left: 32px;
+	margin-bottom: 40px;
+}
+
+.sectionHeader {
+	font-weight: 900;
+	font-size: 32px;
+	color: #333333;
+}
+
+.sectionSubHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 6px 0px;
+	font-weight: 900;
+	font-size: 18px;
+	color: #CCCCCC;
+}
+
+.jobRole {
+	display: flex;
+	align-items: center;
+}
+
+.bullet {
+	margin: 0px 8px;
+}
+
+.viewStudy {
+	display: flex;
+	align-items: center;
+	color: #17B5FE;
+	opacity: 1;
+	cursor: pointer;
+	transition: .25s ease;
+}
+
+a.viewStudy:hover {
+	color: #17B5FE;
+	opacity: 0.8;
+}
+
+.viewProject {
+	display: flex;
+	align-items: center;
+	color: #7AECB0;
+	opacity: 1;
+	cursor: pointer;
+	transition: .25s ease;
+}
+
+a.viewProject:hover {
+	color: #7AECB0;
+	opacity: 0.8;
+}
+
+.arrow {
+	margin-left: 8px;
+}
+
+.thumbnail {
+	width: 100%;
+	box-shadow: 0px 5px 20px rgba(0,0,0,.09);
+}
+
+.overlay {
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	background-color: #17B5FE;
+	cursor: pointer;
+	box-shadow: 0px 5px 20px rgba(0,0,0,.09);
+	transition: .5s ease;
+}
+
+a:hover .overlay {
+	opacity: 0.2;
+}
+
+
+.projectOverlay {
+	background-color: #7AECB0;
+}
+
+.scrollTop {
+	opacity: 1.0;
+	cursor: pointer;
+	transition: .5s ease;
+}
+
+.scrollTop:hover {
+	opacity: .5;
+}
+
+.resume {
+	margin-left: 6px;
+	opacity: 1.0;
+	color: #95a5a6;
+	cursor: pointer;
+	transition: .5s ease;	
+}
+
+.resume:hover {
+	opacity: .8;
+	color: #95a5a6;
+}
+
+/* <= Small Resolution Components*/
+.topNavigation {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.95);
+	box-shadow: 0px 5px 20px rgba(0,0,0, .05);
+}
+
+.resumeSmall {
+	margin-left: 4px;
+}
+
+.resumeButton { 
+	margin-right: 8px;
+}
+
+/*Responsive Classes*/
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	.col-10 {
+		padding: 0px;
+	}
+
+	section {
+		margin-left: 0px;
+	}
+	
+ }
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+
+	.col-sm-10 {
+		padding: 0px;
+	}
+
+	.logoName {
+		margin-left: 12px;
+		font-size: 18px;
+	}
+
+	.main {
+		margin-top: 92px;
+	}
+	
+	#letsChat {
+	background-color: #000000
+	}	
+
+	section {
+		margin-left: 0px;
+	}
+
+	.sectionHeader {
+		font-size: 22px;
+	}
+
+	.sectionSubHeader {
+		font-size: 12px;
+		font-weight: 700;
+	}
+
+	footer {
+		border-top: 1px solid #CCCCCC;
+	}
+ }
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { ... }
+
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { ... }
+
+/*// Extra large devices (large desktops)*/
+/*// No media query since the extra-large breakpoint has no upper bound on its width*/
+

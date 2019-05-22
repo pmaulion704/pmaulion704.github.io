@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>28px</title>
+    <desc>Created with Sketch.</desc>
+    <g id="28px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-2" fill="#000000" x="0" y="0" width="28" height="28" rx="14"></rect>
+        <g id="Group" transform="translate(6.000000, 8.000000)">
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="1" height="10.6857143"></rect>
+            <polygon id="Rectangle" fill="#FFFFFF" points="10.1028571 0 10.88 0 10.88 10.6857143 10.1028571 10.6857143"></polygon>
+            <polygon id="Rectangle" fill="#FFFFFF" points="13.2114286 0 13.9885714 0 13.9885714 5.93907143 13.9885714 6.50857143 13.2114286 6.50857143 13.2114286 5.93907143"></polygon>
+            <polygon id="Rectangle" fill="#FFFFFF" points="16.2228571 0 17 0 17 10.6857143 16.2228571 10.6857143"></polygon>
+            <circle id="Oval" stroke="#FFFFFF" stroke-width="0.78" cx="5.39142857" cy="3.06" r="3.06"></circle>
+        </g>
+    </g>
+</svg>

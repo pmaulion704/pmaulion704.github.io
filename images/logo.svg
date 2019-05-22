@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-2" fill="#000000" x="0" y="0" width="60" height="60" rx="30"></rect>
+        <g id="Group" transform="translate(13.000000, 19.000000)">
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="1.6" height="22"></rect>
+            <polygon id="Rectangle" fill="#FFFFFF" points="20.8 0 22.4 0 22.4 22 20.8 22"></polygon>
+            <polygon id="Rectangle" fill="#FFFFFF" points="27.2 0 28.8 0 28.8 12.2275 28.8 13.4 27.2 13.4 27.2 12.2275"></polygon>
+            <polygon id="Rectangle" fill="#FFFFFF" points="33.4 0 35 0 35 22 33.4 22"></polygon>
+            <circle id="Oval" stroke="#FFFFFF" stroke-width="1.6" cx="11.1" cy="6.3" r="6.3"></circle>
+        </g>
+    </g>
+</svg>

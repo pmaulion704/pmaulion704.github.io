@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Patrick Maulion - Preqin Pro: Quick Search</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Secular+One&display=swap" rel="stylesheet">
+	<!-- Emoji Library -->
+	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+	<!-- Animate On Scroll Library -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<!-- Project Style Sheets -->
+	<link rel="stylesheet" type="text/css" href="css/project_styles.css">
+</head>
+<body>	
+	<div class="container-fluid">
+		<div class="row">
+			<!-- TOP NAVIGATION -->
+			<div class="fixed-top topNavigation">
+				<div class="d-flex justify-content-between align-items-center">
+					<!-- LEFT ARROW -->
+					<a class="topNavHover text-decoration-none d-flex align-items-start flex-column" href="alwaysberunning.html">
+						<div class="d-flex">
+							<img class="leftArrowMargin" src="images/arrowLeft.svg" alt="leftArrow">
+							<div class="topNavSmallCopy">Previous</div>
+						</div>
+						<!-- PREVIOUS PROJECT NAME -->
+						<div class="topNavProjectCopy">Always. Be. Running.</div>	
+					</a>				
+					<!-- RIGHT ARROWS -->
+					<a class="topNavHover text-decoration-none d-flex align-items-end flex-column" href="proadvancedsearch.html">
+						<div class="d-flex">
+							<div class="topNavSmallCopy">Next</div>
+							<img class="rightArrowMargin" src="images/arrowRight.svg" alt="rightArrow">
+						</div>
+						<!-- NEXT PROJECT NAME -->
+						<div class="topNavProjectCopy">Preqin: Adv. Search</div>
+					</a>
+				</div>
+				<!-- MEDIUM LOGO -->
+				<div class="topNavCenter">
+					<a href="index.html">
+						<img class="logo" src="images/logo-md.svg" alt="medium_logo">
+					</a>
+				</div>
+				<!-- END OF TOP NAV -->
+			</div>
+			<!-- END OF ROW -->
+		</div>
+		<!-- END OF CONTAINER -->
+	</div>
+	
+	<!-- MAIN CONTENT -->
+	<div class="container-fluid">
+		<div data-aos="zoom-in-up" class="w-100 banner">
+			<img class="w-100" src="images/thumbnails/proQuickSearch.svg">	
+		</div>
+		
+		<div class="main">
+			<div class="row titleRow">
+				<div data-aos="fade-up" class="col-12 text-center">
+					<div class="projectTitle">Preqin Pro: QuickSearch</div>
+					<div class="supportTitle">Helping users easily identify profiles on Preqin</div>
+				</div>	
+			</div>
+			<!-- STATS -->
+			<div class="row statsRow">
+				<div data-aos="fade-up" class="offset-2 col-8 row statsRow">
+					<div class="col-sm-6 col-md-3 smallMargin text-center">
+						<div class="eyebrow">ROLE</div>
+						<div>UX Designer</div>
+					</div>
+					<div class="col-sm-6 col-md-3 smallMargin text-center">
+						<div class="eyebrow">TASKS</div>
+						<div>Research, Wireframing, User Flows, Prototyping, UI Design</div>
+					</div>
+					<div class="col-sm-6 col-md-3 smallMargin text-center">
+						<div class="eyebrow">TOOLS</div>
+						<div>Sketch, Axure RP</div>
+					</div>
+					<div class="col-sm-6 col-md-3 smallMargin text-center">
+						<div class="eyebrow">DURATION</div>
+						<div>8 months</div>
+					</div>
+				</div>	
+			</div>
+			<!-- CONTENT -->
+			<div class="row">
+				<div data-aos="fade-up" class="offset-md-3 col-md-6">
+					<div class="paragraphHeader">Introduction</div>
+					<p>
+						Preqin Pro is a browser-based data platform that inform institutional investors, funds managers, service providers, and other industry professionals with insights on the alternative asset industry. Preqin first started collecting data in the Private Equity space in 2003, and has expanded over the years to other alternative asset classes such as Real Estate, Hedge Funds, Infrastructure, Private Debt, Natural Resources, and Secondary Markets.
+					</p>
+					<p>
+						As part of the redesign / rebrand that began in 2017, the company wanted to revamp the browser platform and streamline workflows to keep users engaged. As a UX Designer collaborating with designers, product owners, and engineers based in London, I was responsible from strategy to execution on the user flows around search.
+					</p>
+				</div>
+			</div>
+			<div class="row alternateRow">
+				<div data-aos="fade-up" class="offset-md-3 col-md-6">
+					<div class="paragraphHeader objectiveHeader">Problem</div>
+				</div>
+				<div data-aos="fade-up" class="offset-md-2 col-md-8 text-center">
+					<div class="caption captionTabs text-center">Too Many Tabs!</div>
+					<video class="w-100" autoplay loop muted>
+						<source src="images/PreqinPro/QuickSearch/tabAnimations.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div data-aos="fade-up" class="offset-md-3 col-md-6">
+					<p> 
+						One point of friction that we have indentified via user interviews and user analytics was that customers have mutliple tabs opened at once to view one profile. Over the years, Preqin expanded initially from a singular private equity database to a multiple alternative asset database where a profile (ie. state pension fund) gradually expanded to 5-7 sub-profiles. The pain point was evident once a customer searched for a particular profile and arrived to a results page where they would see multiple rows of the same profile name, but only differing based on asset class type.
+					</p>
+					<p>
+						Therefore, in order for a customer to see a holistic view of a fund manager or investor, they would either have to open multiple tabs at once or jump back and forth between sub-profiles and the results page which ultimately slows their workflow and navigation throughout the platform. This process would be cumbersome when the user tries to download or print a profile since they would have to print from multiple browser tabs.
+					</p>
+					
+				</div>
+				<div data-aos="fade-up" class="offset-md-1 col-md-10 alternateRow verticalSpacer">
+					<div class="caption text-center">Previous UI Quick Search User Flow</div>
+					<img class="w-100 rounded shadow" src="images/PreqinPro/QuickSearch/previousQuickSearch.svg">
+				</div>
+			</div>
+			<div class="row">
+				<div class="offset-md-3 col-md-6">
+					<div class="paragraphHeader userInterviewHeader">Quick Search User Interviews</div>
+				</div>
+				<div class="offset-md-2 col-md-8">
+					<div data-aos="fade-right" class="userNote rounded shadow relative col-10 col-sm-9 col-md-8 float-left">
+						<span class="userStartQuote">"</span>
+						I use Preqin database on a daily basis. When I am researching a manager, without knowing it's speciality, I have to separately search each of the PE, RE, HF and Private Debt databases.
+						<span class="userEndQuote">"</span>
+					</div>
+					<div data-aos="fade-left" class="userNote rounded shadow col-10 col-sm-9 col-md-8 float-right">
+						<span class="userStartQuote">"</span>
+						"It would be most helpful when in an investor profile to have the print capability for all different asset classes, rather than having to go into each tab and printing. Would be a huge time saver."
+						<span class="userEndQuote">"</span>
+					</div>
+					<div data-aos="fade-right" class="userNote rounded shadow col-10 col-sm-9 col-md-8 float-left">
+						<span class="userStartQuote">"</span>
+						...It would be great if, when I search for a fund manager in the Private Equity database, for example, but that manager is actually in the Private Debt space, that the search engine would direct me there.  Otherwise, I have no idea if I am searching an entity that does not exist or is just in another database." 
+						<span class="userEndQuote">"</span>
+					</div>
+					<div data-aos="fade-left" class="userNote rounded shadow col-10 col-sm-9 col-md-8 float-right">
+						<span class="userStartQuote">"</span>
+						...the Quick Search features does not provide the quantity (in a number) of results. the quantity is important to quickly recognize that I need to modify search terms or that a firm offers many products.
+						<span class="userEndQuote">"</span>
+					</div>
+				</div>
+			</div>
+			<div class="row alternateRow">
+				<div data-aos="fade-up" class="offset-md-3 col-md-6">
+					<div class="paragraphHeader researchAndIterationHeader">Competitive Analysis</div>
+					<p>
+						In order to gain more insight and understand how our customers approach search, I performed a competitive analysis of other data providers and other leading financial services websites: 
+					</p>
+				</div>
+				<div data-aos="fade-up" class="offset-md-1 col-md-10 alternateRow">
+					<img class="w-100" src="images/PreqinPro/QuickSearch/competitiveAnalysis.svg" alt="QS Competitive Analysis">
+				</div>
+				<div class="offset-md-3 col-md-6">
+					<p>
+						A commonality across all four websites was that search results were grouped according to certain categories (ie. Stocks, Bonds, People, Events, etc.). During our ideation phase, we went forward with this categorical pattern would clarify our quick search and reduce any redundancy in our search results.
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div data-aos="fade-up" class="offset-md-3 col-md-6">
+					<div class="paragraphHeader researchAndIterationHeader">First Iteration</div>
+				</div>
+				<div data-aos="fade-up" class="offset-md-2 col-md-8 text-center verticalSpacer">
+					<div class="caption captionTabs text-center">Quick Search Userflow</div>
+					<img class="w-100" src="images/PreqinPro/QuickSearch/quickSearchWorkflow.svg">
+				</div>
+				<div data-aos="fade-up" class="offset-md-3 col-md-6">
+					<p>
+						Based off of user interviews and competitor analysis, our first iteration focused on removing the duplicate search values for each sub-profile and incorporating a category grouping system (ie. by Investors, Fund Managers, Funds, etc.). The previous sub-profile pages that existed in the previous user flow have been consolidated into one page in which you can access each asset class via a tab navigation system. This new userflow would allow customers to quickly scan through matching results via category and quickly jump into profiles without the need to transition back and forth between profile pages and search results. 
+					</p>
+					<p>
+						The main feedback that we received from this iteration's user testing was that since the category groupings were displayed vertically, customers' search values of interest often were hidden beneath the fold, unless they typed out their search query to completion. Another observation that we discovered was that the 'View All' button was rarely clicked on at all which would expand the container group showing more than the first 4 intitial results. 
+					</p>
+				</div>
+				<div class="offset-md-1 col-md-10 row">
+					<div data-aos="fade-up" class="col-md-6 iterationBottomMargin">
+						<img class="w-100 rounded shadow" src="images/PreqinPro/QuickSearch/firstIteration1.svg" alt="QS 1.0">	
+					</div>
+					<div data-aos="fade-up" class="col-md-6 iterationBottomMargin">
+						<img class="w-100 rounded shadow" src="images/PreqinPro/QuickSearch/firstIteration2.svg" alt="QS 1.1">	
+					</div>
+					<div data-aos="fade-up" class="col-md-6 iterationBottomMargin">
+						<img class="w-100 rounded shadow" src="images/PreqinPro/QuickSearch/firstIteration3.svg" alt="QS 1.1 Expanded">	
+					</div>
+					<div data-aos="fade-up" class="col-md-6 iterationBottomMargin">
+						<img class="w-100 rounded shadow" src="images/PreqinPro/QuickSearch/firstIteration4.svg" alt="QS Hi-Fidelity">	
+					</div>
+				</div>
+			</div>
+			<div class="row alternateRow">
+				<div data-aos="fade-up" class="offset-md-3 col-md-6">
+					<div class="paragraphHeader researchAndIterationHeader">Second Iteration</div>
+					<p>
+						In response to our first iteration and first round of user testing, we decided to implement a horizontal category approach and have the default search results tab to be an 'All' tab in our second iteration. The 'All' tab shows all matching results across all categories and this would address the constraint of only viewing 4 results per category. 
+					</p>
+					<p>
+						In addition, we also wanted Quick Search to always be accessible anytime the customer is looking throughout the platform so we embedded the Quick Search field within the top nav instead of being within the body of the page.
+					</p>
+				</div>
+				<div class="offset-md-1 col-md-10 row">
+					<div data-aos="fade-up" class="col-md-6 iterationBottomMargin">
+						<img class="w-100 rounded shadow" src="images/PreqinPro/QuickSearch/secondIteration1.svg" alt="QS 2.0">	
+					</div>
+					<div data-aos="fade-up" class="col-md-6 iterationBottomMargin">
+						<img class="w-100 rounded shadow" src="images/PreqinPro/QuickSearch/secondIteration2.svg" alt="QS 2.0 Hi-FI">	
+					</div>
+				</div> 
+			</div>
+			<div class="row">
+				<div data-aos="fade-up" class="offset-md-3 col-md-6">
+					<div class="paragraphHeader conclusionHeader">Results</div>
+				</div>
+				<div data-aos="fade-up" class="offset-md-2 col-md-8 verticalSpacer">
+					<div class="caption captionTabs text-center">Pro Landing Page Heatmap</div>
+					<img class="w-100 shadow rounded" src="images/PreqinPro/QuickSearch/quickSearchHeatmap.png" alt="Quick Search Heatmap">
+				</div>
+				<div data-aos="fade-up" class="offset-md-3 col-md-6">
+					<p>
+						According to our user data analytics since our launch of Preqin Pro, we have seen solid traction of Quick Search - being the #1 clicked element after user login, accounting for 35.5% of all traffic. Quick Search continues to be the main driver throughout the platform, and we have received positive feedback on the redesigned user journey:
+					</p>
+				</div>
+				<div class="offset-md-2 col-md-8">
+					<div data-aos="fade-left" class="userFeedback rounded shadow col-10 col-sm-9 col-md-8 float-right">
+						<span class="userStartQuote userFeedbackColor">"</span>
+						The search function is much faster than previously, and I also like how all of the various pieces of information for an investor are grouped together, rather than in separate entries, such as "Manager Profile" and "Investor Profile".
+						<span class="userEndQuote userFeedbackColor">"</span>
+					</div>
+					<div data-aos="fade-right" class="userFeedback rounded shadow col-10 col-sm-9 col-md-8 float-left">
+						<span class="userStartQuote userFeedbackColor">"</span>
+						Like the QS and the efficiency of the new searches - not having to do two steps like in classic, have been able to find lots of investors / funds/ FMs that they wouldn't have otherwise because of it.
+						<span class="userEndQuote userFeedbackColor">"</span>
+					</div>
+					<div data-aos="fade-left" class="userFeedback rounded shadow col-10 col-sm-9 col-md-8 float-right">
+						<span class="userStartQuote userFeedbackColor">"</span>
+						[Preqin Pro] is much easier to navigate versus Classic. The new quick search is very useful and easy to get around the platform.
+						<span class="userEndQuote userFeedbackColor">"</span>
+					</div>
+					<div data-aos="fade-right" class="userFeedback rounded shadow col-10 col-sm-9 col-md-8 float-left">
+						<span class="userStartQuote userFeedbackColor">"</span>
+						It would be good to see a color code or indicator to tell what asset classes a profile covers within the quick search results.
+						<span class="userEndQuote userFeedbackColor">"</span>
+					</div>
+				</div>		
+			</div>
+			<div class="row alternateRow">
+				<div data-aos="fade-up" class="offset-md-3 col-md-6">
+					<div class="paragraphHeader">Next Steps</div>
+					<p>
+						Moving forward, we continue to iterate and enhance our quick search based on user feedback. Possible areas that we could enhance our current quick search would be incorporating an indicator stating informing the customer what asset classes a profile is covering before clicking onto the profile, or even thinking beyond the scope of profiles and expanding the search capability throughout the platform (ie. Search for Benchmarks, Insight Articles, Conferences, etc.)
+					</p>
+				</div>
+			</div>
+			<!-- FOOTER -->
+			<div class="row creditsRow">
+				<div class="col-12 offset-md-1 col-md-10">
+					<div class="w-100 d-flex justify-content-between align-items-center">
+						<a class="text-decoration-none credits" href="mailto:patrick.dionisio.maulion@gmail.com">
+							patrick.dionisio.maulion@gmail.com
+						</a>
+						<div>
+							<a href="mailto:patrick.dionisio.maulion@gmail.com"><img class="socialMediaLogo" src="images/mail.svg"></a>
+							<a target="_blank" href="http://www.linkedin.com/in/patrickmaulion/"><img class="socialMediaLogo socialMediaMargin" src="images/linkedin.svg"></a>
+							<a target="_blank" href="http://pmaulion.dribbble.com/"><img class="socialMediaLogo socialMediaMargin" src="images/dribble.svg"></a>
+							<a target="_blank" href="https://github.com/pmaulion704"><img class="socialMediaLogo socialMediaMargin" src="images/github.svg"></a>	
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- MAIN -->
+		</div>
+	<!-- END OF CONTAINER -->
+	</div>
+	<!-- BACK TO TOP -->
+	<div id="scrollTop" class="d-none d-md-inline invisible scrollTop">
+		<img src="images/scrollTop.svg" alt="Back to Top">
+	</div>
+<!-- SCRIPTS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<!-- AOS -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>AOS.init();</script>
+	<script type="text/javascript" src="js/project.js"></script>
+<!-- END OF BODY TAG -->
+</body>
+<!-- END OF HTML -->
+</html>
