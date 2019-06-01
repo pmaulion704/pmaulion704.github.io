@@ -72,27 +72,27 @@ body {
 	margin-bottom: 1rem;
 }
 
-.socialMedia {
+.contactMedia {
 	padding: 8px 16px;
 
 }
 
-.socialMediaLogo {
+.contactMediaLogo {
 	opacity: 1.0;
 	width: 28px;
 	height: 28px;
 	transition: .25s ease;
 }
 
-.socialMediaLogo:hover {
+.contactMediaLogo:hover {
 	opacity: 0.5;
 }
 
-.socialMediaMargin {
+.contactMediaMargin {
 	margin-left: 4px;
 }
 
-.socialMediaArea {
+.contactMediaArea {
 	padding: 40px 16px 0px 16px;
 }
 

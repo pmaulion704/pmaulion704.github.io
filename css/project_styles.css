@@ -273,26 +273,26 @@ table {
 
 
 /*FOOTER*/
-.socialMedia {
+.contactMedia {
 	padding: 8px 16px;
 }
 
-.socialMediaLogo {
+.contactMediaLogo {
 	opacity: 1.0;
 	width: 28px;
 	height: 28px;
 	transition: .25s ease;
 }
 
-.socialMediaLogo:hover {
+.contactMediaLogo:hover {
 	opacity: 0.5;
 }
 
-.socialMediaMargin {
+.contactMediaMargin {
 	margin-left: 4px;
 }
 
-.socialMediaArea {
+.contactMediaArea {
 	padding-top: 40px;
 }
 
