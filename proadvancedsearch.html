@@ -64,16 +64,167 @@
 					<div class="supportTitle">Redesigning Criteria-Based Searches &amp; Functionality</div>
 				</div>	
 			</div>
-			<!-- BE RIGHT BACK -->
+			<!-- STATS ROW -->
+			<div class="row statsRow">
+				<div data-aos="fade-up" class="offset-2 col-8 row statsRow">
+					<div class="col-sm-6 col-md-3 smallMargin text-center">
+						<div class="eyebrow">ROLE</div>
+						<div>UX Designer</div>
+					</div>
+					<div class="col-sm-6 col-md-3 smallMargin text-center">
+						<div class="eyebrow">TASKS</div>
+						<div>Research, Wireframing, User Flows, Prototyping, UI Design</div>
+					</div>
+					<div class="col-sm-6 col-md-3 smallMargin text-center">
+						<div class="eyebrow">TOOLS</div>
+						<div>Sketch, Axure RP</div>
+					</div>
+					<div class="col-sm-6 col-md-3 smallMargin text-center">
+						<div class="eyebrow">DURATION</div>
+						<div>10 months</div>
+					</div>
+				</div>	
+			</div>
 			<div class="row">
-				<div class="offset-md-2 col-md-8 text-center">
-					<video class="brbspaceship" autoplay loop muted>
-						<source src="images/Misc/beRightBack.mp4" type="video/mp4">
-					</video>	
+				<div data-aos="fade-up" class="offset-md-3 col-md-6">
+					<div class="paragraphHeader">Introduction</div>
+					<p>
+						Preqin Pro is a browser-based data platform that inform institutional investors, funds managers, service providers, and other industry professionals with insights on the alternative asset industry. Preqin first started collecting data in the Private Equity space in 2003, and has expanded over the years to other alternative asset classes such as Real Estate, Hedge Funds, Infrastructure, Private Debt, Natural Resources, and secondary markets.
+					</p>
+					<p>
+						As part of the redesign / rebrand that began in 2017, the company wanted to revamp the browser platform and streamline workflows to keep users engaged. As a UX Designer collaborating with other designers, product owners, and engineers based in London, I was responsible to rethink about the functionality and user flows of criteria-based searches.
+					</p>
 				</div>
 			</div>
-		
+			<div class="row alternateRow">
+				<div data-aos="fade-up" class="offset-md-3 col-md-6">
+					<div class="paragraphHeader objectiveHeader">Problem</div>
+				</div>
+				<div data-aos="fade-up" class="offset-md-2 col-md-8 text-center">
+					<div class="caption captionTabs text-center">Previous Advanced Search</div>
+					<img class="w-100" src="images/PreqinPro/AdvancedSearch/beforeAdvancedSearch.svg" alt="before AS version">
+				</div>
+				<div data-aos="fade-up" class="offset-md-3 col-md-6">
+					<p> 
+						When customers need to find something from a large universe by specifying particular parameters and criteria, they gravitate toward using an advanced search. Advanced Search is a heavily used feature on Preqin where customers would narrow down multiple databases according to stategy, location, assets under management, user type, and several other factors. However, the platform expanded to multiple asset classes where each asset class tab ended up having repetitive filtering mechanisms which led to customers needed to export multiple searches at once and then clean the data offline via excel. For example, if a customer wanted to retrieve a list of <span class="font-italic">"Investors in <span class="font-weight-bolder">Private Equity</span> and <span class="font-weight-bolder">Real Estate</span> that focus on <span class="font-weight-bolder">Buyout and Core-Plus</span> strategies with a geographic focus on <span class="font-weight-bolder">Europe and Asia</span>"</span>, the customer would need to separately navigate to the Private Equity and Real Estate databases, run each advance search, export those respective lists onto excel, and then merge those 2 spreadsheets according to matching profile IDs to forumulate a final list of investors that satisfies all criteria.
+					</p>	
+					<p>
+						Furthermore, if the customer wanted to expand their advance search criteria covering more than 2 asset classes, they would need to export more searches offline and merge multiple excelsheets to obtain their ideal list. This has resulted in more legwork pushed toward the customer-end and has become a critical point of friction.
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div data-aos="fade-up" class="offset-md-3 col-md-6">
+					<div class="paragraphHeader researchAndIterationHeader">Competitive Analysis</div>
+					<p>
+						In order to gain more insight and understand how our customers approach filtering criteria, I performed a competitive analysis of other financial data providers: 
+					</p>
+				</div>
+				<div data-aos="fade-up" class="offset-md-1 col-md-10">
+					<img class="w-100" src="images/PreqinPro/AdvancedSearch/competitiveAnalysis.svg" alt="AS Competitive Analysis">
+				</div>
+				<div class="offset-md-3 col-md-6">
+					<p>
+						A common observation across these four examples was that all advance search functionality was centralized into one area and all available filters are clearly displayed to quickly manipulate the default list. In our previous advance search, we created a separate advanced search for each asset class which has led to repetitious user flows and prevented any type of cross-asset class analysis.
+					</p>
+				</div>
+			</div>
+			<div class="row alternateRow">
+				<div data-aos="fade-up" class="offset-md-3 col-md-6">
+					<div class="paragraphHeader researchAndIterationHeader">First Iteration</div>
+				</div>
+				<div data-aos="fade-up" class="offset-md-2 col-md-8 text-center verticalSpacer">
+					<div class="caption captionTabs text-center">Advanced Search Userflow</div>
+					<img class="w-100" src="images/PreqinPro/AdvancedSearch/advancedSearchWorkflow.svg">
+				</div>
+				<div data-aos="fade-up" class="offset-md-3 col-md-6">
+					<p>
+						By conducting a competitive analysis of other financial service providers in the financial space and reviewing customer feedback, the first iteration focused on centralizing all the advance searches that originally separated into tabs into one area. The first iteration allowed users to select a particular universe (e.g. Investors, Fund Managers, Funds, Investment Consultants, etc.) and then apply filters acoording to that category. Similarly to UI patterns that you may encounter in popuplar e-commerce / retail sites, the filters would dynamically change in value signaling to the user the amount of results.
 
+						Feedback that we received from clients and senior stakeholders was that although the side filters was a common / recognizable pattern, customers would be constantly scrolling up &amp; down the page to find a particular filter. Another comment from customers was that they would actually like to see more data up-front instead of basic qualitative data such as geography and location. For instance, if we were looking at the 'Funds' Advance Search, then my default columns would pertain more about the performance and relative metrics about that fund.
+					</p>
+				</div>
+				<div class="offset-md-1 col-md-10 row">
+					<div data-aos="fade-up" class="col-md-6 iterationBottomMargin">
+						<img class="w-100 rounded shadow" src="images/PreqinPro/AdvancedSearch/firstIteration1.jpg" alt="AS 1.0">
+					</div>
+					<div data-aos="fade-up" class="col-md-6 iterationBottomMargin">
+						<img class="w-100 rounded shadow" src="images/PreqinPro/AdvancedSearch/firstIteration2.jpg" alt="AS 1.1">	
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div data-aos="fade-up" class="offset-md-3 col-md-6">
+					<div class="paragraphHeader researchAndIterationHeader">Second Iteration</div>
+					<p>
+						In response to our initial round of customer feedback, we decided to make a few alterations to the previous wireframes. We decided to shift the filters towards the top of the page, above the results table. Based on customer interviews and reviewing past user advanced search sessions, we identified five filters that were consistently being used (asset class, investor type, strategy, investor location, and assets under management (AUM)). These five filters became known as 'Top Filters', which serve as a quick way for users to quickly screen and narrow down their results. More importantly, the Asset Class filter addresses our previous user pain point where you can now retrieve a list of results across different asset classes. Furthermore, with main filtering mechanism shifted to the top, the left side navigation is an area where the customer can dive into different sub-advance searches and access different categories (ie. Investors, Funds, Fund Managers, Investment Consultants).
+					</p>
+					<p>
+						In addition to the navigational changes in filter and advance searhces, we added more default columns into the table for the customer to explore and analyze. We also noticed that customers in the past have compiled these lists specifically for roadshows where they plan potential meetings on investment trips, so we decided to incorporate a toggle on the top right of the table where the customer can shift between a list and map view. The map view allows the customer to geographically identify office locations of a location or fund manager and provide preliminary contact information (ie. phone and email).
+					</p>
+				</div>
+				<div class="offset-md-1 col-md-10 row">
+					<div data-aos="fade-up" class="col-md-6 iterationBottomMargin">
+						<img class="w-100 rounded shadow" src="images/PreqinPro/AdvancedSearch/secondIteration1.svg" alt="AS 2.0">
+					</div>
+					<div data-aos="fade-up" class="col-md-6 iterationBottomMargin">
+						<img class="w-100 rounded shadow" src="images/PreqinPro/AdvancedSearch/secondIteration2.svg" alt="AS 2.1">	
+					</div>
+					<div data-aos="fade-up" class="col-md-6 iterationBottomMargin">
+						<img class="w-100 rounded shadow" src="images/PreqinPro/AdvancedSearch/secondIteration3.svg" alt="AS 2.2">
+					</div>
+					<div data-aos="fade-up" class="col-md-6 iterationBottomMargin">
+						<img class="w-100 rounded shadow" src="images/PreqinPro/AdvancedSearch/secondIteration4.svg" alt="AS 2.3">	
+					</div>
+					<div data-aos="fade-up" class="col-md-6 iterationBottomMargin">
+						<img class="w-100 rounded shadow" src="images/PreqinPro/AdvancedSearch/secondIteration5.svg" alt="AS 2.4">
+					</div>
+					<div data-aos="fade-up" class="col-md-6 iterationBottomMargin">
+						<img class="w-100 rounded shadow" src="images/PreqinPro/AdvancedSearch/secondIteration6.svg" alt="AS 2.5">	
+					</div>
+				</div>
+			</div>
+			<div class="row alternateRow">
+				<div data-aos="fade-up" class="offset-md-3 col-md-6">
+					<div class="paragraphHeader conclusionHeader">Results</div>
+					<p>
+						Since our official launch of Preqin Pro, the new centralized advanced search has gain some traction. The advanced search was the #__ clicked element after post-user login, accounting for __% of intial click traffic. Since advance searches are now centralized, we now see more cross asset class analysis and more comprehensive exports. We have confirmed that customers are quickly adjusting to the new advance search and has left some feedback on the overall feature:
+					</p>
+				</div>
+				<div class="offset-md-2 col-md-8">
+					<div data-aos="fade-right" class="userFeedback rounded shadow relative col-10 col-sm-9 col-md-8 float-left">
+						<span class="userStartQuote userFeedbackColor">"</span>
+						The advanced search is very useful and don't require too much scrolling / able to see most of the information we need in one view
+						<span class="userEndQuote userFeedbackColor">"</span>
+					</div>
+					<div data-aos="fade-left" class="userFeedback rounded shadow col-10 col-sm-9 col-md-8 float-right">
+						<span class="userStartQuote userFeedbackColor">"</span>
+						In the past, mainly used quickseach to identify profiles at hand, but have really been using advanced search lately and really like the new filtering functionality and quick export feature.
+						<span class="userEndQuote userFeedbackColor">"</span>
+					</div>
+					<div data-aos="fade-right" class="userFeedback rounded shadow col-10 col-sm-9 col-md-8 float-left">
+						<span class="userStartQuote userFeedbackColor">"</span>
+						Advance searches are very intuitive especially across asset classes, and exporting lists are easier and quicker than other data service providers in this space.
+						<span class="userEndQuote userFeedbackColor">"</span>
+					</div>
+					<div data-aos="fade-left" class="userFeedback rounded shadow col-10 col-sm-9 col-md-8 float-right">
+						<span class="userStartQuote userFeedbackColor">"</span>
+						Within the Advanced Search, is there a function where you could quickly search for a fund in the list, like via 'Ctrl + F'
+						<span class="userEndQuote userFeedbackColor">"</span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div data-aos="fade-up" class="offset-md-3 col-md-6">
+					<div class="paragraphHeader">Next Steps</div>
+					<p>
+					After our intitial launch, we continue to retrieve customer feedback and understand that this is only phase 1 of many iterations going forward. Some notable feedback that we received have been about adding more possible filters and datasets into the advanced search such as narrowing down funds that have used a 'credit facility' or identifying investors that are involved in ESG (Environment, Social, and Governance) type investments. 
+					</p>
+
+					<p>From a functionality standpoint, customers have stated that they would like faster ways to identify profile names in the advance search tables. As we have seen in the user feedback above, 'Ctrl+F' is limited at this point of time since our tables our lazy loaded, therefore profiles listed beneath the fold aren't searchable on the page. Overall, all feedback is crucial in future iterations / enhancements and ultimately assist on us on making our platform more efficient and accessible to the end-user. 
+					</p>
+				</div>
+			</div>
 			<!-- FOOTER -->
 			<div class="row creditsRow">
 				<div class="col-12 offset-md-1 col-md-10">
