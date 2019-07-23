@@ -12,7 +12,7 @@ body {
 .leftNavigation {
 	background-color: #FFF;
 	z-index: 999;
-	width: 300px;
+	width: 280px;
 	position: fixed;
 	top: 0px;
 	bottom: 0px;
@@ -45,20 +45,20 @@ body {
 }
 
 .headerLeftNavigation {
-	padding: 8px 16px 0px 16px;
+	padding: 8px 16px;
 	font-weight: 700;
 	letter-spacing: 1px;
 }
 
 .dashWork {
-	margin: 0px 0px 0px 16px;
-	width: 20px;
+	margin: 8px 0px;
+	width: 30px;
 	border: 2px solid rgba(25, 181, 254, 1);
 }
 
 .dashSideProject {
-	margin: 0px 0px 0px 16px;	
-	width: 20px;
+	margin: 8px 0px;
+	width: 30px;
 	border: 2px solid rgba(123, 239, 178, 1);
 }
 
