@@ -42,22 +42,21 @@
             <path d="M0,4 L138.838095,4" id="Path-4" stroke="#F44336" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
             <path d="M140.722983,0.0267138211 L147.774597,3.54023466 C148.021758,3.66338465 148.122289,3.96358124 147.999139,4.2107425 C147.950892,4.30757387 147.87254,4.38614465 147.775844,4.43466139 L140.72423,7.97275577 C140.477413,8.09659433 140.176937,7.99690063 140.053098,7.75008365 C140.018182,7.68049402 140,7.60371196 140,7.52585409 L140,0.474238877 C140,0.198096502 140.223858,-0.0257611235 140.5,-0.0257611235 C140.577387,-0.0257611235 140.653718,-0.00779808728 140.722983,0.0267138211 Z" id="Rectangle-2" fill="#4A4A4A"></path>
         </g>
-        <text id="Interactions:-1.-App" font-family="Lato-Bold, Lato" font-size="16" font-weight="bold" fill="#000000">
-            <tspan x="420" y="166">Interactions:</tspan>
-            <tspan x="420" y="185" font-family="Lato-Regular, Lato" font-weight="normal">1. Apply filters to major categories</tspan>
-            <tspan x="420" y="204" font-family="Lato-Regular, Lato" font-weight="normal"></tspan>
-            <tspan x="420" y="223" font-family="Lato-Regular, Lato" font-weight="normal"></tspan>
-            <tspan x="420" y="242" font-family="Lato-Regular, Lato" font-weight="normal"></tspan>
-            <tspan x="420" y="261" font-family="Lato-Regular, Lato" font-weight="normal">2. Load or Save an Advanced Search</tspan>
-            <tspan x="420" y="280" font-family="Lato-Regular, Lato" font-weight="normal">3. Ability to add profiles to a list or benchmark</tspan>
-            <tspan x="420" y="299" font-family="Lato-Regular, Lato" font-weight="normal">4. Ability to view profiles</tspan>
-            <tspan x="420" y="318" font-family="Lato-Regular, Lato" font-weight="normal">5. Ability to toggle between list and map view </tspan>
-            <tspan x="420" y="337" font-family="Lato-Regular, Lato" font-weight="normal">6. Ability to export results to Excel</tspan>
+        <text id="Interactions:-1.-App" font-family="Lato-Bold, Lato" font-size="16" font-weight="bold" line-spacing="28" fill="#000000">
+            <tspan x="420" y="162">Interactions:</tspan>
+            <tspan x="420" y="190" font-family="Lato-Regular, Lato" font-weight="normal">1. Apply filters to major categories</tspan>
+            <tspan x="420" y="218" font-family="Lato-Regular, Lato" font-weight="normal"></tspan>
+            <tspan x="420" y="246" font-family="Lato-Regular, Lato" font-weight="normal"></tspan>
+            <tspan x="420" y="274" font-family="Lato-Regular, Lato" font-weight="normal">2. Load or Save an Advanced Search</tspan>
+            <tspan x="420" y="302" font-family="Lato-Regular, Lato" font-weight="normal">3. Ability to add profiles to a list or benchmark</tspan>
+            <tspan x="420" y="330" font-family="Lato-Regular, Lato" font-weight="normal">4. Ability to view profiles</tspan>
+            <tspan x="420" y="358" font-family="Lato-Regular, Lato" font-weight="normal">5. Ability to toggle between list and map view </tspan>
+            <tspan x="420" y="386" font-family="Lato-Regular, Lato" font-weight="normal">6. Ability to export results to Excel</tspan>
         </text>
-        <text id="(ie.-Investors,-Fund" font-family="Lato-Regular, Lato" font-size="12" font-weight="normal" fill="#000000">
-            <tspan x="434" y="207">(ie. Investors, Fund Managers,</tspan>
-            <tspan x="434" y="222">Funds, Investment Consultants, Deals, Secondary </tspan>
-            <tspan x="434" y="237">Market Transactions, Service Providers)</tspan>
+        <text id="(ie.-Investors,-Fund" font-family="Lato-Regular, Lato" font-size="12" font-weight="normal" line-spacing="19" fill="#000000">
+            <tspan x="434" y="213">(ie. Investors, Fund Managers,</tspan>
+            <tspan x="434" y="232">Funds, Investment Consultants, Deals, Secondary </tspan>
+            <tspan x="434" y="251">Market Transactions, Service Providers)</tspan>
         </text>
         <g id="Profile" transform="translate(800.000000, 390.000000)">
             <rect id="Rectangle" fill="#000000" x="0" y="0" width="200" height="100" rx="5"></rect>
