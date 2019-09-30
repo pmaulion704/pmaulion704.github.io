@@ -137,7 +137,7 @@ h3 {
 	opacity: 1;
 	transition: .25s ease;
 	background-color: #DDDEDF;
-	color: #333333;	
+	color: #333333;
 }
 
 .btn-Unalink:hover {
@@ -161,8 +161,7 @@ ul.boostmyschoolList {
 .paragraphHeader {
 	font-size: 24px;
 	font-weight: 700;
-	padding-left: 12px;
-	border-left: 4px solid #bdc3c7;
+	text-align: center;
 }
 
 .verticalSpacer {
@@ -170,24 +169,30 @@ ul.boostmyschoolList {
 }
 
 /*Case Study Headers*/
+.barHeader {
+	width: 9%;
+	border: 2px solid #bdc3c7;
+	margin: 0.5rem auto;
+}
+
 .objectiveHeader {
-	border-left-color: #d91e18;
+	border-color: #d91e18;
 }
 
 .userInterviewHeader {
-	border-left-color: #ffcb05;
+	border-color: #ffcb05;
 }
 
 .researchAndIterationHeader {
-	border-left-color: #65c6bb;
+	border-color: #65c6bb;
 }
 
 .conclusionHeader {
-	border-left-color: #1f87e5;	
+	border-color: #1f87e5;
 }
 
 .dribbbleHeader {
-	border-left-color: #EA4C89;
+	border-color: #EA4C89;
 }
 
 .userNote {
@@ -201,7 +206,7 @@ ul.boostmyschoolList {
 	background-color: #7befb2;
 	padding: 32px;
 	margin: 30px 0px;
-	font-style: italic;	
+	font-style: italic;
 }
 
 .userStartQuote {
@@ -210,7 +215,7 @@ ul.boostmyschoolList {
 	font-weight: 900;
 	color: #f7ca18;
 	top: -30px;
-	left: 10px;	
+	left: 10px;
 }
 
 .userEndQuote {
@@ -218,15 +223,15 @@ ul.boostmyschoolList {
 	font-size: 60px;
 	font-weight: 900;
 	color: #f7ca18;
-	right: 30px;	
+	right: 30px;
 	transform: translateY(22px);
 }
 
 .userFeedbackColor {
-	color: #1e824c;	
+	color: #1e824c;
 }
 
-.iterationBottomMargin { 
+.iterationBottomMargin {
 	margin-bottom: 20px;
 }
 
@@ -253,7 +258,7 @@ table {
 }
 
 .captionTabs {
-	margin: 0px;
+	margin: 24px 0px 12px 0px ;
 }
 
 /*SCROLL TO TOP*/
@@ -321,11 +326,11 @@ table {
 /*RESPONSIVE CASES*/
 /*Responsive Classes*/
 /*// Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) { 
+@media (max-width: 575.98px) {
 	...
  }
 /*// Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767.98px) { 
+@media (max-width: 767.98px) {
 	.topNavProjectCopy {
 		font-size: 16px;
 	}
@@ -367,15 +372,15 @@ table {
 	}
  }
 /*// Medium devices (tablets, less than 992px)*/
-@media (max-width: 991.98px) { 
+@media (max-width: 991.98px) {
 	.main {
 		top: 35%;
 	}
 }
 
 /*// Large devices (desktops, less than 1200px)*/
-@media (max-width: 1199.98px) { 
-	... 
+@media (max-width: 1199.98px) {
+	...
 }
 
 /*// Extra large devices (large desktops)*/
