@@ -311,6 +311,7 @@ table {
 	color: #2e3131;
 	opacity: 1;
 	transition: .5s ease;
+	margin: 12px 0px;
 }
 
 .credits:hover {
