@@ -282,6 +282,10 @@ a:hover .overlay {
 		font-weight: 700;
 	}
 
+	.scrollTop {
+		width: 50px;
+	}
+
 	footer {
 		border-top: 1px solid #CCCCCC;
 	}
