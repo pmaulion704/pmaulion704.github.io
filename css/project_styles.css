@@ -47,8 +47,8 @@ html, body {
 .topNavCenter {
 	display: inline;
 	position: absolute;
-	margin-left: -24px;
-	top: 10px;
+	margin-left: -16px;
+	top: 19px;
 	left: 50%;
 }
 
