@@ -4,7 +4,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #000;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction:column;
     justify-content: center;
@@ -17,7 +17,7 @@
   width: 18px;
   height: 18px;
   position: relative;
-  border: 2px solid #FFFFFF;
+  border: 2px solid #000000;
   animation: loader 2s infinite ease;
 }
 
@@ -25,7 +25,7 @@
   vertical-align: top;
   display: inline-block;
   width: 100%;
-  background-color: #FFFFFF;
+  background-color: #000000;
   animation: loader-inner 2s infinite ease-in;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .bigTitle {
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .supportTitle {
