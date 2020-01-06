@@ -1,10 +1,7 @@
 /*Lato: 300,400,700,900*/
-* {
+html, body {
 	font-family: 'Lato', sans-serif;
 	color: #333333;
-}
-
-html, body {
 	background-color: #FFFFFF;
 }
 
