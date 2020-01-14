@@ -3,14 +3,14 @@ $(document).ready(function() {
     $("#alertAS").hide();
     $('#searchVideo').bind("timeupdate", function() {
         if(this.currentTime > 74) {
-            $("#alertQS").show();
+            $("#alertQS").fadeIn();
         } else {
             $("#alertQS").hide();
         }
     });
     $('#searchVideo2').bind("timeupdate", function() {
         if(this.currentTime < 73) {
-            $("#alertAS").show();
+            $("#alertAS").fadeIn();
         } else {
             $("#alertAS").hide();
         }
