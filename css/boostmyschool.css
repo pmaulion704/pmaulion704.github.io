@@ -22,3 +22,7 @@
 	margin: 20px 0px;
 	padding: 0px;
 }
+
+ul.boostmyschoolList {
+	list-style-type: none;
+}

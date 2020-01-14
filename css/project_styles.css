@@ -150,10 +150,6 @@ a.githubRepo:hover {
 	color: #FFFFFF;
 }
 
-ul.boostmyschoolList {
-	list-style-type: none;
-}
-
 /*CONTENT*/
 .paragraphHeader {
 	font-size: 24px;
@@ -163,6 +159,10 @@ ul.boostmyschoolList {
 
 .verticalSpacer {
 	margin: 80px auto;
+}
+
+.videoSpacer {
+	margin: 16px auto;
 }
 
 /*Case Study Headers*/
