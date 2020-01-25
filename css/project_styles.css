@@ -61,6 +61,10 @@ html, body {
 h3 {
 	margin: 16px 0px;
 }
+/* Exception for LOADER.JS */
+h3.loaderSupportTitle {
+	margin: 0px;
+}
 
 .banner {
 	position: absolute;
@@ -317,8 +321,17 @@ table {
 }
 
 /*MISCELLANEOUS*/
-.brbspaceship {
-	width: 55%;
+ol.plotSituation {
+	padding-inline-start: 16px;
+}
+
+li.situation {
+	font-size: 18px;
+	line-height: 32px;
+}
+
+li.situationMargin {
+	margin: 12px 0px
 }
 
 /*RESPONSIVE CASES*/

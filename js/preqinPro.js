@@ -1,3 +1,5 @@
+// USE ONLY FOR QUICK SEARCH AND ADVANCE SEARCH PROJECT PAGES!!!
+
 $(document).ready(function() {
     $("#alertQS").hide();
     $("#alertAS").hide();
@@ -16,3 +18,5 @@ $(document).ready(function() {
         }
     });
 });
+
+// USE ONLY FOR QUICK SEARCH AND ADVANCE SEARCH PROJECT PAGES!!!
