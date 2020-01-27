@@ -50,6 +50,16 @@
     color: #CCCCCC;
 }
 
+/* RESPNSIVENESS */
+@media (max-width: 767.98px) {
+        .bigTitle {
+            font-size: 28px;
+        }
+        .loaderSupportTitle {
+            font-size: 20px;
+        }
+}
+
 
 /* KEYFRAME ANIMATIONS */
 @keyframes loaderTitle {
@@ -123,3 +133,5 @@
     height: 0%;
   }
 }
+
+/* END OF KEYFRAME ANIMATIONS */
