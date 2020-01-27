@@ -28,9 +28,8 @@ body {
 }
 
 .logoName {
-	letter-spacing:1px;
 	font-weight: 700;
-	font-size: 18px;
+	font-size: 20px;
 	color: #000000;
 	text-decoration: none;
 }
@@ -252,8 +251,8 @@ a:hover .overlay {
 	}
 
 	.logoName {
-		margin-left: 12px;
 		font-size: 18px;
+		letter-spacing: 0px;
 	}
 
 	.main {
