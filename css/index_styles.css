@@ -53,7 +53,7 @@ body {
 .dashSideProject {
 	margin: 8px 0px;
 	width: 30px;
-	border: 2px solid rgba(123, 239, 178, 1);
+	border: 2px solid rgba(251, 100, 100, 1);
 }
 
 .projectLeftNavigation {
@@ -156,14 +156,14 @@ a.viewStudy:hover {
 .viewProject {
 	display: flex;
 	align-items: center;
-	color: #7AECB0;
+	color: #FB6464;
 	opacity: 1;
 	cursor: pointer;
 	transition: .25s ease;
 }
 
 a.viewProject:hover {
-	color: #7AECB0;
+	color: #FB6464;
 	opacity: 0.8;
 }
 
@@ -192,7 +192,7 @@ a:hover .overlay {
 
 
 .projectOverlay {
-	background-color: #7AECB0;
+	background-color: #FB6464;;
 }
 
 .scrollTop {
