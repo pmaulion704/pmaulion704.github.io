@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1140px" height="680px" viewBox="0 0 1140 680" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>navigationSitemap</title>
+    <desc>Created with Sketch.</desc>
+    <g id="navigationSitemap" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="1140" height="680"></rect>
+        <g id="Group-18" transform="translate(20.000000, 20.000000)">
+            <g id="Dashboard" transform="translate(451.000000, 0.000000)">
+                <rect id="Rectangle" stroke="#333333" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="157" height="82" rx="5"></rect>
+                <text id="2019---Buyout---Nort" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" fill="#000000">
+                    <tspan x="11.068" y="39">2019 - Buyout - North </tspan>
+                    <tspan x="15.905" y="56">America Benchmark</tspan>
+                </text>
+                <rect id="Rectangle" stroke="#333333" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="157" height="82" rx="2"></rect>
+                <text id="Preqin-Home-(Dashboa" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" fill="#333333">
+                    <tspan x="38.3995" y="39">Preqin Home</tspan>
+                    <tspan x="40.881" y="56">(Dashboard)</tspan>
+                </text>
+            </g>
+            <g id="Quick-Search" opacity="0.4" transform="translate(18.000000, 143.000000)">
+                <rect id="Rectangle" stroke="#333333" stroke-width="2" fill="#EEEEEE" x="1" y="1" width="158" height="62" rx="2"></rect>
+                <text font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" fill="#333333">
+                    <tspan x="38.637" y="38.6428571">Quick Search</tspan>
+                </text>
+            </g>
+            <g id="Group-13" transform="translate(0.000000, 100.000000)">
+                <rect id="Rectangle" fill="#A8C9FF" x="0" y="0" width="1100" height="28"></rect>
+                <text id="TOP-NAVIGATION" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" fill="#333333">
+                    <tspan x="12.3" y="20">TOP NAVIGATION</tspan>
+                </text>
+            </g>
+            <g id="Group-12" transform="translate(0.000000, 220.000000)">
+                <rect id="Rectangle" fill="#E8F1FF" x="0" y="0" width="1100" height="28"></rect>
+                <text id="FLYOUT-MENU-OPTIONS" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" fill="#333333">
+                    <tspan x="12.4528302" y="20">FLYOUT MENU OPTIONS</tspan>
+                </text>
+            </g>
+            <g id="Group-11" transform="translate(917.000000, 143.000000)">
+                <g id="Quick-Search-Copy-9" transform="translate(32.059385, 121.000000)">
+                    <rect id="Rectangle" stroke="#333333" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="130" height="61" rx="2"></rect>
+                    <text id="Dashboard" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" fill="#333333">
+                        <tspan x="32.081" y="38">Dashboard</tspan>
+                    </text>
+                </g>
+                <g id="Quick-Search-Copy-8" transform="translate(32.059385, 192.000000)">
+                    <rect id="Rectangle" stroke="#333333" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="130" height="61" rx="2"></rect>
+                    <text id="Fund-Exposure" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" fill="#333333">
+                        <tspan x="19.9045" y="38">Fund Exposure</tspan>
+                    </text>
+                </g>
+                <g id="Quick-Search-Copy-12" transform="translate(32.059385, 263.000000)">
+                    <rect id="Rectangle" stroke="#333333" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="130" height="61" rx="2"></rect>
+                    <text id="Assets-Exposure" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" fill="#333333">
+                        <tspan x="15.1865" y="38">Assets Exposure</tspan>
+                    </text>
+                </g>
+                <g id="Quick-Search-Copy-5" transform="translate(4.059385, 0.000000)">
+                    <rect id="Rectangle" stroke="#333333" stroke-width="2" fill="#FFCACA" x="1" y="1" width="158" height="62" rx="2"></rect>
+                    <text id="My-Portfolio" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" fill="#333333">
+                        <tspan x="40.275" y="38.6428571">My Portfolio</tspan>
+                    </text>
+                </g>
+                <line x1="7.11876902" y1="62.9858356" x2="3" y2="298.949892" id="Path-3" stroke="#333333" stroke-width="2" fill="#333333" transform="translate(5.059385, 180.967864) rotate(-1.000000) translate(-5.059385, -180.967864) "></line>
+                <path id="Path-4" d="M18.5166608,222.967864 L32.5166608,229.967864 L18.5166608,236.967864 L18.516,230.967 L5.51666084,230.967864 L5.51666084,228.967864 L18.516,228.967 L18.5166608,222.967864 Z" fill="#333333" fill-rule="nonzero"></path>
+                <path id="Path-4" d="M18.5166608,145.967864 L32.5166608,152.967864 L18.5166608,159.967864 L18.516,153.967 L5.51666084,153.967864 L5.51666084,151.967864 L18.516,151.967 L18.5166608,145.967864 Z" fill="#333333" fill-rule="nonzero"></path>
+                <path id="Path-4" d="M18.5166608,290.967864 L32.5166608,297.967864 L18.5166608,304.967864 L18.516,298.967 L5.51666084,298.967864 L5.51666084,296.967864 L18.516,296.967 L18.5166608,290.967864 Z" fill="#333333" fill-rule="nonzero"></path>
+            </g>
+            <g id="Group-17" transform="translate(194.000000, 143.000000)">
+                <g id="Group" opacity="0.3" transform="translate(34.682459, 121.000000)">
+                    <rect id="Rectangle" stroke="#333333" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="130" height="38" rx="2"></rect>
+                    <text id="Investors" font-family="Lato-Bold, Lato" font-size="12" font-weight="bold" fill="#333333">
+                        <tspan x="40.369" y="26">Investors</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" opacity="0.3" transform="translate(34.682459, 169.000000)">
+                    <rect id="Rectangle" stroke="#333333" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="130" height="38" rx="2"></rect>
+                    <text id="Fund-Managers" font-family="Lato-Bold, Lato" font-size="12" font-weight="bold" fill="#333333">
+                        <tspan x="24.073" y="26">Fund Managers</tspan>
+                    </text>
+                </g>
+                <g id="Group-3" opacity="0.3" transform="translate(34.682459, 217.000000)">
+                    <rect id="Rectangle" stroke="#333333" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="130" height="38" rx="2"></rect>
+                    <text id="Funds" font-family="Lato-Bold, Lato" font-size="12" font-weight="bold" fill="#333333">
+                        <tspan x="49.267" y="26">Funds</tspan>
+                    </text>
+                </g>
+                <g id="Group-4" opacity="0.3" transform="translate(34.682459, 265.000000)">
+                    <rect id="Rectangle" stroke="#333333" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="130" height="38" rx="2"></rect>
+                    <text id="Performance" font-family="Lato-Bold, Lato" font-size="12" font-weight="bold" fill="#333333">
+                        <tspan x="30.454" y="26">Performance</tspan>
+                    </text>
+                </g>
+                <g id="Group-5" opacity="0.3" transform="translate(34.682459, 313.000000)">
+                    <rect id="Rectangle" stroke="#333333" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="130" height="38" rx="2"></rect>
+                    <text id="Deals-/-Exits" font-family="Lato-Bold, Lato" font-size="12" font-weight="bold" fill="#333333">
+                        <tspan x="32.536" y="26">Deals / Exits</tspan>
+                    </text>
+                </g>
+                <g id="Group-6" opacity="0.3" transform="translate(34.682459, 361.000000)">
+                    <rect id="Rectangle" stroke="#333333" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="130" height="38" rx="2"></rect>
+                    <text id="Service-Providers" font-family="Lato-Bold, Lato" font-size="12" font-weight="bold" fill="#333333">
+                        <tspan x="18.43" y="26">Service Providers</tspan>
+                    </text>
+                </g>
+                <g id="Group-7" opacity="0.3" transform="translate(34.682459, 409.000000)">
+                    <rect id="Rectangle" stroke="#333333" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="130" height="38" rx="2"></rect>
+                    <text id="Inv.-Consultants" font-family="Lato-Bold, Lato" font-size="12" font-weight="bold" fill="#333333">
+                        <tspan x="22.174" y="26">Inv. Consultants</tspan>
+                    </text>
+                </g>
+                <g id="Group-8" opacity="0.3" transform="translate(34.682459, 457.000000)">
+                    <rect id="Rectangle" stroke="#333333" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="130" height="38" rx="2"></rect>
+                    <text id="Secondary-Market" font-family="Lato-Bold, Lato" font-size="12" font-weight="bold" fill="#333333">
+                        <tspan x="16.009" y="26">Secondary Market</tspan>
+                    </text>
+                </g>
+                <g id="Quick-Search-Copy" opacity="0.4" transform="translate(6.682459, 0.000000)">
+                    <rect id="Rectangle" stroke="#333333" stroke-width="2" fill="#EEEEEE" x="1" y="1" width="158" height="62" rx="2"></rect>
+                    <text id="Search-for-(Advanced" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" fill="#333333">
+                        <tspan x="47.9666855" y="29">Search for</tspan>
+                        <tspan x="21.6501855" y="46">(Advanced Search)</tspan>
+                    </text>
+                </g>
+                <line x1="11.3649175" y1="63" x2="4" y2="484.935727" id="Path-3" stroke="#333333" stroke-width="2" fill="#333333" opacity="0.3" transform="translate(7.682459, 273.967864) rotate(-1.000000) translate(-7.682459, -273.967864) "></line>
+                <path id="Path-4" d="M20.6824587,476.5 L34.6824587,483.5 L20.6824587,490.5 L20.682,484.5 L7.68245874,484.5 L7.68245874,482.5 L20.682,482.5 L20.6824587,476.5 Z" fill="#333333" fill-rule="nonzero" opacity="0.3"></path>
+                <path id="Path-4" d="M20.6824587,427.5 L34.6824587,434.5 L20.6824587,441.5 L20.682,435.5 L7.68245874,435.5 L7.68245874,433.5 L20.682,433.5 L20.6824587,427.5 Z" fill="#333333" fill-rule="nonzero" opacity="0.3"></path>
+                <path id="Path-4" d="M20.6824587,378.5 L34.6824587,385.5 L20.6824587,392.5 L20.682,386.5 L7.68245874,386.5 L7.68245874,384.5 L20.682,384.5 L20.6824587,378.5 Z" fill="#333333" fill-rule="nonzero" opacity="0.3"></path>
+                <path id="Path-4" d="M20.6824587,329.5 L34.6824587,336.5 L20.6824587,343.5 L20.682,337.5 L7.68245874,337.5 L7.68245874,335.5 L20.682,335.5 L20.6824587,329.5 Z" fill="#333333" fill-rule="nonzero" opacity="0.3"></path>
+                <path id="Path-4" d="M20.6824587,280.5 L34.6824587,287.5 L20.6824587,294.5 L20.682,288.5 L7.68245874,288.5 L7.68245874,286.5 L20.682,286.5 L20.6824587,280.5 Z" fill="#333333" fill-rule="nonzero" opacity="0.3"></path>
+                <path id="Path-4" d="M20.6824587,231.5 L34.6824587,238.5 L20.6824587,245.5 L20.682,239.5 L7.68245874,239.5 L7.68245874,237.5 L20.682,237.5 L20.6824587,231.5 Z" fill="#333333" fill-rule="nonzero" opacity="0.3"></path>
+                <path id="Path-4" d="M20.6824587,182.5 L34.6824587,189.5 L20.6824587,196.5 L20.682,190.5 L7.68245874,190.5 L7.68245874,188.5 L20.682,188.5 L20.6824587,182.5 Z" fill="#333333" fill-rule="nonzero" opacity="0.3"></path>
+                <path id="Path-4" d="M20.6824587,133.5 L34.6824587,140.5 L20.6824587,147.5 L20.682,141.5 L7.68245874,141.5 L7.68245874,139.5 L20.682,139.5 L20.6824587,133.5 Z" fill="#333333" fill-rule="nonzero" opacity="0.3"></path>
+            </g>
+            <g id="Group-16" transform="translate(377.000000, 143.000000)">
+                <g id="Group-9" opacity="0.3" transform="translate(31.466003, 121.000000)">
+                    <rect id="Rectangle" stroke="#333333" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="129" height="61" rx="2"></rect>
+                    <text id="PC-Benchmarks" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" fill="#333333">
+                        <tspan x="15.643" y="37">PC Benchmarks</tspan>
+                    </text>
+                </g>
+                <g id="Group-10" opacity="0.3" transform="translate(31.466003, 192.000000)">
+                    <rect id="Rectangle" stroke="#333333" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="129" height="61" rx="2"></rect>
+                    <text id="HF-Benchmarks" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" fill="#333333">
+                        <tspan x="15.489" y="37">HF Benchmarks</tspan>
+                    </text>
+                </g>
+                <g id="Quick-Search-Copy-2" opacity="0.4" transform="translate(2.466003, 0.000000)">
+                    <rect id="Rectangle" stroke="#333333" stroke-width="2" fill="#EEEEEE" x="1" y="1" width="158" height="62" rx="2"></rect>
+                    <text id="Benchmarks" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" fill="#333333">
+                        <tspan x="41.0625" y="38.6428571">Benchmarks</tspan>
+                    </text>
+                </g>
+                <line x1="4.93200506" y1="62.9806573" x2="2" y2="230.95507" id="Path-3" stroke="#333333" stroke-width="2" fill="#333333" opacity="0.3" transform="translate(3.466003, 146.967864) rotate(-1.000000) translate(-3.466003, -146.967864) "></line>
+                <path id="Path-4" d="M16.4660025,222.5 L30.4660025,229.5 L16.4660025,236.5 L16.466,230.5 L3.46600253,230.5 L3.46600253,228.5 L16.466,228.5 L16.4660025,222.5 Z" fill="#333333" fill-rule="nonzero" opacity="0.3"></path>
+                <path id="Path-4" d="M16.4660025,145.5 L30.4660025,152.5 L16.4660025,159.5 L16.466,153.5 L3.46600253,153.5 L3.46600253,151.5 L16.466,151.5 L16.4660025,145.5 Z" fill="#333333" fill-rule="nonzero" opacity="0.3"></path>
+            </g>
+            <g id="Group-15" transform="translate(557.000000, 143.000000)">
+                <g id="Quick-Search-Copy-7" opacity="0.3" transform="translate(31.466003, 121.000000)">
+                    <rect id="Rectangle" stroke="#333333" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="129" height="61" rx="2"></rect>
+                    <text id="PC-Fundraising" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" fill="#333333">
+                        <tspan x="18.722" y="38">PC Fundraising</tspan>
+                    </text>
+                </g>
+                <g id="Quick-Search-Copy-6" opacity="0.3" transform="translate(31.466003, 192.000000)">
+                    <rect id="Rectangle" stroke="#333333" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="129" height="61" rx="2"></rect>
+                    <text id="Dry-Powder-&amp;-AUM" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" fill="#333333">
+                        <tspan x="20.991" y="29">Dry Powder &amp; </tspan>
+                        <tspan x="48.424" y="46">AUM</tspan>
+                    </text>
+                </g>
+                <g id="Quick-Search-Copy-13" opacity="0.3" transform="translate(31.466003, 263.000000)">
+                    <rect id="Rectangle" stroke="#333333" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="129" height="61" rx="2"></rect>
+                    <text id="Deals-/-Exits" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" fill="#333333">
+                        <tspan x="27.542" y="38">Deals / Exits</tspan>
+                    </text>
+                </g>
+                <g id="Quick-Search-Copy-3" opacity="0.4" transform="translate(2.466003, 0.000000)">
+                    <rect id="Rectangle" stroke="#333333" stroke-width="2" fill="#EEEEEE" x="1" y="1" width="158" height="62" rx="2"></rect>
+                    <text id="Charts" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" fill="#333333">
+                        <tspan x="59.035" y="38.6428571">Charts</tspan>
+                    </text>
+                </g>
+                <line x1="4.93200506" y1="62.9806573" x2="2" y2="230.95507" id="Path-3" stroke="#333333" stroke-width="2" fill="#333333" opacity="0.3" transform="translate(3.466003, 146.967864) rotate(-1.000000) translate(-3.466003, -146.967864) "></line>
+                <path id="Path-4" d="M16.4660025,222.5 L30.4660025,229.5 L16.4660025,236.5 L16.466,230.5 L3.46600253,230.5 L3.46600253,228.5 L16.466,228.5 L16.4660025,222.5 Z" fill="#333333" fill-rule="nonzero" opacity="0.3"></path>
+                <path id="Path-4" d="M16.4660025,145.5 L30.4660025,152.5 L16.4660025,159.5 L16.466,153.5 L3.46600253,153.5 L3.46600253,151.5 L16.466,151.5 L16.4660025,145.5 Z" fill="#333333" fill-rule="nonzero" opacity="0.3"></path>
+            </g>
+            <g id="Group-14" transform="translate(736.000000, 143.000000)">
+                <g id="Quick-Search-Copy-11" opacity="0.3" transform="translate(33.059385, 121.000000)">
+                    <rect id="Rectangle" stroke="#333333" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="127" height="61" rx="2"></rect>
+                    <text id="Research" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" fill="#333333">
+                        <tspan x="36.0305" y="38">Research</tspan>
+                    </text>
+                </g>
+                <g id="Quick-Search-Copy-10" opacity="0.3" transform="translate(33.059385, 192.000000)">
+                    <rect id="Rectangle" stroke="#333333" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="127" height="61" rx="2"></rect>
+                    <text id="Conference-&amp;-Events" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" fill="#333333">
+                        <tspan x="21.1425" y="29">Conference &amp; </tspan>
+                        <tspan x="42.769" y="46">Events</tspan>
+                    </text>
+                </g>
+                <g id="Quick-Search-Copy-14" opacity="0.3" transform="translate(33.059385, 263.000000)">
+                    <rect id="Rectangle" stroke="#333333" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="127" height="61" rx="2"></rect>
+                    <text id="Premium-Publications" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" fill="#333333">
+                        <tspan x="35.3595" y="29">Premium </tspan>
+                        <tspan x="25.234" y="46">Publications</tspan>
+                    </text>
+                </g>
+                <g id="Quick-Search-Copy-4" opacity="0.4" transform="translate(4.059385, 0.000000)">
+                    <rect id="Rectangle" stroke="#333333" stroke-width="2" fill="#EEEEEE" x="1" y="1" width="158" height="62" rx="2"></rect>
+                    <text id="Insights" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" fill="#333333">
+                        <tspan x="55.4965" y="38.6428571">Insights</tspan>
+                    </text>
+                </g>
+                <line x1="7.11876902" y1="62.9858356" x2="3" y2="298.949892" id="Path-3" stroke="#333333" stroke-width="2" fill="#333333" opacity="0.3" transform="translate(5.059385, 180.967864) rotate(-1.000000) translate(-5.059385, -180.967864) "></line>
+                <path id="Path-4" d="M18.0593845,222.5 L32.0593845,229.5 L18.0593845,236.5 L18.059,230.5 L5.05938451,230.5 L5.05938451,228.5 L18.059,228.5 L18.0593845,222.5 Z" fill="#333333" fill-rule="nonzero" opacity="0.3"></path>
+                <path id="Path-4" d="M18.0593845,145.5 L32.0593845,152.5 L18.0593845,159.5 L18.059,153.5 L5.05938451,153.5 L5.05938451,151.5 L18.059,151.5 L18.0593845,145.5 Z" fill="#333333" fill-rule="nonzero" opacity="0.3"></path>
+                <path id="Path-4" d="M18.0593845,290.5 L32.0593845,297.5 L18.0593845,304.5 L18.059,298.5 L5.05938451,298.5 L5.05938451,296.5 L18.059,296.5 L18.0593845,290.5 Z" fill="#333333" fill-rule="nonzero" opacity="0.3"></path>
+            </g>
+            <path d="M919,133 L1088,133 C1092.41828,133 1096,136.581722 1096,141 L1096,471 C1096,475.418278 1092.41828,479 1088,479 L919,479 C914.581722,479 911,475.418278 911,471 L911,141 C911,136.581722 914.581722,133 919,133 Z" id="Rectangle" stroke="#FF5252" stroke-width="3" fill-opacity="0" fill="#D8D8D8" stroke-dasharray="4,4"></path>
+        </g>
+    </g>
+</svg>
