@@ -335,13 +335,16 @@ li.situationMargin {
 }
 
 /*RESPONSIVE CASES*/
-/*Responsive Classes*/
-/*// Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
-	.topNavProjectCopy {
-		font-size: 14px;
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+	...
+}
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+	.main {
+		top: 35%;
 	}
- }
+}
 /*// Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767.98px) {
 	.topNavProjectCopy {
@@ -384,17 +387,12 @@ li.situationMargin {
 		margin-bottom: 40px;
 	}
  }
-/*// Medium devices (tablets, less than 992px)*/
-@media (max-width: 991.98px) {
-	.main {
-		top: 35%;
-	}
-}
-
-/*// Large devices (desktops, less than 1200px)*/
-@media (max-width: 1199.98px) {
-	...
-}
+ /*// Extra small devices (portrait phones, less than 576px)*/
+ @media (max-width: 575.98px) {
+ 	.topNavProjectCopy {
+ 		font-size: 12px;
+ 	}
+  }
 
 /*// Extra large devices (large desktops)*/
 /*// No media query since the extra-large breakpoint has no upper bound on its width
