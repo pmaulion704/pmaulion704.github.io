@@ -1,80 +1,52 @@
 body {
 	background-color: #FFFFFF;
-	font-family: 'Lato', sans-serif;
+	color: #161616;
+	font-family: 'Work Sans', sans-serif;
 }
 
-/*COL-2 CSS*/
-.leftNavigation {
-	background-color: #FFF;
-	z-index: 999;
-	width: 280px;
-	position: fixed;
-	top: 0px;
-	bottom: 0px;
-	left: 0px;
-	box-shadow: 4px 0px 14px rgba(0,0,0, .13);
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+body.lock {
+	overflow: hidden;
 }
 
-.topHeader {
-	padding: 16px;
+.mainContent {
+	padding: 60px 32px 32px 32px;
 }
 
-.logoImage {
-	margin-bottom: 16px;
+.navLink{
+	font-size: 14px;
+	color: #000000;
+	text-decoration: none;
+	transition: .25s ease;
+}
+
+.navLink:hover {
+	color: #000000;
+	opacity: 0.5;
+}
+
+.navMargin {
+	margin-left: 16px;
 }
 
 .logoName {
-	font-weight: 700;
+	font-family: 'Noto Serif', serif;
 	font-size: 20px;
-	color: #000000;
 	text-decoration: none;
 }
 
-.roleInfo {
-	margin-bottom: 8px;
+.leftNavArea {
+	display: block;
 }
 
-.headerLeftNavigation {
-	padding: 8px 16px;
-	font-weight: 700;
-	letter-spacing: 1px;
-}
-
-.dashWork {
-	margin: 8px 0px;
-	width: 30px;
-	border: 2px solid rgba(25, 181, 254, 1);
-}
-
-.dashSideProject {
-	margin: 8px 0px;
-	width: 30px;
-	border: 2px solid rgba(251, 100, 100, 1);
-}
-
-.projectLeftNavigation {
-	font-weight: 400;
-	font-size: 14px;
-	color: #000000;
-}
-
-.workBottom {
-	margin-bottom: 1rem;
-}
-
-.contactMedia {
-	padding: 8px 16px;
-
+.rightNavArea {
+	display: block;
+	padding: 0px;
 }
 
 .contactMediaLogo {
 	opacity: 1.0;
-	width: 28px;
-	height: 28px;
+	width: 20px;
+	height: 20px;
 	transition: .25s ease;
 }
 
@@ -82,12 +54,55 @@ body {
 	opacity: 0.5;
 }
 
-.contactMediaMargin {
-	margin-left: 4px;
+.hamburgerMenu {
+	display: none;
 }
 
-.contactMediaArea {
-	padding: 40px 16px 0px 16px;
+#overlayContainer {
+	display: none;
+	position: fixed;
+	top: 60;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF;
+	color: black;
+	z-index: 999;
+}
+
+#overlayContainer.show {
+	display: block;
+}
+
+.overlayContent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 120px;
+}
+
+.overlayLink {
+	color: #000000;
+	font-size: 20px;
+	padding: 32px;
+	text-align: center;
+	text=decoration: none;
+	transition: .25s ease;
+}
+
+.overlayLink:hover {
+	color: #000000;
+	opacity: 0.5;
+}
+
+.overlayContact {
+	display: flex;
+	justify-content: space-around;
+	border-top: 1px solid #CCC;
+	margin-top: 32px;
+	padding: 32px;
+	width: 280px;
+
 }
 
 .credits {
@@ -97,26 +112,20 @@ body {
 	font-weight: 300;
 }
 
-.smallEmoji {
-	width: 14px;
-	margin: 0px 0px 4px 2px;
-}
-
-/*MAIN BODY COL-10 CSS*/
-
-.main {
-	margin-top: 16px;
+.introText {
+	font-family: 'Noto Serif', serif;
+	font-size: 24px;
+	line-height: 1.6;
+	padding: 128px 0px 192px 0px;
 }
 
 section {
-	width: 100%;
-	margin-left: 32px;
-	margin-bottom: 40px;
+	margin-bottom: 64px;
 }
 
 .sectionHeader {
-	font-weight: 900;
-	font-size: 32px;
+	font-weight: 600;
+	font-size: 24px;
 	color: #333333;
 }
 
@@ -124,19 +133,10 @@ section {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 6px 0px;
-	font-weight: 900;
-	font-size: 18px;
+	margin: 0px 0px 8px;
+	font-weight: 400;
+	font-size: 14px;
 	color: #CCCCCC;
-}
-
-.jobRole {
-	display: flex;
-	align-items: center;
-}
-
-.bullet {
-	margin: 0px 8px;
 }
 
 .viewStudy {
@@ -148,51 +148,21 @@ section {
 	transition: .25s ease;
 }
 
-a.viewStudy:hover {
-	color: #17B5FE;
-	opacity: 0.8;
-}
-
-.viewProject {
-	display: flex;
-	align-items: center;
-	color: #FB6464;
-	opacity: 1;
-	cursor: pointer;
-	transition: .25s ease;
-}
-
-a.viewProject:hover {
-	color: #FB6464;
-	opacity: 0.8;
-}
-
-.arrow {
-	margin-left: 8px;
-}
-
 .thumbnail {
 	width: 100%;
-	box-shadow: 0px 5px 20px rgba(0,0,0,.09);
 }
 
 .overlay {
 	width: 100%;
 	height: 100%;
 	opacity: 0;
-	background-color: #17B5FE;
+	background-color: #FFFFFF;
 	cursor: pointer;
-	box-shadow: 0px 5px 20px rgba(0,0,0,.09);
-	transition: .5s ease;
+	transition: .32s ease;
 }
 
 a:hover .overlay {
-	opacity: 0.2;
-}
-
-
-.projectOverlay {
-	background-color: #FB6464;;
+	opacity: 0.5;
 }
 
 .scrollTop {
@@ -205,14 +175,6 @@ a:hover .overlay {
 	opacity: .5;
 }
 
-.resume {
-	margin-left: 6px;
-	opacity: 1.0;
-	color: #95a5a6;
-	cursor: pointer;
-	transition: .5s ease;
-}
-
 .resume:hover {
 	opacity: .8;
 	color: #95a5a6;
@@ -220,9 +182,9 @@ a:hover .overlay {
 
 /* <= Small Resolution Components*/
 .topNavigation {
-	padding: 15px;
-	background-color: rgba(255,255,255,0.95);
-	box-shadow: 0px 5px 20px rgba(0,0,0, .05);
+	padding: 15px 32px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 2px 4px rgba(0,0,0, .05);
 }
 
 .navActions {
@@ -234,56 +196,34 @@ a:hover .overlay {
 /*Responsive Classes*/
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-	.col-10 {
-		padding: 0px;
-	}
-
-	section {
-		margin-left: 0px;
-	}
 
  }
 /*// Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767.98px) {
-
-	.col-sm-10 {
-		padding: 0px;
-	}
-
-	.logoName {
-		font-size: 18px;
-		letter-spacing: 0px;
-	}
-
-	.main {
-		margin-top: 92px;
-	}
-
 	#letsChat {
 	background-color: #000000
-	}
-
-	section {
-		margin-left: 0px;
 	}
 
 	.sectionHeader {
 		font-size: 22px;
 	}
 
-	.sectionSubHeader {
-		font-size: 12px;
-		font-weight: 700;
-	}
-
 	.scrollTop {
 		width: 50px;
 	}
 
-	footer {
-		border-top: 1px solid #CCCCCC;
+	.leftNavArea {
+		display: none;
 	}
- }
+
+	.rightNavArea {
+		display: none;
+	}
+
+	.hamburgerMenu {
+		display: block;
+	}
+}
 
 /*// Medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) { ... }

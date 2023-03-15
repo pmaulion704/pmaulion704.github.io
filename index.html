@@ -13,12 +13,12 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="description" content="Hello, I'm Patrick Maulion. I'm a New York City based Product Designer at Preqin." />
+    <meta name="description" content="Hi there, I'm Patrick Maulion. I'm a New York City based Product Designer at J.P. Morgan." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Patrick Maulion - Product Designer</title>
+    <title>Patrick Maulion</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
     <!-- Animate On Scroll Library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -30,310 +30,201 @@
 <body>
     <!-- LOADER -->
     <div class='loader-wrapper'>
-        <span class='loaderTitle text-center'>
-            <h1 class="bigTitle">Patrick Maulion</h1>
-            <h3 class="loaderSupportTitle">Product Designer</h3>
-        </span>
         <span class="movement">
             <span class="loader"><span class="loader-inner"></span></span>
         </span>
     </div>
     <!-- END OF LOADER -->
     <div class="container-fluid">
-        <!-- FIXED LEFT NAV ( > -md breakpoint) -->
         <div class="row">
-            <!-- <div data-aos="fade-right" class="d-none d-md-flex leftNavigation">
-				<nav class="nav flex-column">
-			    	<div class="d-none d-md-block topHeader text-center">
-			    		<img class="logoImage" src="images/logo.svg" alt="Logo">
-			    		<h2 class="logoName">Patrick Maulion</h2>
-			    		<p class="roleInfo">Product Designer at <a class="text-decoration-none" target="_blank" href="http://www.preqin.com">Preqin</a></p>
-			    		<div class="d-flex justify-content-center align-items-center">
-			    			<img src="images/file.svg" alt="file">
-			    			<a class="resume" target="_blank" href="files/Patrick_Maulion_Resume_2020.pdf">Resume</a>
-			    		</div>
+          <!-- TOP NAVIGATION -->
+          <div class="fixed-top topNavigation">
+            <div class="d-flex justify-content-between align-items-center">
+              <!-- ABOUT / RESUME -->
+              <div class="leftNavArea">
+                <a class="navLink" href="#" target="_blank">About</a>
+                <a class="navLink navMargin" href="files/Patrick_Maulion_Resume_2020.pdf" target="_blank">Resume</a>
+              </div>
+              <!-- HOME -->
+              <a class="navLink logoName" href="index.html">Patrick Maulion</a>
+              <!-- SOCIAL MEDIA -->
+              <div class="rightNavArea">
+                  <a href="mailto:patrick.dionisio.maulion@gmail.com"><img class="contactMediaLogo" src="images/email.svg"></a>
+                  <a target="_blank" href="http://www.linkedIn.com/in/patrickmaulion/"><img class="contactMediaLogo navMargin" src="images/linkedin.svg"></a>
+                  <a target="_blank" href="http://pmaulion.dribbble.com/"><img class="contactMediaLogo navMargin" src="images/dribbble.svg"></a>
+              </div>
+              <!-- Hamburger Menu -->
+              <button type="button" class="hamburgerMenu btn btn-link"><img class="contactMediaLogo" src="images/menu.svg"></button>
+            </div>
+          <!-- END OF TOP NAV -->
+          </div>
+          <!-- Overlay Content -->
+          <div id="overlayContainer">
+            <div class="overlayContent">
+              <a class="overlayLink" href="#" target="_blank">About</a>
+              <a class="overlayLink" href="files/Patrick_Maulion_Resume_2020.pdf" target="_blank">Resume</a>
+              <div class="overlayContact">
+                  <a href="mailto:patrick.dionisio.maulion@gmail.com"><img class="contactMediaLogo" src="images/email.svg"></a>
+                  <a target="_blank" href="http://www.linkedIn.com/in/patrickmaulion/"><img class="contactMediaLogo" src="images/linkedin.svg"></a>
+                  <a target="_blank" href="http://pmaulion.dribbble.com/"><img class="contactMediaLogo" src="images/dribbble.svg"></a>
+              </div>
+            </div>
+          </div>
 
-			    	</div> -->
-            <!-- WORK PROJECTS -->
-            <!-- <div class="projects text-center">
-				    	<div class="headerLeftNavigation">WORK</div>
-				    	<hr class="dashWork mx-auto">
-                        <a class="nav-link projectLeftNavigation" href="proportfoliomonitoring.html">Preqin Pro: Portfolio Monitoring</a>
-                        <a class="nav-link projectLeftNavigation" href="probenchmarks.html">Preqin Pro: Benchmarks</a>
-				    	<a class="nav-link projectLeftNavigation" href="proquicksearch.html">Preqin Pro: Quick Search</a>
-				    	<a class="nav-link projectLeftNavigation workBottom" href="proadvancedsearch.html">Preqin Pro: Advanced Search</a> -->
-            <!-- SIDE PROJECTS -->
-            <!-- <div class="headerLeftNavigation">SIDE PROJECTS</div>
-						<hr class="dashSideProject mx-auto">
-						<a class="nav-link projectLeftNavigation" href="logomotionchallenge.html">Logo Motion Challenge</a>
-				    	<a class="nav-link projectLeftNavigation" href="dailyuichallenge.html">Daily UI Challenge</a>
-				    	<a class="nav-link projectLeftNavigation" href="boostmyschool.html">Boost My School Hackathon</a>
-				    	<a class="nav-link projectLeftNavigation" href="alwaysberunning.html">Always. Be. Running.</a>
-			  		</div>
-
-				</nav> -->
-            <!-- SOCIAL MEDIA & > M Footer -->
-            <!-- <div class="contactMediaArea text-center">
-					<a href="mailto:patrick.dionisio.maulion@gmail.com"><img class="contactMediaLogo" src="images/mail.svg"></a>
-					<a target="_blank" href="http://www.linkedin.com/in/patrickmaulion/"><img class="contactMediaLogo contactMediaMargin" src="images/linked-in-logo.svg"></a>
-					<a target="_blank" href="http://pmaulion.dribbble.com/"><img class="contactMediaLogo contactMediaMargin" src="images/dribble.svg"></a>
-					<a target="_blank" href="https://github.com/pmaulion704"><img class="contactMediaLogo contactMediaMargin" src="images/github.svg"></a>
-					<div class="credits">
-						Designed &amp; Coded by me <i class="smallEmoji em em-computer"></i><br>&copy; Patrick Maulion 2020
-					</div>
-				</div>
-			</div> -->
-
-            <!-- FIXED TOP NAV (-sm breakpoint) -->
-            <!-- <div class="d-sm-fixed d-md-none fixed-top topNavigation">
-				<div class="d-flex justify-content-between align-items-center">
-					<div class="d-flex align-items-center">
-						<div class="logoName">Patrick Maulion</div>
-					</div>
-					<div>
-						<a class="text-decoration-none navActions" target="_blank" href="files/Patrick_Maulion_Resume_2020.pdf">RESUME</a>
-						<a class="text-decoration-none navActions" href="mailto:patrick.dionisio.maulion@gmail.com">CONTACT</a>
-					</div>
-				</div>
-			</div> -->
             <!-- ******************************************************************************************************** -->
             <!-- ********************************************* MAIN CONTENT ********************************************* -->
             <!-- ******************************************************************************************************** -->
-            <div class="offset-0 col-12 offset-sm-0 col-12 offset-md-1 col-md-10 main">
-                <!-- INTRO -->
-                <section class='text-center'>
-                    <img class="logoImage" src="images/logo.svg" alt="Logo">
-                    <div class="logoName">Patrick Maulion</div>
-                    <div class="logoSupport">
-                        Product Designer based in New York City<br />
-                        Currently a Visual Designer <a target="_blank" href="https://www.jpmorgan.com/country/US/en/jpmorgan">@JPMorgan</a> CIB
+
+            <div class="col-12 mainContent">
+                <div class="col-12 offset-md-2 col-md-8">
+                  <!-- INTRO SECTION -->
+                    <div class="introText">
+                          Hi there! 👋<br>
+                          I'm Patrick, a results-driven product designer based in NYC.
+                          At J.P. Morgan, I'm part of the <a target="_blank" href="https://www.jpmorgan.com/technology/digital-experience">Digital Experience Design (DXD)</a> team that's building exciting digital products within the Corporate Investment Bank (CIB). My goal is to create engaging, user-friendly products that exceed customer expectations and drive business growth.
                     </div>
-                    <div class="d-flex justify-content-center align-items-center">
-                        <div><a class="indexLink" href="#">About</a></div>
-                        <img class="bullet" src="images/bullet.svg" alt="bullet point">
-                        <div><a class="indexLink" target="_blank" href="files/Patrick_Maulion_Resume_2020.pdf">Resume</a></div>
-                    </div>
-                    <div class="contactMediaArea">
-                        <a href="mailto:patrick.dionisio.maulion@gmail.com"><img class="contactMediaLogo" src="images/mail.svg"></a>
-                        <a target="_blank" href="http://www.linkedIn.com/in/patrickmaulion/"><img class="contactMediaLogo contactMediaMargin" src="images/linked-in-logo.svg"></a>
-                        <a target="_blank" href="http://pmaulion.dribbble.com/"><img class="contactMediaLogo contactMediaMargin" src="images/dribble.svg"></a>
-                        <a target="_blank" href="https://github.com/pmaulion704"><img class="contactMediaLogo contactMediaMargin" src="images/github.svg"></a>
-                    </div>
-                </section>
-                <!-- PORTFOLIO MONITORING CASE STUDY -->
-                <section data-aos="fade-up">
-                    <div class="sectionHeader">
-                        <div>Preqin Pro: Portfolio Monitoring</div>
-                    </div>
-                    <div class="sectionSubHeader">
-                        <div class="jobRole">
-                            <div>UX/UI, Web Platform</div>
-                            <img class="bullet" src="images/bullet.svg" alt="bullet point">
-                            <div>2019</div>
-                        </div>
-                        <div>
-                            <a class="viewHover viewStudy text-decoration-none" href="proportfoliomonitoring.html">
-                                <div>View Case Study</div>
-                                <img class="arrow" src="images/arrow.svg">
-                            </a>
-                        </div>
-                    </div>
-                    <!-- IMAGE -->
-                    <div class="position-relative">
-                        <a href="proportfoliomonitoring.html">
-                            <div class="position-absolute overlay"></div>
-                            <img class="thumbnail" src="images/thumbnails/proPortfolioMonitoring.svg">
-                        </a>
-                    </div>
-                </section>
-                <!-- BENCHMARKS CASE STUDY -->
-                <section data-aos="fade-up">
-                    <div class="sectionHeader">
-                        <div>Preqin Pro: Benchmarks</div>
-                    </div>
-                    <div class="sectionSubHeader">
-                        <div class="jobRole">
-                            <div>UX/UI, Web Platform</div>
-                            <img class="bullet" src="images/bullet.svg" alt="bullet point">
-                            <div>2019</div>
-                        </div>
-                        <div>
-                            <a class="viewHover viewStudy text-decoration-none" href="probenchmarksearch.html">
-                                <div>View Case Study</div>
-                                <img class="arrow" src="images/arrow.svg">
-                            </a>
-                        </div>
-                    </div>
-                    <!-- IMAGE -->
-                    <div class="position-relative">
-                        <a href="probenchmarks.html">
-                            <div class="position-absolute overlay"></div>
-                            <img class="thumbnail" src="images/thumbnails/proBenchmarks.svg">
-                        </a>
-                    </div>
-                </section>
-                <!-- QUICK SEARCH CASE STUDY -->
-                <section data-aos="fade-up">
-                    <div class="sectionHeader">
-                        <div>Preqin Pro: Quick Search</div>
-                    </div>
-                    <div class="sectionSubHeader">
-                        <div class="jobRole">
-                            <div>UX/UI, Web Platform</div>
-                            <img class="bullet" src="images/bullet.svg" alt="bullet point">
-                            <div>2017 - 2019</div>
-                        </div>
-                        <div>
-                            <a class="viewHover viewStudy text-decoration-none" href="proquicksearch.html">
-                                <div>View Case Study</div>
-                                <img class="arrow" src="images/arrow.svg">
-                            </a>
-                        </div>
-                    </div>
-                    <!-- IMAGE -->
-                    <div class="position-relative">
-                        <a href="proquicksearch.html">
-                            <div class="position-absolute overlay"></div>
-                            <img class="thumbnail" src="images/thumbnails/proQuickSearch.svg">
-                        </a>
-                    </div>
-                </section>
-                <!-- ADVANCED SEARCH CASE STUDY -->
-                <section data-aos="fade-up">
-                    <div class="sectionHeader">
-                        <div>Preqin Pro: Advanced Search</div>
-                    </div>
-                    <div class="sectionSubHeader">
-                        <div class="jobRole">
-                            <div>UX/UI, Web Platform</div>
-                            <img class="bullet" src="images/bullet.svg" alt="bullet point">
-                            <div>2017 - 2019</div>
-                        </div>
-                        <div>
-                            <a class="viewHover viewStudy text-decoration-none" href="proadvancedsearch.html">
-                                <div>View Case Study</div>
-                                <img class="arrow" src="images/arrow.svg">
-                            </a>
-                        </div>
-                    </div>
-                    <!-- IMAGE -->
-                    <div class="position-relative">
-                        <a href="proadvancedsearch.html">
-                            <div class="position-absolute overlay"></div>
-                            <img class="thumbnail" src="images/thumbnails/proAdvancedSearch.svg">
-                        </a>
-                    </div>
-                </section>
+                </div>
+                <div class="row">
+                  <!-- PORTFOLIO MONITORING CASE STUDY -->
+                  <section class="col-md" data-aos="fade-up" >
+                      <div class="sectionHeader">
+                          <div>Portfolio Monitoring</div>
+                      </div>
+                      <div class="sectionSubHeader">
+                          <div>UX/UI, 2019</div>
+                      </div>
+                      <!-- IMAGE -->
+                      <div class="position-relative">
+                          <a href="proportfoliomonitoring.html">
+                              <div class="position-absolute overlay"></div>
+                              <img class="thumbnail" src="images/thumbnails/proPortfolioMonitoring.svg">
+                          </a>
+                      </div>
+                  </section>
+                  <!-- BENCHMARKS CASE STUDY -->
+                  <section class="col-md" data-aos="fade-up">
+                      <div class="sectionHeader">
+                          <div>Benchmarks</div>
+                      </div>
+                      <div class="sectionSubHeader">
+                          <div>UX/UI, 2019</div>
+                      </div>
+                      <!-- IMAGE -->
+                      <div class="position-relative">
+                          <a href="probenchmarks.html">
+                              <div class="position-absolute overlay"></div>
+                              <img class="thumbnail" src="images/thumbnails/proBenchmarks.svg">
+                          </a>
+                      </div>
+                  </section>
+                </div>
+                <div class="row">
+                  <!-- QUICK SEARCH CASE STUDY -->
+                  <section class="col-md" data-aos="fade-up">
+                      <div class="sectionHeader">
+                          <div>Quick Search</div>
+                      </div>
+                      <div class="sectionSubHeader">
+                          <div>UX/UI, 2017-2019</div>
+                      </div>
+                      <!-- IMAGE -->
+                      <div class="position-relative">
+                          <a href="proquicksearch.html">
+                              <div class="position-absolute overlay"></div>
+                              <img class="thumbnail" src="images/thumbnails/proQuickSearch.svg">
+                          </a>
+                      </div>
+                  </section>
+                  <!-- ADVANCED SEARCH CASE STUDY -->
+                  <section class="col-md" data-aos="fade-up">
+                      <div class="sectionHeader">
+                          <div>Advanced Search</div>
+                      </div>
+                      <div class="sectionSubHeader">
+                          <div>UX/UI, 2017-2019</div>
+                      </div>
+                      <!-- IMAGE -->
+                      <div class="position-relative">
+                          <a href="proadvancedsearch.html">
+                              <div class="position-absolute overlay"></div>
+                              <img class="thumbnail" src="images/thumbnails/proAdvancedSearch.svg">
+                          </a>
+                      </div>
+                  </section>
+                </div>
                 <!-- ********************************************* ENTERING PROJECTS **************************************** -->
-                <section data-aos="fade-up">
-                    <div class="sectionHeader">
-                        <div>Logo Motion Challenge</div>
-                    </div>
-                    <div class="sectionSubHeader">
-                        <div class="jobRole">
-                            <div>Brand Animation</div>
-                            <img class="bullet" src="images/bullet.svg" alt="bullet point">
-                            <div>Jun - Jul 2019</div>
-                        </div>
-                        <div>
-                            <a class="viewHover viewProject text-decoration-none" href="logomotionchallenge.html">
-                                <div>View Project</div>
-                                <img class="arrow" src="images/projectArrow.svg">
-                            </a>
-                        </div>
-                    </div>
-                    <!-- IMAGE -->
-                    <div class="position-relative">
-                        <a href="logomotionchallenge.html">
-                            <div class="position-absolute overlay projectOverlay"></div>
-                            <img class="thumbnail" src="images/thumbnails/logoMotionChallenge.jpg">
-                        </a>
-                    </div>
-                </section>
+                <div class="row">
+                  <section class="col-md" data-aos="fade-up">
+                      <div class="sectionHeader">
+                          <div>Logo Motion Challenge</div>
+                      </div>
+                      <div class="sectionSubHeader">
+                          <div>Animation, 2019</div>
+                      </div>
+                      <!-- IMAGE -->
+                      <div class="position-relative">
+                          <a href="logomotionchallenge.html">
+                              <div class="position-absolute overlay"></div>
+                              <img class="thumbnail" src="images/thumbnails/logoMotionChallenge.jpg">
+                          </a>
+                      </div>
+                  </section>
 
-                <section data-aos="fade-up">
-                    <div class="sectionHeader">
-                        <div>Daily UI Challenge</div>
-                    </div>
-                    <div class="sectionSubHeader">
-                        <div class="jobRole">
-                            <div>UI</div>
-                            <img class="bullet" src="images/bullet.svg" alt="bullet point">
-                            <div>Jul - Nov 2018</div>
-                        </div>
-                        <div>
-                            <a class="viewHover viewProject text-decoration-none" href="dailyuichallenge.html">
-                                <div>View Project</div>
-                                <img class="arrow" src="images/projectArrow.svg">
-                            </a>
-                        </div>
-                    </div>
-                    <!-- IMAGE -->
-                    <div class="position-relative">
-                        <a href="dailyuichallenge.html">
-                            <div class="position-absolute overlay projectOverlay"></div>
-                            <img class="thumbnail" src="images/thumbnails/dailyUI.svg">
-                        </a>
-                    </div>
-                </section>
+                  <section class="col-md" data-aos="fade-up">
+                      <div class="sectionHeader">
+                          <div>Daily UI Challenge</div>
+                      </div>
+                      <div class="sectionSubHeader">
+                          <div>UI, 2018</div>
+                      </div>
+                      <!-- IMAGE -->
+                      <div class="position-relative">
+                          <a href="dailyuichallenge.html">
+                              <div class="position-absolute overlay"></div>
+                              <img class="thumbnail" src="images/thumbnails/dailyUI.svg">
+                          </a>
+                      </div>
+                  </section>
+                </div>
+                <div class="row">
+                  <section class="col-md" data-aos="fade-up">
+                      <div class="sectionHeader">
+                          <div>BoostMySchool Hackathon</div>
+                      </div>
+                      <div class="sectionSubHeader">
+                          <div>UX / Prototyping, 2018</div>
+                      </div>
+                      <!-- IMAGE -->
+                      <div class="position-relative">
+                          <a href="boostmyschool.html">
+                              <div class="position-absolute overlay"></div>
+                              <img class="thumbnail" src="images/thumbnails/boostMySchool.svg">
+                          </a>
+                      </div>
+                  </section>
 
-                <section data-aos="fade-up">
-                    <div class="sectionHeader">
-                        <div>BoostMySchool Hackathon</div>
-                    </div>
-                    <div class="sectionSubHeader">
-                        <div class="jobRole">
-                            <div>UX / Prototyping</div>
-                            <img class="bullet" src="images/bullet.svg" alt="bullet point">
-                            <div>Mar 2018</div>
-                        </div>
-                        <div>
-                            <a class="viewHover viewProject text-decoration-none" href="boostmyschool.html">
-                                <div>View Project</div>
-                                <img class="arrow" src="images/projectArrow.svg">
-                            </a>
-                        </div>
-                    </div>
-                    <!-- IMAGE -->
-                    <div class="position-relative">
-                        <a href="boostmyschool.html">
-                            <div class="position-absolute overlay projectOverlay"></div>
-                            <img class="thumbnail" src="images/thumbnails/boostMySchool.svg">
-                        </a>
-                    </div>
-                </section>
-
-                <section data-aos="fade-up">
-                    <div class="sectionHeader">
-                        <div>Always. Be. Running.</div>
-                    </div>
-                    <div class="sectionSubHeader">
-                        <div class="jobRole">
-                            <div>Design &amp; Code</div>
-                            <img class="bullet" src="images/bullet.svg" alt="bullet point">
-                            <div>2018</div>
-                        </div>
-                        <div>
-                            <a class="viewHover viewProject text-decoration-none" href="alwaysberunning.html">
-                                <div>View Project</div>
-                                <img class="arrow" src="images/projectArrow.svg">
-                            </a>
-                        </div>
-                    </div>
-                    <!-- IMAGE -->
-                    <div class="position-relative">
-                        <a href="alwaysberunning.html">
-                            <div class="position-absolute overlay projectOverlay"></div>
-                            <img class="thumbnail" src="images/thumbnails/alwaysBeRunning.svg">
-                        </a>
-                    </div>
-                </section>
-                <section class="text-center">
-                    <img class="scrollTop" src="images/scrollBackToTop.svg" alt="Back to Top">
+                  <section class="col-md" data-aos="fade-up">
+                      <div class="sectionHeader">
+                          <div>Always. Be. Running.</div>
+                      </div>
+                      <div class="sectionSubHeader">
+                          <div>Code, 2018</div>
+                      </div>
+                      <!-- IMAGE -->
+                      <div class="position-relative">
+                          <a href="alwaysberunning.html">
+                              <div class="position-absolute overlay"></div>
+                              <img class="thumbnail" src="images/thumbnails/alwaysBeRunning.svg">
+                          </a>
+                      </div>
+                  </section>
+                </div>
+                <footer class="text-center">
                     <div class="credits">
-                        Designed &amp; Coded by me <i class="smallEmoji em em-computer"></i><br>&copy; Patrick Maulion 2023
+                        Designed &amp; Coded by me &#128187; <br>
+                        &copy; Patrick Maulion 2023
                     </div>
-                </section>
+                </footer>
             </div>
             <!-- ROW DIV -->
         </div>

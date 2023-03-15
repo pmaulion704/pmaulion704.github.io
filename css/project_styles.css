@@ -1,69 +1,126 @@
-/*Lato: 300,400,700,900*/
 html, body {
-	font-family: 'Lato', sans-serif;
-	color: #333333;
+	font-family: 'Work Sans', sans-serif;
+	color: #161616;
 	background-color: #FFFFFF;
 }
 
 /*TOP NAVIGATION*/
-.logo {
-	opacity: 1.0;
-	transition: .5s ease;
+body.lock {
+	overflow: hidden;
 }
 
-.logo:hover {
+.mainContent {
+	padding: 60px 32px 32px 32px;
+}
+
+.navLink{
+	font-size: 14px;
+	color: #000000;
+	text-decoration: none;
+	transition: .25s ease;
+}
+
+.navLink:hover {
+	color: #000000;
 	opacity: 0.5;
+}
+
+.navMargin {
+	margin-left: 16px;
+}
+
+.logoName {
+	font-family: 'Noto Serif', serif;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.leftNavArea {
+	display: block;
+}
+
+.rightNavArea {
+	display: block;
+	padding: 0px;
+}
+
+.contactMediaLogo {
+	opacity: 1.0;
+	width: 20px;
+	height: 20px;
+	transition: .25s ease;
+}
+
+.contactMediaLogo:hover {
+	opacity: 0.5;
+}
+
+.hamburgerMenu {
+	display: none;
+}
+
+#overlayContainer {
+	display: none;
+	position: fixed;
+	top: 60;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF;
+	color: black;
+	z-index: 999;
+}
+
+#overlayContainer.show {
+	display: block;
+}
+
+.overlayContent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 120px;
+}
+
+.overlayLink {
+	color: #000000;
+	font-size: 20px;
+	padding: 32px;
+	text-align: center;
+	text=decoration: none;
+	transition: .25s ease;
+}
+
+.overlayLink:hover {
+	color: #000000;
+	opacity: 0.5;
+}
+
+.overlayContact {
+	display: flex;
+	justify-content: space-around;
+	border-top: 1px solid #CCC;
+	margin-top: 32px;
+	padding: 32px;
+	width: 280px;
+
 }
 
 .topNavigation {
-	height: 70px;
-	padding: 15px;
-	background-color: rgba(255,255,255,0.95);
-	box-shadow: 0px 5px 20px rgba(0,0,0, .05);
+	padding: 15px 32px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 2px 4px rgba(0,0,0, .05);
 }
 
-.topNavSmallCopy {
-	font-size: 12px;
-}
-
-.topNavProjectCopy {
-	font-size: 18px;
-}
-
-.topNavHover {
-	color: #333333;
-	opacity: 1.0;
-	transition: .5s ease;
-}
-
-.topNavHover:hover {
-	color: #333333;
-	opacity: 0.5;
-}
-
-.topNavCenter {
-	display: inline;
-	position: absolute;
-	margin-left: -16px;
-	top: 19px;
-	left: 50%;
-}
-
-.leftArrowMargin {
-	margin-right: 8px;
-}
-
-.rightArrowMargin {
+.navActions {
+	font-size: 14px;
+	color: #000000;
 	margin-left: 8px;
 }
 
 /*MAIN CONTENT*/
 h3 {
 	margin: 16px 0px;
-}
-/* Exception for LOADER.JS */
-h3.loaderSupportTitle {
-	margin: 0px;
 }
 
 .banner {
@@ -243,6 +300,7 @@ a.githubRepo:hover {
 
 p {
 	font-size: 18px;
+	font-weight: 400;
 	margin: 16px 0px;
 	line-height: 40px;
 }
@@ -280,44 +338,15 @@ table {
 
 
 /*FOOTER*/
-.contactMedia {
-	padding: 8px 16px;
-}
-
-.contactMediaLogo {
-	opacity: 1.0;
-	width: 28px;
-	height: 28px;
-	transition: .25s ease;
-}
-
-.contactMediaLogo:hover {
-	opacity: 0.5;
-}
-
-.contactMediaMargin {
-	margin-left: 4px;
-}
-
-.contactMediaArea {
-	padding-top: 40px;
-}
-
-.creditsRow {
-	padding: 40px 0px;
-	border-top: 1px solid #EEE;
+footer {
+	margin: 64px;
 }
 
 .credits {
-	color: #2e3131;
-	opacity: 1;
-	transition: .5s ease;
 	margin: 12px 0px;
-}
-
-.credits:hover {
-	color: #2e3131;
-	opacity: 0.5;
+	color: grey;
+	font-size: 12px;
+	font-weight: 300;
 }
 
 /*MISCELLANEOUS*/
@@ -385,6 +414,27 @@ li.situationMargin {
 
 	.smallMargin {
 		margin-bottom: 40px;
+	}
+
+	/* Hamburger Header */
+	.sectionHeader {
+		font-size: 22px;
+	}
+
+	.scrollTop {
+		width: 50px;
+	}
+
+	.leftNavArea {
+		display: none;
+	}
+
+	.rightNavArea {
+		display: none;
+	}
+
+	.hamburgerMenu {
+		display: block;
 	}
  }
  /*// Extra small devices (portrait phones, less than 576px)*/
