@@ -1,8 +1,8 @@
 $(function() {
     $(window).on('load', function(){
         function fade(){
-            $(".loader-wrapper").fadeOut('slow');
+            $(".loader-wrapper").fadeOut('fast');
         };
-        setTimeout(fade,2000)
+        setTimeout(fade,250)
     });
 });
