@@ -86,7 +86,7 @@ body.lock {
 	font-size: 20px;
 	padding: 32px;
 	text-align: center;
-	text=decoration: none;
+	text-decoration: none;
 	transition: .25s ease;
 }
 
