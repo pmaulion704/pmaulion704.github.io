@@ -39,9 +39,9 @@ $(function() {
 	});
 
 	$(window).on('resize', function() {
-  if ($(window).width() >= 768) {
-    $('#overlayContainer').removeClass('show');
-  	}
+  	  if ($(window).width() >= 768) {
+		$('#overlayContainer').removeClass('show');
+	  }
 	});
 
 // End of indjex.js
