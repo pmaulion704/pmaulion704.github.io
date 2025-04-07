@@ -87,7 +87,7 @@ body.lock {
 	font-size: 20px;
 	padding: 32px;
 	text-align: center;
-	text=decoration: none;
+	text-decoration: none;
 	transition: .25s ease;
 }
 
@@ -228,7 +228,7 @@ a.githubRepo:hover {
 
 /*Case Study Headers*/
 .barHeader {
-	width: 9%;
+	width: 36px;
 	border: 2px solid #bdc3c7;
 	margin: 0.5rem auto;
 }
@@ -302,7 +302,7 @@ p {
 	font-size: 18px;
 	font-weight: 400;
 	margin: 16px 0px;
-	line-height: 40px;
+	line-height: 1.6;
 }
 
 table {
@@ -366,7 +366,7 @@ li.situationMargin {
 /*RESPONSIVE CASES*/
 /*// Large devices (desktops, less than 1200px)*/
 @media (max-width: 1199.98px) {
-	...
+	
 }
 /*// Medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) {
