@@ -1,7 +1,7 @@
 body {
 	background-color: #FFFFFF;
 	color: #161616;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 body.lock {
@@ -131,7 +131,7 @@ body.lock {
 	margin: 0px 0px 8px;
 	font-weight: 400;
 	font-size: 14px;
-	color: #CCCCCC;
+	color: #808080;
 }
 
 .viewStudy {
